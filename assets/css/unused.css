@@ -1,0 +1,56 @@
+
+  /* subscription on main page */
+
+  #front_sub_wrapper {
+  width: 925px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 28px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  height: 50px;
+  }
+    #front_sub_wrapper .header {
+      float: left;
+      font-size: 24px;
+      color: #d0dce8;
+      font-weight: bold;
+      width: 517px;
+      line-height: 32px;
+      background-image: url(../img/front_sub_arrow.png);
+      background-position: top right;
+      background-repeat: no-repeat;
+      margin-top: 9px;
+    }
+    #front_sub_wrapper .sub {
+      float: left;
+      font-size: 13px;
+      width: 350px;
+      margin-left: 7px;
+      text-align: center;
+    }
+      #front_sub_wrapper .text {
+        clear: both;
+        padding-top: 3px;
+      }
+      #front_sub_wrapper .inputbox {
+        height: 51px;
+        background-image: url(../img/b/front_sub_input.jpg);
+      }
+        #front_sub_wrapper .inputbox:hover {
+          background-image: url(../img/b/h/front_sub_input.jpg);
+        }
+        #front_sub_wrapper .inputbox:focus {
+          background-image: url(../img/b/f/front_sub_input.jpg);
+        }
+      #front_sub_wrapper .button {
+        height: 51px;
+        width: 110px;
+        background: url(../img/b/front_sub_button.jpg);
+      }
+        #front_sub_wrapper .button:hover, #front_sub_wrapper .button:focus {
+          background-image: url(../img/b/h/front_sub_button.jpg);
+        }
+        #front_sub_wrapper .button:active {
+          background-image: url(../img/b/a/front_sub_button.jpg);
+        }
