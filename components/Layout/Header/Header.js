@@ -19,6 +19,7 @@ import excel from '../../../assets/icons/page_white_excel.png';
 import word from '../../../assets/icons/page_white_word.png';
 import Head from "next/head";
 import iceSlideShow from '../../../assets/js/script_16';
+import Link from "next/link";
 const Header = (props) => {
     const [tasksOpen, setTasksOpen] = useState(false);
     const [isFrontPage, setFrontPage] = useState(false);
@@ -42,7 +43,7 @@ const Header = (props) => {
                         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
                         crossOrigin="anonymous" />
 
-                        <script src={iceSlideShow} />
+                <script src={iceSlideShow} />
             </Head>
             <div id={isFrontPage ? 'front_header' : 'other_header'}>
                 <div id="header_pseudo">
@@ -144,7 +145,7 @@ const Header = (props) => {
 
                         <a className="header_contact_mail"
                            href="mailto:info%7CThatsShould+nt.BeHere%7C@%7CThatsShould+nt.BeHere%7Cpib.edu.ua"
-                           //onMouseOver="this.href=this.href.replace(/\|ThatsShould\+nt\.BeHere\|/g,&#39;&#39;);"
+                            //onMouseOver="this.href=this.href.replace(/\|ThatsShould\+nt\.BeHere\|/g,&#39;&#39;);"
                            rel="#header_mail_box" title="Написати нам">Написати нам</a> <span
                         className="header_contact_phone_smaller">(0532)</span> <span
                         className="header_contact_phone">50-81-05</span>
@@ -188,9 +189,12 @@ const Header = (props) => {
                                                 <li id="iceMenu_180" className="iceMenuLiLevel_2"><a
                                                     className=" iceMenuTitle"><span
                                                     className="icemega_title icemega_nosubtitle"> </span></a></li>
-                                                <li id="iceMenu_140" className="iceMenuLiLevel_2 parent"><a
-                                                    href="https://pib.edu.ua/pib" className=" iceMenuTitle"><span
-                                                    className="icemega_title icemega_nosubtitle">Напрями та спеціалізації</span></a>
+                                                <li id="iceMenu_140" className="iceMenuLiLevel_2 parent">
+                                                    <Link href={`/pib`} className={`iceMenuTitle`}>
+                                                        <a className={`iceMenuTitle`}>
+                                                            <span className="icemega_title icemega_nosubtitle">Напрями та спеціалізації</span>
+                                                        </a>
+                                                    </Link>
                                                     <ul className="icesubMenu sub_level_2" style={{width:'280px'}}>
                                                         <li>
                                                             <div style={{float:'left',width:'280px'}} className="iceCols">

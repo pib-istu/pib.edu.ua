@@ -3,17 +3,17 @@ import React, { Fragment } from "react";
 
 const MainWrapper = props => {
     return (
-        <div id="other_main">
-            <div className="top">
-                <div className="bottom">
-                    <div className="wrapper">
-                        <div id="other_content">
-
+        <Fragment>
+            <div id="other_main">
+                <div className="top">
+                    <div className="bottom">
+                        <div className="wrapper">
+            {props.children ? props.children : null}
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </Fragment>
     );
 };
 

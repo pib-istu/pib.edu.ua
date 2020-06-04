@@ -7,20 +7,22 @@ import Footer from './Footer/Footer';
 
 const Layout = props => {
     const [isFrontPage, setFrontPage] = useState(false);
+    const [isSidebar, setSidebar] = useState(false);
 
     useEffect(() => {
         const {isFront} = props;
 
         if(isFront) setFrontPage(true);
+        if(isSidebar) setSidebar(true);
     });
 
     return (
         <Fragment>
-            <Header isFront={isFrontPage}/>
+            <Header isFront={isFrontPage} />
             {isFrontPage ?
                 <FrontPage />
             :
-                <MainWrapper>
+                <MainWrapper isSidebar={isSidebar}>
                     {props.children ? props.children : null}
                 </MainWrapper>
             }

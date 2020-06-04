@@ -247,6 +247,10 @@ a.button-apply {
 #other_main #pib-buttons-bottom {
 	padding: 0 37px 0 30px;
 }
+
+#other_main #pib-buttons-top {
+	display: flex;
+}
 #other_main #pib-buttons-top li.item1 a.pib-about {
 	width: 443px;
 	height: 189px;
