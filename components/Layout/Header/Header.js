@@ -135,11 +135,13 @@ const Header = (props) => {
                 </div>
                 <div id={isFrontPage ? 'front_header_wrapper' : 'other_header_wrapper'}>
                     <div id="header_logo">
-                        <a className="link" href="https://pib.edu.ua/" title="На головну">
+                        <Link href={`/`}>
+                        <a className="link" title="На головну">
                             <img className="img_float_left" src={Logo} alt="ПІБ МНТУ" /> <br />
                             <div className="title">Полтавський інститут Бізнесу</div>
                             <div className="title_sub">Міжнародний науково-технічний університет імені академіка Юрія Бугая</div>
                         </a>
+                        </Link>
                     </div>
                     <div id="header_contact">
 
@@ -179,9 +181,12 @@ const Header = (props) => {
                                     </li>
                                 </ul>
                             </li>
-                            <li id="iceMenu_102" className="iceMenuLiLevel_1 parent"><a href="https://pib.edu.ua/pib"
-                                                                                        className=" iceMenuTitle"><span
-                                className="icemega_title icemega_nosubtitle">ПІБ МНТУ</span></a>
+                            <li id="iceMenu_102" className="iceMenuLiLevel_1 parent">
+                                <Link href={`/pib`} className=" iceMenuTitle">
+                                    <a className=" iceMenuTitle">
+                                        <span className="icemega_title icemega_nosubtitle">ПІБ МНТУ</span>
+                                    </a>
+                                </Link>
                                 <ul className="icesubMenu sub_level_1" style={{width:'280px'}}>
                                     <li>
                                         <div style={{float:'left',width:'280px'}} className="iceCols">
@@ -259,24 +264,33 @@ const Header = (props) => {
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="iceMenu_147" className="iceMenuLiLevel_2"><a
-                                                    href="https://pib.edu.ua/pib/military"
-                                                    className=" iceMenuTitle"><span
-                                                    className="icemega_title icemega_nosubtitle">Військова кафедра</span></a>
+                                                <li id="iceMenu_147" className="iceMenuLiLevel_2">
+                                                    <Link href={`/pib/military`}>
+                                                    <a className=" iceMenuTitle">
+                                                    <span className="icemega_title icemega_nosubtitle">Військова кафедра</span>
+                                                    </a>
+                                                    </Link>
                                                 </li>
-                                                <li id="iceMenu_148" className="iceMenuLiLevel_2"><a
-                                                    href="https://pib.edu.ua/pib/about" className=" iceMenuTitle"><span
-                                                    className="icemega_title icemega_nosubtitle">Про ПІБ МНТУ</span></a>
+                                                <li id="iceMenu_148" className="iceMenuLiLevel_2">
+                                                    <Link href={`/pib/about`}>
+                                                    <a className=" iceMenuTitle">
+                                                        <span className="icemega_title icemega_nosubtitle">Про ПІБ МНТУ</span>
+                                                    </a>
+                                                    </Link>
                                                 </li>
-                                                <li id="iceMenu_149" className="iceMenuLiLevel_2"><a
-                                                    href="https://pib.edu.ua/pib/benefits"
-                                                    className=" iceMenuTitle"><span
-                                                    className="icemega_title icemega_nosubtitle">Чому ПІБ МНТУ</span></a>
+                                                <li id="iceMenu_149" className="iceMenuLiLevel_2">
+                                                    <Link href={`/pib/benefits`} >
+                                                        <a className="iceMenuTitle">
+                                                            <span className="icemega_title icemega_nosubtitle">Чому ПІБ МНТУ</span>
+                                                        </a>
+                                                    </Link>
                                                 </li>
-                                                <li id="iceMenu_151" className="iceMenuLiLevel_2"><a
-                                                    href="https://pib.edu.ua/pib/license"
-                                                    className=" iceMenuTitle"><span
-                                                    className="icemega_title icemega_nosubtitle">Ліцензія та сертифікати</span></a>
+                                                <li id="iceMenu_151" className="iceMenuLiLevel_2">
+                                                    <Link href={`/pib/license`}>
+                                                    <a className=" iceMenuTitle">
+                                                    <span className="icemega_title icemega_nosubtitle">Ліцензія та сертифікати</span>
+                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li id="iceMenu_193" className="iceMenuLiLevel_2"><a
                                                     className=" iceMenuTitle"><span

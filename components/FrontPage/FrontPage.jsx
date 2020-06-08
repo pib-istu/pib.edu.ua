@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Link from "next/link";
 
 
 const FrontPage = props => {
@@ -7,24 +8,31 @@ const FrontPage = props => {
             <div id="front_main_wrapper">
                 <ul className={"front_promo"}>
                     <li>
-                        <a className="slot_1" href="/pib/benefits/#anchor1">
-                            <span className={"front_promo_title_double"}>Якість та<br />досвід</span>
-                            <br />
-                            <span className={"front_promo_sub"}>Успішно надаємо якісну освіту вже понад 20-ть років</span>
-                        </a>
+                        <Link href={`/pib/benefits/#anchor1`}>
+                            <a className="slot_1">
+                                <span className={"front_promo_title_double"}>Якість та<br />досвід</span>
+                                <br />
+                                <span className={"front_promo_sub"}>Успішно надаємо якісну освіту вже понад 20-ть років</span>
+                            </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="slot_2" href="/pib/benefits/#anchor2">
-                            <span className={"front_promo_title_double"}>Диплом<br />міжнародного зразка</span>
-                            <br />
-                            <span className={"front_promo_sub"}>Відкрийте для себе шлях закордон з дипломом МНТУ</span>
-                        </a>
+                        <Link href={`/pib/benefits/#anchor2`}>
+                            <a className="slot_2">
+                                <span className={"front_promo_title_double"}>Диплом<br />міжнародного зразка</span>
+                                <br />
+                                <span className={"front_promo_sub"}>Відкрийте для себе шлях закордон з дипломом МНТУ</span>
+                            </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="slot_3" href="/pib/benefits/#anchor3"><span className={"front_promo_title_double"}>Професіоналізм</span>
-                            <br />
-                            <span className="front_promo_sub">Ми знаємо як зробити так, щоб наші випускники стали найкращими</span>
-                        </a>
+                        <Link href={`/pib/benefits/#anchor3`}>
+                            <a className="slot_3">
+                                <span className={"front_promo_title_double"}>Професіоналізм</span>
+                                <br />
+                                <span className="front_promo_sub">Ми знаємо як зробити так, щоб наші випускники стали найкращими</span>
+                            </a>
+                        </Link>
                     </li>
                 </ul>
                 <div id="front_info">

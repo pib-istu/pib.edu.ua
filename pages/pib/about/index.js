@@ -4,7 +4,7 @@ import Sidebar from "../../../components/Layout/Sidebar/Sidebar";
 import Link from "next/link";
 
 
-const PIB = () => {
+const About = () => {
     return (
         <Fragment>
             <Layout isFront={false} isSidebar={true}>
@@ -18,7 +18,9 @@ const PIB = () => {
                         </Link>
                     </li>
                     <li className="item-147">
-                        <a href="/pib/military">Військова кафедра</a>
+                        <Link href={`/pib/military`}>
+                        <a>Військова кафедра</a>
+                        </Link>
                     </li>
                     <li className="item-148 current active">
                         <Link href={`/pib/about`}>
@@ -26,10 +28,14 @@ const PIB = () => {
                         </Link>
                     </li>
                     <li className="item-149">
-                        <a href="/pib/benefits">Чому ПІБ МНТУ</a>
+                        <Link href={`/pib/benefits`}>
+                            <a>Чому ПІБ МНТУ</a>
+                        </Link>
                     </li>
                     <li className="item-151">
-                        <a href="/pib/license">Ліцензія та сертифікати</a>
+                        <Link href={`/pib/license`}>
+                        <a>Ліцензія та сертифікати</a>
+                        </Link>
                     </li>
                     <li className="item-193">
                         <span className="separator"> </span>
@@ -76,7 +82,7 @@ const PIB = () => {
                             </li>
                             <li>Президент МНТУ нагороджений дипломами, грамотами, орденами за вагомий внесок у розбудову
                                 незалежної України і підвищення якості сучасної освіти:
-                                <ul className="list-dots" style="padding-top: 10px;">
+                                <ul className="list-dots" style={{paddingTop: '10px'}}>
                                     <li>Указом Президента України - Хрестом Пошани «За духовне відродження»;</li>
                                     <li>Українським фондом науково-економічного та юридичного співробітництва - Хрестом
                                         пошани «За духовне відродження»;
@@ -96,7 +102,7 @@ const PIB = () => {
                             і професійній діяльності, розбудові незалежної України, підвищенні добробуту українського
                             народу; формування загальнолюдських цінностей, збереження кращого вітчизняного досвіду вищої
                             школи, традицій європейського гуманізму.</p>
-                        <a name="history"></a><h2 className="dashed gold">Історія ПІБ МНТУ</h2>
+                        <a name="history" id="history" /><h2 className="dashed gold">Історія ПІБ МНТУ</h2>
                         <p><span className="bold italic">8 листопада 1992 року</span> на організаційних зборах
                             учасниками, а саме: Київським політехнічним інститутом, Інститутом кібернетики ім. Глушкова
                             НАН України та фірмою ІВМ (в подальшому - Засновники) було укладено Угоду про створення
@@ -141,7 +147,7 @@ const PIB = () => {
                                 університету<span className="italic"> (1999 рік)</span>.
                             </li>
                         </ul>
-                        <div className="pib-about last"></div>
+                        <div className="pib-about last" />
                     </div>
                     <div className="custom">
                         <div id="ready-apply-other" className="highlight">
@@ -161,4 +167,4 @@ const PIB = () => {
     );
 };
 
-export default PIB;
+export default About;
