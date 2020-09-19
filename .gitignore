@@ -5,7 +5,7 @@
 .idea
 
 # Build
-build
+dist
 
 # Misc
 *.orig
