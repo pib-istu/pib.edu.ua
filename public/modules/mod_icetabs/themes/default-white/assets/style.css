@@ -1,1 +1,102 @@
-.ice-tabs-white{position:relative;overflow:hidden;width:auto;height:auto}.ice-tabs-white li{list-style-type:none!important}.ice-tabs-white .ice-main-wapper{overflow:hidden;position:absolute}.ice-tabs-white .ice-main-wapper .ice-main-item{overflow:hidden;padding:0;margin:0;height:100%;width:100%;position:absolute}.ice-tabs-white .ice-buttons-control{position:absolute;bottom:2px;left:40px;height:19px;width:79px;opacity:0;-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out}.ice-tabs-white:hover .ice-buttons-control,.ice-tabs-white:focus .ice-buttons-control{opacity:1}.ice-tabs-white .ice-next,.ice-tabs-white .ice-previous{width:35px;height:12px;text-indent:-9999em;position:relative;z-index:10;margin:0;cursor:hand;cursor:pointer}.ice-tabs-white .ice-next{background-image:url(../../../../../templates/pib/img/b/front_op_ar_right.jpg);float:right}.ice-tabs-white .ice-previous{background-image:url(../../../../../templates/pib/img/b/front_op_ar_left.jpg);float:left}.ice-tabs-white .ice-next:hover,.ice-tabs-white .ice-next:focus{background-image:url(../../../../../templates/pib/img/b/h/front_op_ar_right.jpg)}.ice-tabs-white .ice-previous:hover,.ice-tabs-white .ice-previous:focus{background-image:url(../../../../../templates/pib/img/b/h/front_op_ar_left.jpg)}.clearfix:after,.container:after{content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}
+/**
+ * IceTabs Module for Joomla 1.6 By IceTheme
+ * 
+ * 
+ * @copyright	Copyright (C) 2008 - 2011 IceTheme.com. All rights reserved.
+ * @license		GNU General Public License version 2
+ * 
+ * @Website 	http://www.icetheme.com/Joomla-Extensions/icetabs.html
+ * @Support 	http://www.icetheme.com/Forums/IceTabs/
+ *
+ */
+ 
+ 
+.ice-tabs-white { 
+	position:relative;
+	overflow:hidden; 
+
+	width:auto; 
+	height:auto;}
+	
+	.ice-tabs-white li {
+		list-style-type:none!important;	}
+	
+		
+/* main flash */
+.ice-tabs-white .ice-main-wapper{ 
+	overflow:hidden;
+	position:absolute;}
+	
+	.ice-tabs-white .ice-main-wapper .ice-main-item { 
+		overflow:hidden;
+		padding:0px;
+		margin:0px; 
+		height:100%;
+		width:100%;
+		position:absolute;}
+		
+
+
+
+/**
+ * BUTTONS CONTROL
+ */
+.ice-tabs-white .ice-buttons-control{
+	position:absolute; 
+	bottom:2px;
+	left:40px;
+	height:19px;
+	width:79px;
+	opacity: 0;
+	
+		-webkit-transition: all .5s ease-out;
+		-moz-transition: all .5s ease-out;
+		-o-transition: all .5s ease-out;
+		transition: all .5s ease-out;
+	}
+		.ice-tabs-white:hover .ice-buttons-control, .ice-tabs-white:focus .ice-buttons-control{
+			opacity: 1;
+		}
+	
+	.ice-tabs-white .ice-next, 
+	.ice-tabs-white .ice-previous {	
+		width:35px;
+		height:12px;
+		text-indent:-9999em;
+		position:relative;
+		z-index:10;
+		margin:0px;
+		cursor:hand; 
+		cursor:pointer;}
+		
+		.ice-tabs-white .ice-next {
+			background-image: url(../../../../../templates/pib/img/b/front_op_ar_right.jpg);		
+			float:right;}
+			
+		.ice-tabs-white .ice-previous {	
+			background-image: url(../../../../../templates/pib/img/b/front_op_ar_left.jpg);	
+			float:left;}
+			
+		.ice-tabs-white .ice-next:hover, .ice-tabs-white .ice-next:focus {
+			background-image: url(../../../../../templates/pib/img/b/h/front_op_ar_right.jpg);}
+			
+		.ice-tabs-white .ice-previous:hover, .ice-tabs-white .ice-previous:focus { 
+			background-image: url(../../../../../templates/pib/img/b/h/front_op_ar_left.jpg);}
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after,  .container:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;}
+
+.clearfix { display: inline-block; }   
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
