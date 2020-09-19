@@ -3,7 +3,7 @@ import axios from 'axios'
 import path from 'path'
 // import { Post } from './types'
 
-export const Script = ({ html }) => <script dangerouslySetInnerHTML={{ __html: html }} />;
+const Script = ({ html }) => <script dangerouslySetInnerHTML={{ __html: html }} />;
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
@@ -67,10 +67,10 @@ export default {
         <script async="" src="https://ssl.google-analytics.com/ga.js"></script>
         <script src="/media/system/js/mootools-core.js" ></script>
         <script src="/media/system/js/core.js" ></script>
+        <script src="/media/system/js/mootools-more.js" ></script>
         <script src="/media/system/js/caption.js" ></script>
         <script src="/media/system/js/modal.js" ></script>
         <script src="/components/com_phocagallery/assets/js/shadowbox/shadowbox.js" ></script>
-        <script src="/media/system/js/mootools-more.js" ></script>
         <script src="/plugins/content/mavikthumbnails/mavikthumbnails/slimbox-mt1.2/js/slimbox.js" ></script>
         <script src="/components/com_phocagallery/assets/overlib/overlib_mini.js" ></script>
         <script src="/modules/mod_icetabs/assets/script_16.js" ></script>
@@ -206,47 +206,6 @@ export default {
           fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));
         `} />
-
-          <Script html={`
-            var _lofmain = $('icetabs92');
-            var object = new IceSlideShow(_lofmain.getElement('.ice-main-wapper'),
-            							  _lofmain.getElement('.ice-navigator-outer .ice-navigator'),
-            							  _lofmain.getElement('.ice-navigator-outer'),
-            							  {
-            								  fxObject:{
-            									transition:Fx.Transitions.Sine.easeInOut,
-            									duration:700									  },
-            								  mainItemSelector: 'div.ice-main-item',
-            								  interval:8000,
-            								  direction :'vrup',
-            								  navItemHeight:74,
-            								  navItemWidth:322,
-            								  navItemsDisplay:5,
-            								  navPos:'right'
-            							  });
-            		object.start(1, _lofmain.getElement('.preload'));
-          `} />
-
-          <Script html={`
-          var _lofmain = $('icetabs107');
-          var object = new IceSlideShow(_lofmain.getElement('.ice-main-wapper'),
-          							  _lofmain.getElement('.ice-navigator-outer .ice-navigator'),
-          							  _lofmain.getElement('.ice-navigator-outer'),
-          							  {
-          								  fxObject:{
-          									transition:Fx.Transitions.Sine.easeOut,
-          									duration:700									  },
-          								  mainItemSelector: 'div.ice-main-item',
-          								  interval:10000,
-          								  direction :'hrright',
-          								  navItemHeight:100,
-          								  navItemWidth:290,
-          								  navItemsDisplay:3,
-          								  navPos:'0'
-          							  });
-          		object.registerButtonsControl('click', {next:_lofmain.getElement('.ice-next'),previous:_lofmain.getElement('.ice-previous')});
-          		object.start(1, _lofmain.getElement('.preload'));
-          `} />
 
         <Script html={`
           !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
