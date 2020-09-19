@@ -41,7 +41,7 @@ function App() {
           </Router>
         }
       >
-        <React.Suspense fallback={<em>Loading...</em>}>
+        <React.Suspense fallback={<em>...</em>}>
           <Router>
             <Dynamic path="dynamic" />
             <Routes path="*" />
