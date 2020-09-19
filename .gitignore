@@ -1,0 +1,17 @@
+.env
+
+# IDE
+.vscode
+.idea
+
+# Build
+build
+
+# Misc
+*.orig
+.chg
+.orig
+.DS_Store
+.DS_Store?
+.conflict
+node_modules/
