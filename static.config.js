@@ -54,7 +54,7 @@ export default {
         <link rel="stylesheet" href="/modules/mod_phocagallery_image/css/phocagallery_module_image.css" />
         <link rel="stylesheet" href="/media/system/css/modal.css" />
         <link rel="stylesheet" href="/modules/mod_ice_newsblock/assets/style.css" />
-        <link rel="stylesheet" href="/plugins/content/mavikthumbnails/mavikthumbnails/slimbox-mt1.2/css/slimbox.css" />
+        {/* <link rel="stylesheet" href="/plugins/content/mavikthumbnails/slimbox-mt1.2/css/slimbox.css" /> */}
         <link rel="stylesheet" href="/components/com_phocagallery/assets/phocagallery.css" />
         <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-white/assets/style.css" />
         <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-black/assets/style.css" />
@@ -70,8 +70,26 @@ export default {
         <script src="/media/system/js/mootools-more.js" ></script>
         <script src="/media/system/js/caption.js" ></script>
         <script src="/media/system/js/modal.js" ></script>
+
+        <Script html={`
+          Object.assign(window, {
+            $defined(obj) {
+              return (obj != undefined);
+            },
+            $clear(a) {
+              clearInterval(a)
+              clearTimeout(a)
+            },
+            $extend(a, b) {
+              Object.append(a, b)
+              a.appended = true
+              return a
+            }
+          })
+        `} />
+
         <script src="/components/com_phocagallery/assets/js/shadowbox/shadowbox.js" ></script>
-        <script src="/plugins/content/mavikthumbnails/mavikthumbnails/slimbox-mt1.2/js/slimbox.js" ></script>
+        {/* <script src="/plugins/content/mavikthumbnails/slimbox-mt1.2/js/slimbox.js" ></script> */}
         <script src="/components/com_phocagallery/assets/overlib/overlib_mini.js" ></script>
         <script src="/modules/mod_icetabs/assets/script_16.js" ></script>
         <Script html={`
