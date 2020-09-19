@@ -6,6 +6,8 @@
 
 # Build
 dist
+artifacts
+tmp
 
 # Misc
 *.orig
