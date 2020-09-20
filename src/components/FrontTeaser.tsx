@@ -33,31 +33,31 @@ export default () => {
             <ul className="ice-navigator" style={{top: '0px'}}>
               <li style={{width: '322px', height: '74px'}}>
                 <div>
-                  <img src="https://pib.edu.ua/images/icethumbs/88x50/90/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" />
+                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" />
                   <h4 className="ice-title singleline">Вступ 2020</h4>
                 </div>
               </li>
               <li style={{width: '322px', height: '74px'}} className="active">
                 <div>
-                  <img src="https://pib.edu.ua/images/icethumbs/88x50/90/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" />
+                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" />
                   <h4 className="ice-title singleline">Вступ без ЗНО</h4>
                 </div>
               </li>
               <li style={{width: '322px', height: '74px'}}>
                 <div>
-                  <img src="https://pib.edu.ua/images/icethumbs/88x50/90/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" />
+                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" />
                   <h4 className="ice-title singleline">Полтавський бізнес-коледж</h4>
                 </div>
               </li>
               <li style={{width: '322px', height: '74px'}}>
                 <div>
-                  <img src="https://pib.edu.ua/images/icethumbs/88x50/90/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" />
+                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" />
                   <h4 className="ice-title doubleline">Менеджмент безпеки підприємницької діяльності</h4>
                 </div>
               </li>
               <li style={{width: '322px', height: '74px'}}>
                 <div>
-                  <img src="https://pib.edu.ua/images/icethumbs/88x50/90/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" />
+                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" />
                   <h4 className="ice-title singleline">Військова кафедра</h4>
                 </div>
               </li>
@@ -68,7 +68,7 @@ export default () => {
           <div className="ice-main-item item1" style={{display: 'block', top: '-354px', height: '354px'}}>
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/74-i" title="Вступ 2020">
-                <img src="https://pib.edu.ua/images/icethumbs/615x353/90/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" /> </a>
+                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" /> </a>
               <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/74-i">
                 <h3 className="ice-title dashed gold">
                   Вступ 2020
@@ -81,23 +81,22 @@ export default () => {
           </div>
           <div className="ice-main-item item2" style={{top: '0px', height: '354px', display: 'block'}}>
             <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/9-home/teaser/100-about" title="Вступ без ЗНО">
-                <img src="https://pib.edu.ua/images/icethumbs/615x353/90/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/100-about">
+              <a className="ice-readmore" target="_parent" href="/images/teasers/%D0%A4%D0%9F%D0%91%D0%9A%20%D0%92%D0%A1%D0%A2%D0%A3%D0%9F%20%D0%91%D0%95%D0%97%20%20%D0%97%D0%9D%D0%9E.doc" title="Вступ без ЗНО">
+                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" /> </a>
+              <a className="ice-description-inside block center" target="_parent" href="/images/teasers/%D0%A4%D0%9F%D0%91%D0%9A%20%D0%92%D0%A1%D0%A2%D0%A3%D0%9F%20%D0%91%D0%95%D0%97%20%20%D0%97%D0%9D%D0%9E.doc">
                 <h3 className="ice-title dashed gold">
                   Вступ без ЗНО
                 </h3>
                 <p>Вступ без ЗНО</p>
+                <span className="ice-readmore">
+                  Дізнатися&nbsp;більше</span>
               </a>
-              <a style={{display: 'block', position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 999999}} href="https://pib.edu.ua/images/teasers/%D0%A4%D0%9F%D0%91%D0%9A%20%D0%92%D0%A1%D0%A2%D0%A3%D0%9F%20%D0%91%D0%95%D0%97%20%20%D0%97%D0%9D%D0%9E.doc"> gthtqnb</a>
-              <span className="ice-readmore">
-                Дізнатися&nbsp;більше</span>
             </div>
           </div>
           <div className="ice-main-item item3" style={{top: '-354px', height: '354px', display: 'block'}}>
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/33-business-college" title="Полтавський бізнес-коледж">
-                <img src="https://pib.edu.ua/images/icethumbs/615x353/90/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" /> </a>
+                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" /> </a>
               <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/33-business-college">
                 <h3 className="ice-title dashed gold">
                   Полтавський бізнес-коледж
@@ -111,7 +110,7 @@ export default () => {
           <div className="ice-main-item item4" style={{top: '-354px', height: '354px', display: 'block'}}>
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/32-spec-management" title="Менеджмент безпеки підприємницької діяльності">
-                <img src="https://pib.edu.ua/images/icethumbs/615x353/90/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" /> </a>
+                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" /> </a>
               <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/32-spec-management">
                 <h3 className="ice-title dashed gold">
                   Менеджмент безпеки підприємницької діяльності
@@ -125,7 +124,7 @@ export default () => {
           <div className="ice-main-item item5" style={{top: '-354px', height: '354px', display: 'block'}}>
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/35-military" title="Військова кафедра">
-                <img src="https://pib.edu.ua/images/icethumbs/615x353/90/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" /> </a>
+                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" /> </a>
               <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/35-military">
                 <h3 className="ice-title dashed gold">
                   Військова кафедра
