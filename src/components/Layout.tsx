@@ -1,11 +1,29 @@
+import { Router } from '@reach/router'
 import React, { FC, ReactNode } from 'react'
 import Footer from '../components/Footer'
+import FrontHeader from './FrontHeader'
+import OtherHeader from './OtherHeader'
 
-interface Props {
-  header: ReactNode
+const FrontContentWrapper: FC<{ readonly path?: string, readonly child: ReactNode }> = ({ child }) => <div>{child}</div>
+const OtherContentWrapper: FC<{ readonly path?: string, readonly child: ReactNode }> = ({ child }) => {
+  return (
+    <div id="other_main">
+      <div className="top">
+        <div className="bottom">
+          <div className="wrapper">
+            <div id="other_content">
+              <div className="item-page">
+                {child}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
 
-const Layout: FC<Props> = ({ header, children }) => {
+const Layout: FC = ({ children }) => {
   return (
     <>
       <div id="fb-root" className=" fb_reset">
@@ -48,9 +66,15 @@ const Layout: FC<Props> = ({ header, children }) => {
         <img src="/templates/pib/img/b/h/front_op_ar_right.jpg" alt="" />
       </div>
 
-      {header}
+      <Router>
+        <FrontHeader path="/" />
+        <OtherHeader path="/*" />
+      </Router>
 
-      {children}
+      <Router>
+        <FrontContentWrapper path="/" child={children} />
+        <OtherContentWrapper path="/*" child={children} />
+      </Router>
 
       <Footer />
 

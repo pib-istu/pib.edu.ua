@@ -14,15 +14,11 @@ export default {
     return [
       {
         path: '/blog',
-        getData: () => ({
-          posts,
-        }),
+        getData: () => ({ posts }),
         children: posts.map((post /* : Post */) => ({
           path: `/post/${post.id}`,
           template: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
+          getData: () => ({ post }),
         })),
       },
     ]
@@ -148,6 +144,7 @@ export default {
         <link rel="stylesheet" href="/templates/system/css/system.css" />
         <link rel="stylesheet" href="/templates/system/css/general.css" />
         <link rel="stylesheet" href="/templates/pib/css/base.css?v7" />
+        <link rel="stylesheet" href="/templates/pib/css/other.css?v7" />
         <link rel="stylesheet" href="/templates/pib/css/joomla.css" />
         <link rel="stylesheet" href="/templates/pib/css/ptsans.css" />
         {/* <!--[if IE 7]>
