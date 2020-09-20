@@ -350,9 +350,9 @@ div.icemegamenu ul#icemegamenu .icesubMenu li a.iceMenuTitle span.icemega_title 
 
 
 /* Second Level Dropdown */
-div.icemegamenu #icemegamenu ul.icesubMenu li.active ul a span {
+/* div.icemegamenu #icemegamenu ul.icesubMenu li.active > ul a span {
 color: #CEDCEF;
-}
+} */
 
 div#menu_header.icemegamenu ul#icemegamenu li ul li div ul li ul li div ul li a.iceMenuTitle {
 	color: #C5BA8D;
@@ -372,7 +372,6 @@ div.icemegamenu #icemegamenu #iceMenu_106 ul {
 	display: none;
 	visibility: hidden;}
 
-	div.icemegamenu #icemegamenu ul.sub_level_2 #iceMenu_191,
 	div.icemegamenu #icemegamenu ul.sub_level_2 #iceMenu_185,
 	div.icemegamenu #icemegamenu ul.sub_level_2 #iceMenu_202 {
 		padding: 17px 0 0;
@@ -402,9 +401,7 @@ div.icemegamenu #icemegamenu li ul.sub_level_2 ul li:focus span span.bold {
 /* sub menu links on hover or focus */
 #icemegamenu li a.iceMenuTitle:hover,
 #icemegamenu li a.iceMenuTitle:hover span,
-div.icemegamenu #icemegamenu ul.icesubMenu li.active a span,
-div.icemegamenu #icemegamenu ul.icesubMenu li.active ul a:hover,
-div.icemegamenu #icemegamenu ul.icesubMenu li.active ul a:hover span {
+div.icemegamenu #icemegamenu ul.icesubMenu li.active > a span {
 	color:#FFF;}
 
 
