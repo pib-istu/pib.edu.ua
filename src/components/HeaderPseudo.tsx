@@ -1,5 +1,7 @@
 import React, { FC, useEffect, useState } from 'react'
 
+declare var jQuery: any
+
 interface FileTypeInfo {
   iconSrc:string
   alt: string
@@ -140,10 +142,18 @@ export default () => {
       .catch((error) => console.error('Failed to fecth schedule files', error))
   }, [])
 
+  useEffect(() => {
+    jQuery('.divslide').showHide({
+      speed: 300,  // speed you want the toggle to happen
+      easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
+      changeText: 0, // if you dont want the button text to change, set this to 0
+    });
+  }, [])
+
   return (
     <div id="header_pseudo">
       <div className="wrapper">
-        <a className="schedule divslide" style={{float: 'right', marginRight: '100px'}} href="#" rel="#header_pseudo_schedule_box" title="Розклад занять">Розклад занять</a>
+        <a className="schedule divslide" style={{float: 'right', marginRight: '100px'}} href="#" data-rel="#header_pseudo_schedule_box" title="Розклад занять">Розклад занять</a>
           {/* <div id="header_pseudo_search_box" className="toggleDiv tooltip-box" style={{display: 'none'}}>
             <div className="arrow" />
             <div className="box" />

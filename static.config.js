@@ -160,28 +160,6 @@ export default {
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" ></script>
         <script src="/templates/pib/js/showHide.js" ></script>
-        <Script html={`
-          jQuery(document).ready(function(){
-
-            jQuery('.divslide').showHide({
-              speed: 300,  // speed you want the toggle to happen
-              easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
-              changeText: 0, // if you dont want the button text to change, set this to 0
-            });
-
-            jQuery('.divslide2').showHide({
-              speed: 500,  // speed you want the toggle to happen
-              easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
-              changeText: 0, // if you dont want the button text to change, set this to 0
-            });
-
-            jQuery('.divslide3').showHide({
-              speed: 300,  // speed you want the toggle to happen
-              easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
-              changeText: 0, // if you dont want the button text to change, set this to 0
-            });
-          });
-        `} />
 
         <Script html={`
           jQuery.noConflict();
@@ -207,7 +185,31 @@ export default {
           <div><img src="//mc.yandex.ru/watch/20593846" style={{position:'absolute', left:'-9999px' }} alt="" /></div>
         </noscript> */}
 
-        <script charset="utf-8" src="https://platform.twitter.com/js/button.e24f3bcdec527b80b9c80e88b62047c3.js"></script>
+        <link rel="stylesheet" href="/components/com_chronoforms/css/frontforms.css" />
+        <link rel="stylesheet" href="/components/com_chronoforms/css/formcheck/theme/red/formcheck.css" />
+        <link rel="stylesheet" href="/components/com_chronoforms/css/formcheck_fix.css" />
+        <script src="/components/com_chronoforms/js/formcheck/formcheck-yui.js"></script>
+        <script src="/components/com_chronoforms/js/formcheck/formcheck-max.js"></script>
+        <script src="/components/com_chronoforms/js/formcheck/lang/ru.js"></script>
+        <Script html={`
+          window.addEvent('load', function() {
+                  new JCaption('img.caption');
+                });
+          //<![CDATA[
+                window.addEvent('domready', function() {
+                  $('chronoform_Contact_apply').addClass('hasValidation');
+                  formCheck_Contact_apply = new FormCheckMax('chronoform_Contact_apply', {
+                    onValidateSuccess: $empty,
+                    display : {
+                      showErrors : 0,
+                      errorsLocation: 1					}
+                  });
+                });
+
+          //]]>
+        `} />
+
+        <script charSet="utf-8" src="https://platform.twitter.com/js/button.e24f3bcdec527b80b9c80e88b62047c3.js"></script>
       </Head>
       <Body>
         {children}

@@ -124,8 +124,8 @@ export default () => {
           </ul>
         </NavItem>
 
-        <NavItem match='/entrant' id="iceMenu_103" className="iceMenuLiLevel_1 parent">
-          <NavLink to="/entrant" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
+        <NavItem match='/entrant/entrance' id="iceMenu_103" className="iceMenuLiLevel_1 parent">
+          <NavLink to="/entrant/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
               <div style={{float: 'left', width: '280px'}} className="iceCols">
