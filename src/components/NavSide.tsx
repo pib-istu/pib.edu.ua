@@ -114,22 +114,22 @@ export default () => {
           <ul>
             <li id="item-180"><span className="separator"> </span></li>
             <NavSection match='/pib/courses' id="item-140" className="deeper parent">
-              <NavLink to="/pib/courses">Напрями та спеціалізації</NavLink>
-                <Loc match='/pib/courses'>
-                  <ul>
-                    <NavItemLink id="item-185" to="/pib/courses/course-law">Право</NavItemLink>
-                    <NavItemLink id="item-224" to="/pib/courses/course-psychology">Психологія</NavItemLink>
-                    <NavItemLink id="item-226" to="/pib/courses/course-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
-                    <NavItemLink id="item-191" to="/pib/courses/course-it">Інженерія програмного забезпечення</NavItemLink>
-                    <NavItemLink id="item-223" to="/pib/courses/course-radio-electronic">Телекомунікації та радіотехніка</NavItemLink>
-                    <NavItemLink id="item-225" to="/pib/courses/course-public-management-and-administration">Публічне управління та адміністрування</NavItemLink>
-                    <NavItemLink id="item-187" to="/pib/courses/course-health">Фізична терапія, ерготерапія</NavItemLink>
-                    <NavItemLink id="item-188" to="/pib/courses/course-finance">Фінанси, банківська справа та страхування</NavItemLink>
-                    <NavItemLink id="item-192" to="/pib/courses/course-accountancy">Облік і оподаткування</NavItemLink>
-                    <NavItemLink id="item-201" to="/pib/courses/course-management">Менеджмент</NavItemLink>
-                    <NavItemLink id="item-190" to="/pib/courses/course-ecology">Екологія</NavItemLink>
-                  </ul>
-                </Loc>
+              <NavLink to="/pib">Напрями та спеціалізації</NavLink>
+              <Loc match='/pib/courses'>
+                <ul>
+                  <NavItemLink id="item-185" to="/pib/courses/course-law">Право</NavItemLink>
+                  <NavItemLink id="item-224" to="/pib/courses/course-psychology">Психологія</NavItemLink>
+                  <NavItemLink id="item-226" to="/pib/courses/course-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
+                  <NavItemLink id="item-191" to="/pib/courses/course-it">Інженерія програмного забезпечення</NavItemLink>
+                  <NavItemLink id="item-223" to="/pib/courses/course-radio-electronic">Телекомунікації та радіотехніка</NavItemLink>
+                  <NavItemLink id="item-225" to="/pib/courses/course-public-management-and-administration">Публічне управління та адміністрування</NavItemLink>
+                  <NavItemLink id="item-187" to="/pib/courses/course-health">Фізична терапія, ерготерапія</NavItemLink>
+                  <NavItemLink id="item-188" to="/pib/courses/course-finance">Фінанси, банківська справа та страхування</NavItemLink>
+                  <NavItemLink id="item-192" to="/pib/courses/course-accountancy">Облік і оподаткування</NavItemLink>
+                  <NavItemLink id="item-201" to="/pib/courses/course-management">Менеджмент</NavItemLink>
+                  <NavItemLink id="item-190" to="/pib/courses/course-ecology">Екологія</NavItemLink>
+                </ul>
+              </Loc>
             </NavSection>
             <NavItemLink id="item-147" to="/pib/military">Військова кафедра</NavItemLink>
             <NavItemLink id="item-148" to="/pib/about">Про ПІБ МНТУ</NavItemLink>
