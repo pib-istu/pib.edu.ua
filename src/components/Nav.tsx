@@ -3,16 +3,24 @@ import { Link, LinkProps, useLocation } from '@reach/router'
 
 type NavLinkProps = LinkProps<{}> & React.RefAttributes<HTMLAnchorElement>
 
-const NavLink: FC<NavLinkProps> = ({ children, ...props }) => (
-  <Link
-    getProps={({ isCurrent, isPartiallyCurrent }) => ({
-      className: `${isPartiallyCurrent ? 'icemega_active active' : ''} ${isCurrent ? 'current' : ''} ${props.className ?? ''}`
-    })}
-    {...props}
-  >
-    {children}
-  </Link>
-)
+const NavLink: FC<NavLinkProps> = ({ children, ...props }) => {
+  const isExternal = props.to.includes('//')
+
+  if (isExternal) return (
+    <a {...props} href={props.to}>{children}</a>
+  )
+
+  return (
+    <Link
+      getProps={({ isCurrent, isPartiallyCurrent }) => ({
+        className: `${isPartiallyCurrent ? 'icemega_active active' : ''} ${isCurrent ? 'current' : ''} ${props.className ?? ''}`
+      })}
+      {...props}
+    >
+      {children}
+    </Link>
+  )
+}
 
 type NavItemProps = React.HTMLAttributes<HTMLLIElement> & {
   readonly match: string
@@ -23,8 +31,6 @@ const NavItem: FC<NavItemProps> = ({ children, ...props }) => {
   const { match, shouldBeExact = false, className = '', ...rest } = props
   const location = useLocation()
   const hasMatch = shouldBeExact ? location.pathname === match : location.pathname.startsWith(match);
-
-  console.log(match, hasMatch)
 
   return (
     <li
@@ -124,7 +130,7 @@ export default () => {
           </ul>
         </NavItem>
 
-        <NavItem match='/entrant/entrance' id="iceMenu_103" className="iceMenuLiLevel_1 parent">
+        <NavItem match='/entrant' id="iceMenu_103" className="iceMenuLiLevel_1 parent">
           <NavLink to="/entrant/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
