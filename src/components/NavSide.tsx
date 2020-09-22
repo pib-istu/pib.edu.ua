@@ -96,7 +96,7 @@ export default () => {
   return (
     <div className="bottom_end">
       <ul className="menu" id="other_menu">
-        <Loc match="/" shouldBeExact={true}>
+        <Loc match="/home">
         <NavSection match="/" shouldBeExact={true} id="item-101" className="lvl1 deeper parent">
           <NavLink to="/">Головна</NavLink>
           <ul>

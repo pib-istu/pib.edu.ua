@@ -6,6 +6,9 @@ import FrontPhotos from 'components/FrontPhotos'
 export default () => {
   return (
     <>
+      <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-white/assets/style.css" />
+      <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-black/assets/style.css" />
+
       <div id="front_main_wrapper">
         <ul className="front_promo">
           <li><a className="slot_1" href="/pib/benefits/#anchor1"><span className="front_promo_title_double">Якість та<br />

@@ -52,8 +52,6 @@ export default {
         <link rel="stylesheet" href="/modules/mod_ice_newsblock/assets/style.css" />
         {/* <link rel="stylesheet" href="/plugins/content/mavikthumbnails/slimbox-mt1.2/css/slimbox.css" /> */}
         <link rel="stylesheet" href="/components/com_phocagallery/assets/phocagallery.css" />
-        <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-white/assets/style.css" />
-        <link rel="stylesheet" href="/modules/mod_icetabs/themes/default-black/assets/style.css" />
         <link rel="stylesheet" href="/modules/mod_icemegamenu/themes/css3/css/css3_icemegamenu.css" />
 
         <script src="https://connect.facebook.net/ru_RU/all.js?hash=ab35b7708555c021057c617c95543681&amp;ua=modern_es6" async="" crossOrigin="anonymous"></script>
