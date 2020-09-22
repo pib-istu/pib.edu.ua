@@ -2,6 +2,7 @@ import { Router } from '@reach/router'
 import React, { FC, ReactNode } from 'react'
 import Footer from '../components/Footer'
 import FrontHeader from './FrontHeader'
+import NavSide from './NavSide'
 import OtherHeader from './OtherHeader'
 
 const FrontContentWrapper: FC<{ readonly path?: string, readonly child: ReactNode }> = ({ child }) => <div>{child}</div>
@@ -11,15 +12,25 @@ const OtherContentWrapper: FC<{ readonly path?: string, readonly child: ReactNod
       <div className="top">
         <div className="bottom">
           <div className="wrapper">
-            <div id="other_content">
-              <div className="item-page">
-                {child}
-              </div>
-            </div>
+            {child}
           </div>
         </div>
       </div>
     </div>
+  )
+}
+
+export const WithSidebar: FC<{ readonly shouldShowSidebar?: boolean }> = ({ shouldShowSidebar = true, children }) => {
+  return (
+    <>
+      {shouldShowSidebar && <div id="other_menu_wrapper" />}
+      {shouldShowSidebar && <NavSide />}
+      <div id="other_content" className={`${shouldShowSidebar ? 'menu-other' : ''}`}>
+        {/* <div className="item-page"> */}
+          {children}
+        {/* </div> */}
+      </div>
+    </>
   )
 }
 

@@ -1,10 +1,11 @@
+import { WithSidebar } from 'components/Layout'
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Подати заявку на вступ"
 
 import React from 'react'
 
 export default () => {
   return (
-    <>
+    <WithSidebar shouldShowSidebar={true}>
       <div id="page-header">
         <h1 className="text">
           Подати заявку на вступ
@@ -50,6 +51,6 @@ export default () => {
         </div>
         <input type="hidden" name="6b051dd6742fbf5be3d5122b320e8a36" defaultValue={1} />
       </form>
-    </>
+    </WithSidebar>
   )
 }

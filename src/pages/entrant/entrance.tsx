@@ -1,3 +1,4 @@
+import { WithSidebar } from 'components/Layout';
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Абітурієнту"
 
 import React, { useEffect } from 'react'
@@ -48,7 +49,7 @@ export default () => {
   }, [])
 
   return (
-    <>
+    <WithSidebar shouldShowSidebar={true}>
       <div id="page-header">
         <h1 className="text">
           Вступ до ПІБ МНТУ </h1>
@@ -820,6 +821,6 @@ export default () => {
           </li>
         </ul>
       </div>
-    </>
+    </WithSidebar>
   )
 }

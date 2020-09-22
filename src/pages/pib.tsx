@@ -1,10 +1,11 @@
+import { WithSidebar } from 'components/Layout'
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - ПІБ МНТУ"
 
 import React from 'react'
 
 export default () => {
   return (
-    <>
+    <WithSidebar shouldShowSidebar={false}>
       <div id="page-header">
         <h1 className="text">
           ПІБ МНТУ </h1>
@@ -133,6 +134,6 @@ export default () => {
           </div>
         </div>
       </div>
-    </>
+    </WithSidebar>
   )
 }
