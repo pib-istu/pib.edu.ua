@@ -113,24 +113,24 @@ export default () => {
           <NavLink to="/pib">ПІБ МНТУ</NavLink>
           <ul>
             <li id="item-180"><span className="separator"> </span></li>
-            <Loc match='/pib/courses'>
             <NavSection match='/pib/courses' id="item-140" className="deeper parent">
               <NavLink to="/pib/courses">Напрями та спеціалізації</NavLink>
-              <ul>
-                <NavItemLink id="item-185" to="/pib/courses/course-law">Право</NavItemLink>
-                <NavItemLink id="item-224" to="/pib/courses/course-psychology">Психологія</NavItemLink>
-                <NavItemLink id="item-226" to="/pib/courses/course-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
-                <NavItemLink id="item-191" to="/pib/courses/course-it">Інженерія програмного забезпечення</NavItemLink>
-                <NavItemLink id="item-223" to="/pib/courses/course-radio-electronic">Телекомунікації та радіотехніка</NavItemLink>
-                <NavItemLink id="item-225" to="/pib/courses/course-public-management-and-administration">Публічне управління та адміністрування</NavItemLink>
-                <NavItemLink id="item-187" to="/pib/courses/course-health">Фізична терапія, ерготерапія</NavItemLink>
-                <NavItemLink id="item-188" to="/pib/courses/course-finance">Фінанси, банківська справа та страхування</NavItemLink>
-                <NavItemLink id="item-192" to="/pib/courses/course-accountancy">Облік і оподаткування</NavItemLink>
-                <NavItemLink id="item-201" to="/pib/courses/course-management">Менеджмент</NavItemLink>
-                <NavItemLink id="item-190" to="/pib/courses/course-ecology">Екологія</NavItemLink>
-              </ul>
+                <Loc match='/pib/courses'>
+                  <ul>
+                    <NavItemLink id="item-185" to="/pib/courses/course-law">Право</NavItemLink>
+                    <NavItemLink id="item-224" to="/pib/courses/course-psychology">Психологія</NavItemLink>
+                    <NavItemLink id="item-226" to="/pib/courses/course-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
+                    <NavItemLink id="item-191" to="/pib/courses/course-it">Інженерія програмного забезпечення</NavItemLink>
+                    <NavItemLink id="item-223" to="/pib/courses/course-radio-electronic">Телекомунікації та радіотехніка</NavItemLink>
+                    <NavItemLink id="item-225" to="/pib/courses/course-public-management-and-administration">Публічне управління та адміністрування</NavItemLink>
+                    <NavItemLink id="item-187" to="/pib/courses/course-health">Фізична терапія, ерготерапія</NavItemLink>
+                    <NavItemLink id="item-188" to="/pib/courses/course-finance">Фінанси, банківська справа та страхування</NavItemLink>
+                    <NavItemLink id="item-192" to="/pib/courses/course-accountancy">Облік і оподаткування</NavItemLink>
+                    <NavItemLink id="item-201" to="/pib/courses/course-management">Менеджмент</NavItemLink>
+                    <NavItemLink id="item-190" to="/pib/courses/course-ecology">Екологія</NavItemLink>
+                  </ul>
+                </Loc>
             </NavSection>
-            </Loc>
             <NavItemLink id="item-147" to="/pib/military">Військова кафедра</NavItemLink>
             <NavItemLink id="item-148" to="/pib/about">Про ПІБ МНТУ</NavItemLink>
             <NavItemLink id="item-149" to="/pib/benefits">Чому ПІБ МНТУ</NavItemLink>
@@ -145,7 +145,6 @@ export default () => {
           <NavLink to="/entrant/entrance">Абітурієнту</NavLink>
           <ul>
             <li id="item-181"><span className="separator"> </span></li>
-            <Loc match='/entrant'>
             <NavSection match='/entrant/entrance' id="item-152" className="deeper parent">
               <NavLink to="/entrant/entrance">Вступ до ПІБ МНТУ</NavLink>
               <Loc match='/entrant/entrance'>
@@ -159,7 +158,6 @@ export default () => {
                 </ul>
               </Loc>
             </NavSection>
-            </Loc>
             <NavItemLink id="item-156" to="/entrant/faq">Часто запитують</NavItemLink>
             <NavItemLink id="item-175" to="/entrant/list">Рейтинговий список вступників</NavItemLink>
             <NavItemLink id="item-176" to="/entrant/apply">Подати заявку на вступ</NavItemLink>
@@ -172,44 +170,44 @@ export default () => {
           <NavLink to="/business-college/about">Бізнес-коледж</NavLink>
           <ul>
               <li id="item-162"><span className="separator"> </span></li>
-              <Loc match='/business-college/courses'>
               <NavSection match='/business-college/courses' id="item-218" className="deeper parent">
-                <NavLink to="/business-college">Спеціальності</NavLink>
-                <ul>
-                  <NavItemLink id="item-202" to="/business-college/courses/course-college-physical-education-and-sport">Фізична культура і спорт</NavItemLink>
-                  <NavItemLink id="item-227" to="/business-college/courses/course-college-law">Право</NavItemLink>
-                  <NavItemLink id="item-228" to="/business-college/courses/course-college-accountancy">Облік і оподаткування</NavItemLink>
-                  <NavItemLink id="item-229" to="/business-college/courses/course-college-finance">Фінанси, банківська справа та страхування</NavItemLink>
-                  <NavItemLink id="item-230" to="/business-college/courses/course-college-management">Менеджмент</NavItemLink>
-                  <NavItemLink id="item-231" to="/business-college/courses/course-college-it">Інженерія програмного забезпечення</NavItemLink>
-                  <NavItemLink id="item-232" to="/business-college/courses/course-college-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
-                </ul>
+                <NavLink to="/business-college/about">Спеціальності</NavLink>
+                <Loc match='/business-college/courses'>
+                  <ul>
+                    <NavItemLink id="item-202" to="/business-college/courses/course-college-physical-education-and-sport">Фізична культура і спорт</NavItemLink>
+                    <NavItemLink id="item-227" to="/business-college/courses/course-college-law">Право</NavItemLink>
+                    <NavItemLink id="item-228" to="/business-college/courses/course-college-accountancy">Облік і оподаткування</NavItemLink>
+                    <NavItemLink id="item-229" to="/business-college/courses/course-college-finance">Фінанси, банківська справа та страхування</NavItemLink>
+                    <NavItemLink id="item-230" to="/business-college/courses/course-college-management">Менеджмент</NavItemLink>
+                    <NavItemLink id="item-231" to="/business-college/courses/course-college-it">Інженерія програмного забезпечення</NavItemLink>
+                    <NavItemLink id="item-232" to="/business-college/courses/course-college-petroleum-engineering-and-technology">Нафтогазова інженерія та технології</NavItemLink>
+                  </ul>
+                </Loc>
               </NavSection>
-              </Loc>
               <li id="item-173"><span className="separator"> </span></li>
               <NavItemLink id="item-220" to="/business-college/about">Про коледж</NavItemLink>
               <li id="item-221"><span className="separator"> </span></li>
-              <Loc match='/business-college/entrance'>
               <NavSection match='/business-college/entrance' id="item-219" className="deeper parent">
                 <NavLink to="/business-college/entrance">Вступ до коледжу</NavLink>
-                <ul>
-                  <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
-                  <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                  <NavItemLink id="item-235" to="/media/docs/Правила%20прийому%20ПБК%20МНТУ.pdf?v1" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
-                  <NavItemLink id="item-240" to="/media/docs/Рейтинг_1.pdf" target="_blank">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                  <NavItemLink id="item-241" to="/media/docs/Рейтинг_3.pdf" target="_blank">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                  <NavItemLink id="item-242" to="/media/docs/Рейтинг_2.pdf" target="_blank">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                  <NavItemLink id="item-243" to="/media/docs/Рекоменд_1.pdf" target="_blank">Список рекомендованих від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                  <NavItemLink id="item-244" to="/media/docs/Рекоменд_3.pdf" target="_blank">Список рекомендованих від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                  <NavItemLink id="item-245" to="/media/docs/Рекоменд_2.pdf" target="_blank">Список рекомендованих від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                  <NavItemLink id="item-246" to="/media/docs/Рекоменд_31.08.2020.pdf" target="_blank">Список рекомендованих від 31.08.2020 (073 Менеджмент)</NavItemLink>
-                  <NavItemLink id="item-247" to="/media/docs/Списки на основі ПЗСО.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                  <NavItemLink id="item-248" to="/media/docs/Списки на основі КР.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (072 Фінанси, банківська справа та страхування)</NavItemLink>
-                  <NavItemLink id="item-249" to="/media/docs/Списки на основі ПЗСО(денна форма).pdf" target="_blank">Список рекомендованих від 03.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
-                  <NavItemLink id="item-250" to="/media/docs/Списки на основі КР(денна форма).pdf" target="_blank">Список рекомендованих від 02.09.2020 (017 Фiзична культура i спорт)</NavItemLink>
-                </ul>
+                <Loc match='/business-college/entrance'>
+                  <ul>
+                    <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
+                    <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/Правила%20прийому%20ПБК%20МНТУ.pdf?v1" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-240" to="/media/docs/Рейтинг_1.pdf" target="_blank">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
+                    <NavItemLink id="item-241" to="/media/docs/Рейтинг_3.pdf" target="_blank">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
+                    <NavItemLink id="item-242" to="/media/docs/Рейтинг_2.pdf" target="_blank">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
+                    <NavItemLink id="item-243" to="/media/docs/Рекоменд_1.pdf" target="_blank">Список рекомендованих від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
+                    <NavItemLink id="item-244" to="/media/docs/Рекоменд_3.pdf" target="_blank">Список рекомендованих від 23.07.2020 (073 Менеджмент)</NavItemLink>
+                    <NavItemLink id="item-245" to="/media/docs/Рекоменд_2.pdf" target="_blank">Список рекомендованих від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
+                    <NavItemLink id="item-246" to="/media/docs/Рекоменд_31.08.2020.pdf" target="_blank">Список рекомендованих від 31.08.2020 (073 Менеджмент)</NavItemLink>
+                    <NavItemLink id="item-247" to="/media/docs/Списки на основі ПЗСО.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
+                    <NavItemLink id="item-248" to="/media/docs/Списки на основі КР.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (072 Фінанси, банківська справа та страхування)</NavItemLink>
+                    <NavItemLink id="item-249" to="/media/docs/Списки на основі ПЗСО(денна форма).pdf" target="_blank">Список рекомендованих від 03.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
+                    <NavItemLink id="item-250" to="/media/docs/Списки на основі КР(денна форма).pdf" target="_blank">Список рекомендованих від 02.09.2020 (017 Фiзична культура i спорт)</NavItemLink>
+                  </ul>
+                </Loc>
               </NavSection>
-              </Loc>
           </ul>
         </NavSection>
         </Loc>

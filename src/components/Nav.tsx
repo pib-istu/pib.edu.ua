@@ -171,7 +171,7 @@ export default () => {
                 <ul>
                   <li id="iceMenu_162" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItem match='/business-college/courses' id="iceMenu_218" className="iceMenuLiLevel_2 parent">
-                    <NavLink to="/business-college" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Спеціальності</span></NavLink>
+                    <NavLink to="/business-college/about" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Спеціальності</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
                       <li>
                         <div style={{float: 'left', width: '280px'}} className="iceCols">
