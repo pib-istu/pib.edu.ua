@@ -22,12 +22,12 @@ export default () => {
           <div id="error-message-input_admin_name" />
         </div>
         <div className="ccms_form_element cfdiv_text" id="input_admin_mail_container_div" style={{}}>
-          <label htmlFor="input_admin_mail">Email:</label><input id="input_admin_mail" maxLength={40} size={40} className=" validate['email']" type="text" defaultValue="" name="input_admin_mail" />
+          <label htmlFor="input_admin_mail">Email:</label><input id="input_admin_mail" maxLength={40} size={40} className=" validate['email']" type="email" defaultValue="" name="input_admin_mail" />
           <div className="clear" />
           <div id="error-message-input_admin_mail" />
         </div>
         <div className="ccms_form_element cfdiv_text" id="input_apply_phone_container_div" style={{}}>
-          <label htmlFor="input_apply_phone">Телефон:</label><input id="input_apply_phone" maxLength={40} size={40} className=" validate['required','phone','phone_inter']" type="text" defaultValue="" name="input_apply_phone" />
+          <label htmlFor="input_apply_phone">Телефон:</label><input id="input_apply_phone" maxLength={40} size={40} className=" validate['required','phone','phone_inter']" type="tel" required defaultValue="" name="input_apply_phone" />
           <div className="clear" />
           <div id="error-message-input_apply_phone" />
         </div>
@@ -38,7 +38,7 @@ export default () => {
           <div id="error-message-input_admin_message" />
         </div>
         <div className="ccms_form_element cfdiv_text" id="autoID-f52f7bc815c629b76ad30c006c59f75b_container_div">
-          <label>Код:</label><input maxLength={5} size={5} className="chrono_captcha_input validate['required']" type="text" defaultValue="" name="chrono_verification" />{' '}
+          <label>Код:</label><input maxLength={5} size={5} className="chrono_captcha_input validate['required']" type="text" required defaultValue="" name="chrono_verification" />{' '}
           <img src="https://pib.edu.ua/components/com_chronoforms/chrono_verification.php?imtype=0" alt="" />
           <div className="small-message">Введіть код на зображенні для того, щоб ми могли впевнетитись що Ви - людина, а не комп'ютер</div>
           <div className="clear" />
