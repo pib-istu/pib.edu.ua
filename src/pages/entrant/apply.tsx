@@ -38,14 +38,14 @@ export default () => {
           <div id="error-message-input_admin_message" />
         </div>
         <div className="ccms_form_element cfdiv_text" id="autoID-f52f7bc815c629b76ad30c006c59f75b_container_div">
-          <label>Код:</label><input maxLength={5} size={5} className="chrono_captcha_input validate['required']" type="text" defaultValue="" name="chrono_verification" />
+          <label>Код:</label><input maxLength={5} size={5} className="chrono_captcha_input validate['required']" type="text" defaultValue="" name="chrono_verification" />{' '}
           <img src="https://pib.edu.ua/components/com_chronoforms/chrono_verification.php?imtype=0" alt="" />
           <div className="small-message">Введіть код на зображенні для того, щоб ми могли впевнетитись що Ви - людина, а не комп'ютер</div>
           <div className="clear" />
           <div id="error-message-chrono_verification" />
         </div>
         <div className="ccms_form_element cfdiv_submit" id="input_admin_submit_container_div" style={{textAlign: 'center'}}>
-          <input name="input_admin_submit" id="input_admin_submit" className="contact_input_submit" defaultValue="Відправити" type="submit" />
+          <input name="input_admin_submit" id="input_admin_submit" className="contact_input_submit" value="Відправити" type="submit" />
           <div className="clear" />
           <div id="error-message-input_admin_submit" />
         </div>
