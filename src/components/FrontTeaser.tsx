@@ -52,15 +52,15 @@ export default () => {
     <div id="front_header_teaser">
       <div id="icetabs92" className="ice-tabs-black ice-right-sl-black clearfix" style={{height: '370px', width: 'auto'}}>
         <div className="ice-navigator-wrapper">
-          <div className="ice-navigator-outer" style={{width: '322px', height: '370px'}}>
-            <ul className="ice-navigator" style={{top: '0px'}}>
+          <div className="ice-navigator-outer" style={{width: 'auto', height: '74px'}}>
+            <ul className="ice-navigator">
               <li style={{width: '322px', height: '74px'}}>
                 <div>
                   <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" />
                   <h4 className="ice-title singleline">Вступ 2020</h4>
                 </div>
               </li>
-              <li style={{width: '322px', height: '74px'}} className="active">
+              <li style={{width: '322px', height: '74px'}}>
                 <div>
                   <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" />
                   <h4 className="ice-title singleline">Вступ без ЗНО</h4>
@@ -88,7 +88,7 @@ export default () => {
           </div>
         </div>
         <div className="ice-main-wapper">
-          <div className="ice-main-item item1" style={{display: 'block', top: '-354px', height: '354px'}}>
+          <div className="ice-main-item item1" style={{display: 'block'}}>
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/74-i" title="Вступ 2020">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" /> </a>
@@ -102,7 +102,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="ice-main-item item2" style={{top: '0px', height: '354px', display: 'block'}}>
+          <div className="ice-main-item item2">
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc" title="Вступ без ЗНО">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" /> </a>
@@ -116,7 +116,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="ice-main-item item3" style={{top: '-354px', height: '354px', display: 'block'}}>
+          <div className="ice-main-item item3">
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/33-business-college" title="Полтавський бізнес-коледж">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" /> </a>
@@ -130,7 +130,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="ice-main-item item4" style={{top: '-354px', height: '354px', display: 'block'}}>
+          <div className="ice-main-item item4">
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/32-spec-management" title="Менеджмент безпеки підприємницької діяльності">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" /> </a>
@@ -144,7 +144,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="ice-main-item item5" style={{top: '-354px', height: '354px', display: 'block'}}>
+          <div className="ice-main-item item5">
             <div className="ice-description">
               <a className="ice-readmore" target="_parent" href="/9-home/teaser/35-military" title="Військова кафедра">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" /> </a>
