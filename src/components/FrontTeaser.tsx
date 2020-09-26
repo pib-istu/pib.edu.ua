@@ -1,8 +1,87 @@
-import React, { useEffect } from 'react'
+import React, { FC, useEffect } from 'react'
 
 declare var $: any
 declare var IceSlideShow: any
 declare var Fx: any
+
+interface NavItemProps {
+  imageSrc: string
+  heading: string
+  shouldUseSingleLine?: boolean
+}
+
+const NavItem: FC<NavItemProps> = ({ imageSrc, heading, shouldUseSingleLine = true }) => {
+  return (
+    <li style={{width: '322px', height: '74px'}}>
+      <div>
+        <img width="88" height="50" style={{ objectFit: 'cover' }} src={imageSrc} alt="" />
+        <h4 className={`ice-title ${shouldUseSingleLine ? 'singleline' : 'doubleline'}`}>{heading}</h4>
+      </div>
+    </li>
+  )
+}
+
+interface ItemProps extends React.HTMLAttributes<HTMLDivElement> {
+  url: string
+  heading: string
+  imageSrc: string
+}
+
+const Item: FC<ItemProps> = ({ url, imageSrc, heading, children, ...props }) => {
+  return (
+    <div className="ice-main-item" {...props}>
+      <div className="ice-description">
+        <a
+          className="ice-readmore"
+          target="_parent"
+          href={url}
+          title={heading}
+        >
+          <img width="615" height="353" style={{ objectFit: 'cover' }} src={imageSrc} alt="" />
+        </a>
+        <a className="ice-description-inside block center" target="_parent" href={url}>
+          <h3 className="ice-title dashed gold">{heading}</h3>
+          {children}
+          <span className="ice-readmore">Дізнатися&nbsp;більше</span>
+        </a>
+      </div>
+    </div>
+  )
+}
+
+const TEASERS = [
+  {
+    heading: "Вступ 2020",
+    url: "/9-home/teaser/74-i",
+    imageSrc: "/images/teasers/vstup.jpg",
+    children: <p>Вступ 2020</p>,
+  },
+  {
+    heading: "Вступ без ЗНО",
+    url: "/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc",
+    imageSrc: "/images/teasers/1.jpg",
+    children: <p>Вступ без ЗНО</p>,
+  },
+  {
+    heading: "Полтавський бізнес-коледж",
+    url: "/9-home/teaser/33-business-college",
+    imageSrc: "/images/teasers/business-college.jpg",
+    children: <p>Запрошуємо на навчання випускників 9-х, 11-х класів до бізнес-коледжу із зарахування на III курс ПІБ МНТУ після закінчення</p>,
+  },
+  {
+    heading: "Менеджмент безпеки підприємницької діяльності",
+    url: "/9-home/teaser/32-spec-management",
+    imageSrc: "/images/teasers/spec-management-sob.jpg",
+    children: <p>Унікальна спеціалізація для тих, кто дбає про безпеку</p>,
+    shouldUseSingleLine: false,
+  },
+  {
+    heading: "Військова кафедра",
+    url: "/9-home/teaser/35-military",
+    imageSrc: "/images/teasers/military.jpg",
+    children: <p>Для студентів денної форми навчання ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації із присвоєнням військового звання <span className="bold">молодший лейтенант запасу</span> після закінчення.</p>,
+  }
+]
 
 export default () => {
   useEffect(() => {
@@ -54,112 +133,14 @@ export default () => {
     <div id="front_header_teaser">
       <div id="icetabs92" className="ice-tabs-black ice-right-sl-black clearfix" style={{height: '370px', width: 'auto'}}>
         <div className="ice-navigator-wrapper">
-          <div className="ice-navigator-outer" style={{width: 'auto', height: '74px'}}>
+          <div className="ice-navigator-outer" style={{width: '322px', height: '370px'}}>
             <ul className="ice-navigator">
-              <li style={{width: '322px', height: '74px'}}>
-                <div>
-                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" />
-                  <h4 className="ice-title singleline">Вступ 2020</h4>
-                </div>
-              </li>
-              <li style={{width: '322px', height: '74px'}}>
-                <div>
-                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" />
-                  <h4 className="ice-title singleline">Вступ без ЗНО</h4>
-                </div>
-              </li>
-              <li style={{width: '322px', height: '74px'}}>
-                <div>
-                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" />
-                  <h4 className="ice-title singleline">Полтавський бізнес-коледж</h4>
-                </div>
-              </li>
-              <li style={{width: '322px', height: '74px'}}>
-                <div>
-                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" />
-                  <h4 className="ice-title doubleline">Менеджмент безпеки підприємницької діяльності</h4>
-                </div>
-              </li>
-              <li style={{width: '322px', height: '74px'}}>
-                <div>
-                  <img width="88" height="50" style={{ objectFit: 'cover' }} src="/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" />
-                  <h4 className="ice-title singleline">Військова кафедра</h4>
-                </div>
-              </li>
+              {TEASERS.map((t) => <NavItem {...t} />)}
             </ul>
           </div>
         </div>
         <div className="ice-main-wapper">
-          <div className="ice-main-item item1" style={{display: 'block'}}>
-            <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/9-home/teaser/74-i" title="Вступ 2020">
-                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/vstup.jpg" title="Вступ 2020" alt="Вступ 2020" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/74-i">
-                <h3 className="ice-title dashed gold">
-                  Вступ 2020
-                </h3>
-                <p>Вступ 2020</p>
-                <span className="ice-readmore">
-                  Дізнатися&nbsp;більше</span>
-              </a>
-            </div>
-          </div>
-          <div className="ice-main-item item2">
-            <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc" title="Вступ без ЗНО">
-                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc">
-                <h3 className="ice-title dashed gold">
-                  Вступ без ЗНО
-                </h3>
-                <p>Вступ без ЗНО</p>
-                <span className="ice-readmore">
-                  Дізнатися&nbsp;більше</span>
-              </a>
-            </div>
-          </div>
-          <div className="ice-main-item item3">
-            <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/9-home/teaser/33-business-college" title="Полтавський бізнес-коледж">
-                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/business-college.jpg" title="Полтавський бізнес-коледж" alt="Полтавський бізнес-коледж" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/33-business-college">
-                <h3 className="ice-title dashed gold">
-                  Полтавський бізнес-коледж
-                </h3>
-                <p>Запрошуємо на навчання випускників 9-х, 11-х класів до бізнес-коледжу із зарахування на III курс ПІБ МНТУ після закінчення</p>
-                <span className="ice-readmore">
-                  Дізнатися&nbsp;більше</span>
-              </a>
-            </div>
-          </div>
-          <div className="ice-main-item item4">
-            <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/9-home/teaser/32-spec-management" title="Менеджмент безпеки підприємницької діяльності">
-                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/spec-management-sob.jpg" title="Менеджмент безпеки підприємницької діяльності" alt="Менеджмент безпеки підприємницької діяльності" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/32-spec-management">
-                <h3 className="ice-title dashed gold">
-                  Менеджмент безпеки підприємницької діяльності
-                </h3>
-                <p>Унікальна спеціалізація для тих, кто дбає про безпеку</p>
-                <span className="ice-readmore">
-                  Дізнатися&nbsp;більше</span>
-              </a>
-            </div>
-          </div>
-          <div className="ice-main-item item5">
-            <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/9-home/teaser/35-military" title="Військова кафедра">
-                <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/military.jpg" title="Військова кафедра" alt="Військова кафедра" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/9-home/teaser/35-military">
-                <h3 className="ice-title dashed gold">
-                  Військова кафедра
-                </h3>
-                <p>Для студентів денної форми навчання ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації із присвоєнням військового звання <span className="bold">молодший лейтенант запасу</span> після закінчення.</p>
-                <span className="ice-readmore">
-                  Дізнатися&nbsp;більше</span>
-              </a>
-            </div>
-          </div>
+          {TEASERS.map((t, i) => <Item {...t} style={i === 0 ? {display: 'block'} : undefined} />)}
         </div>
       </div>
     </div>
