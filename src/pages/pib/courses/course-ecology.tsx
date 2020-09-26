@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Екологія"
 
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 import ReadyBanner from 'components/ReadyBanner'
 import ReadyBanner2 from 'components/ReadyBanner2'
 

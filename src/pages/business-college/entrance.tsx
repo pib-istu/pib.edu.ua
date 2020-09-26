@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Вступ до коледжу"
 
 import React, { useEffect } from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 
 declare var jQuery: any
 

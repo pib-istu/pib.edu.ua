@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Ліцензування спеціальності «Фізична терапія»"
 
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 
 export default () => {
   return (

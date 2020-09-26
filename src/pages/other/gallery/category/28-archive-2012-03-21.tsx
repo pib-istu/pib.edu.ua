@@ -1,6 +1,6 @@
 import React from 'react'
 import { Head } from 'react-static'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 import GalleryLegacyStyles from 'components/GalleryLegacyStyles'
 
 export default () => {

@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Конференція 2016 «Актуальні проблеми розвитку сучасної науки»"
 
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 import GalleryLegacyStyles from 'components/GalleryLegacyStyles'
 
 export default () => {

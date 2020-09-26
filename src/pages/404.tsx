@@ -1,5 +1,5 @@
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 
 export default () => (
   <WithSidebar shouldShowSidebar={false}>

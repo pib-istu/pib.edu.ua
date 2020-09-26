@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Чемпіонат з міні-футболу на кубок ректора Полтавського інституту бізнесу 2016"
 
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 import GalleryLegacyStyles from 'components/GalleryLegacyStyles'
 
 export default () => {

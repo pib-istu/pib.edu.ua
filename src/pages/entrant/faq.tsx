@@ -1,4 +1,4 @@
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Часто запитують"
 
 import React from 'react'

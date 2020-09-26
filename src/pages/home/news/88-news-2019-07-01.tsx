@@ -1,7 +1,7 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Висновок експертної комісії щодо акредитації за освітньо-кваліфікаційним рівнем «молодший спеціаліст» за програмою «Фізичне виховання та реабілітація»"
 
 import React from 'react'
-import { WithSidebar } from 'components/Layout'
+import { WithSidebar } from 'components/WithSidebar'
 
 export default () => {
   return (
