@@ -13,9 +13,29 @@ export default () => {
       </div>
 
       <p>Дякуємо за вибір ПІБ МНТУ!</p>
-      <p>Будь ласка, залиште Ваш контактні данні і ми зв'яжемося з Вами в найближчий час!</p>
+      <p>Для того, щоб подати заявку на вступ, будь ласка, зв'яжіться з нами зручним для вас способом:</p>
 
-      <form action="https://pib.edu.ua/entrant/apply?chronoform=Contact_apply&event=submit" name="Contact_apply" id="chronoform_Contact_apply" method="post" className="Chronoform hasValidation">
+      <br />
+      <br />
+
+      <div className="center">
+        <p>
+          <a href="mailto:info@pib.edu.ua?subject=Заявка%20на%20вступ" className="highlight gold" style={{ display: 'inline-block', padding: '20px'}} target="_blank">
+            Написати листа
+          </a>
+        </p>
+
+        <p>
+          Або зателефонуйте нам за номером{' '}
+          <span className="orange bold">
+            (0532) 50-81-78
+          </span>
+        </p>
+      </div>
+
+
+
+      {/* <form action="https://pib.edu.ua/entrant/apply?chronoform=Contact_apply&event=submit" name="Contact_apply" id="chronoform_Contact_apply" method="post" className="Chronoform hasValidation">
         <div className="ccms_form_element cfdiv_text" id="input_admin_name_container_div" style={{}}>
           <label htmlFor="input_admin_name">Ім'я:</label><input id="input_admin_name" maxLength={40} size={40} className="validate[\'required\']" type="text" defaultValue="" name="input_admin_name" />
           <div className="clear" />
@@ -50,7 +70,7 @@ export default () => {
           <div id="error-message-input_admin_submit" />
         </div>
         <input type="hidden" name="6b051dd6742fbf5be3d5122b320e8a36" defaultValue={1} />
-      </form>
+      </form> */}
     </WithSidebar>
   )
 }
