@@ -5,7 +5,9 @@ export default () => {
     <div id="front_news_wrapper">
       <div className="slot1">
         <div className="header">
-          <span className="text">Останні новини</span><a className="rss" href="/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw" title="Стрічка RSS">Стрічка RSS</a><span className="all"><a className="link" href="/home/news">архів новин</a></span>
+          <span className="text">Останні новини</span>
+          {/* <a className="rss" href="/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw" title="Стрічка RSS">Стрічка RSS</a> */}
+          <span className="all"><a className="link" href="/home/news">архів новин</a></span>
         </div>
         <div className="content">
           <ul>
@@ -35,7 +37,7 @@ export default () => {
 
       <div className="slot2">
         <div className="header">
-          <span className="text">Найближчі події</span><span className="all"><a className="link" href="/home/events">всі події</a></span>
+          <span className="text">Найближчі події</span><span className="all"><a className="link" href="/home/events">архів подій</a></span>
         </div>
         <div className="content">
           <ul>

@@ -110,7 +110,7 @@ export default () => {
       </div>
       <ul id="pib-buttons-bottom">
         <li className="item1 float-left">
-          <a href="/pib/business-college" className="unline block">
+          <a href="/business-college/about" className="unline block">
             <span className="title">Полтавський бізнес-коледж</span>
             <span className="desc block">ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації Національного</span>
           </a>

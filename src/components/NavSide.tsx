@@ -234,11 +234,11 @@ export default () => {
         </NavSection>
         </Loc>
 
-        <Loc match='/sitemap'>
+        {/* <Loc match='/sitemap'>
         <NavSection match='/sitemap' id="item-106" className="lvl1 deeper parent">
           <NavItemLink id="item-107" to="/sitemap">Мапа сайту</NavItemLink>
         </NavSection>
-        </Loc>
+        </Loc> */}
       </ul>
     </div>
   )

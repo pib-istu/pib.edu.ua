@@ -77,7 +77,7 @@ export default () => {
             © 2000-2017
           </div>
           <ul className="menu" id="footer_menu">
-            <li className="item-164"><a href="/sitemap">Мапа сайту</a></li>
+            <li className="item-164"><a href="/">Головна</a></li>
             <li className="item-165"><a href="/pib/benefits">Чому ПІБ МНТУ</a></li>
             <li className="item-172"><a href="/entrant/entrance">Вступ</a></li>
             <li className="item-167"><a href="/home/news">Останні новини</a></li>

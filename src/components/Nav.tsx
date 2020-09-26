@@ -252,7 +252,7 @@ export default () => {
           </ul>
         </NavItem>
 
-        <NavItemLink id="iceMenu_107" className="iceMenuLiLevel_1" to="/sitemap" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Мапа сайту</NavItemLink>
+        {/* <NavItemLink id="iceMenu_107" className="iceMenuLiLevel_1" to="/sitemap" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Мапа сайту</NavItemLink> */}
       </ul>
     </div>
   )
