@@ -6,23 +6,25 @@ declare var Fx: any
 
 export default () => {
   useEffect(() => {
-    const _lofmain = $('icetabs92');
-    const object = new IceSlideShow(_lofmain.getElement('.ice-main-wapper'),
-                    _lofmain.getElement('.ice-navigator-outer .ice-navigator'),
-                    _lofmain.getElement('.ice-navigator-outer'),
-                    {
-                      fxObject:{
-                      transition:Fx.Transitions.Sine.easeInOut,
-                      duration:700},
-                      mainItemSelector: 'div.ice-main-item',
-                      interval:8000,
-                      direction :'vrup',
-                      navItemHeight:74,
-                      navItemWidth:322,
-                      navItemsDisplay:5,
-                      navPos:'right'
-                    });
-        object.start(1, _lofmain.getElement('.preload'));
+    setTimeout(() => {
+      const _lofmain = $('icetabs92');
+      const object = new IceSlideShow(_lofmain.getElement('.ice-main-wapper'),
+                      _lofmain.getElement('.ice-navigator-outer .ice-navigator'),
+                      _lofmain.getElement('.ice-navigator-outer'),
+                      {
+                        fxObject:{
+                        transition:Fx.Transitions.Sine.easeInOut,
+                        duration:700},
+                        mainItemSelector: 'div.ice-main-item',
+                        interval:8000,
+                        direction :'vrup',
+                        navItemHeight:74,
+                        navItemWidth:322,
+                        navItemsDisplay:5,
+                        navPos:'right'
+                      });
+          object.start(1, _lofmain.getElement('.preload'));
+    }, 2_000);
   }, [])
 
   // Unused or legacy teasers
