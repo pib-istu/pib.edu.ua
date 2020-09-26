@@ -1,0 +1,31 @@
+#front_news_wrapper .content .text.news {
+	width: 257px;
+}
+#front_news_wrapper .content .text.events {
+	width: 256px;
+
+}
+#header_contact {
+	width: 225px;
+}
+#footer_upper .slot2 .content .text {
+	width: 257px;
+}
+
+#footer_upper .slot2 .content .text {
+	padding-bottom: 1px;
+}
+#footer_upper .slot2 .content .date {
+	width: 180px;
+	padding-bottom: 3px;
+}
+#footer_upper .slot2 .content .actions {
+	padding-bottom: 3px;
+}
+
+#footer_bottom .design .text {
+	float: left;
+}
+#footer_bottom a.secretland {
+	float: right;
+}

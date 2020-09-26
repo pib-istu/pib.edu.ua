@@ -1,0 +1,19 @@
+.env
+
+# IDE
+.vscode
+.idea
+
+# Build
+dist
+artifacts
+tmp
+
+# Misc
+*.orig
+.chg
+.orig
+.DS_Store
+.DS_Store?
+.conflict
+node_modules/

@@ -1,0 +1,309 @@
+
+/**
+ * IceTabs Module for Joomla 1.6 By IceTheme
+ *
+ *
+ * @copyright	Copyright (C) 2008 - 2011 IceTheme.com. All rights reserved.
+ * @license		GNU General Public License version 2
+ *
+ * @Website 	http://www.icetheme.com/Joomla-Extensions/icetabs.html
+ * @Support 	http://www.icetheme.com/Forums/IceTabs/
+ *
+ */
+
+.ice-tabs-black
+{
+	color:#ccc9c7!important;
+	position:relative;
+	border:0px;
+
+	width:auto;
+	height:auto;
+
+	background-image: url(../../../../../templates/pib/img/front_header_teaser_border.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.ice-tabs-black a
+{
+	color:#fff;
+	text-decoration: none;
+}
+.ice-tabs-black a:hover, .ice-tabs-black a:focus {
+	text-decoration: none;
+	color: #fbd291;
+}
+.ice-tabs-black li
+{
+	list-style-type:none!important;
+}
+/* main flash */
+.ice-tabs-black .ice-main-wapper
+{
+	overflow:hidden;
+	position:absolute;
+	height:354px;
+	width:615px;
+	margin: 8px 0px 8px 8px
+}
+.ice-tabs-black .ice-main-wapper .ice-main-item
+{
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.ice-tabs-black .ice-main-wapper .ice-main-item h3.ice-title {
+	margin: 0 0 8px;
+	padding: 0 0 8px;
+	line-height: 15px;
+}
+.ice-tabs-black .ice-main-wapper .ice-main-item .ice-description
+{
+	padding:0px;
+}
+.ice-tabs-black .ice-main-wapper .ice-main-item .ice-description img
+{
+	position:absolute;
+	left:0;
+	top:0px;
+}
+.ice-tabs-black .ice-main-wapper .ice-main-item .ice-description-inside {
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
+	width: 320px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 2px solid #00ADFF;
+	color: #ccc9c7;
+	background: rgba(0, 0, 0, 0.800);
+	text-align: center;
+}
+	.ice-tabs-black .ice-main-wapper .ice-main-item .ice-description-inside:hover, .ice-tabs-black .ice-main-wapper .ice-main-item .ice-description-inside:focus {
+		border-top: 2px solid #ECB831;
+		background: rgba(0, 0, 0, 0.850);
+	}
+	.ice-tabs-black .ice-main-wapper .ice-main-item .ice-description-inside p  {
+		text-align: left;
+		padding: 0 0 6px;
+	}
+	.ice-tabs-black .ice-description-inside .ice-readmore {
+		font-weight: bold;
+		font-size: 14px;
+		text-decoration: none;
+		background: url(../../../../../templates/pib/img/arrow_white_14px.png);
+		background-repeat: no-repeat;
+		background-position: right 7px;
+		padding-right: 10px;
+		color: #FFF;
+	}
+		.ice-tabs-black .ice-description-inside:hover .ice-readmore, .ice-tabs-black .ice-description-inside:focus .ice-readmore {
+			color: #fbd291;
+		}
+
+/* item navigator */
+.ice-tabs-black .ice-navigator-wrapper
+{
+	position:relative;
+}
+.ice-tabs-black .ice-navigator-outer
+{
+	position:absolute;
+	right:0;
+	top:0px;
+	z-index:3;
+	height:300px;
+	width:310px;
+	overflow:hidden;
+	background-image: url(../../../../../templates/pib/img/front_header_teaser_border_right.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.ice-tabs-black  ul.ice-navigator
+{
+	top:0;
+	padding:0;
+	margin:0;
+	position:absolute;
+	width:100%;
+}
+.ice-tabs-black  ul.ice-navigator li
+{
+	cursor:hand;
+	cursor:pointer;
+	list-style:none!important;
+	width:100%;
+	padding:0!important;
+	margin:0!important;
+}
+.ice-tabs-black  ul.ice-navigator li:hover, .ice-tabs-black  ul.ice-navigator li:focus
+{
+	background-image: url(../../../../../templates/pib/img/b/h/front_header_teaser_button.jpg);
+}
+.ice-tabs-black  ul.ice-navigator li div
+{
+	padding: 12px 10px 0px 25px;
+
+}
+.ice-tabs-black .ice-navigator li .ice-title
+{
+	 font-size: 14px;
+	 color:#bed5e9;
+	 font-weight: normal;
+	 margin:0!important;
+
+}
+	.ice-tabs-black .ice-navigator li .ice-title.doubleline
+	{
+		 padding-top: 6px;
+	}
+		.ice-tabs-black .ice-navigator li .ice-title.singleline
+	{
+		 padding-top: 15px;
+	}
+.ice-tabs-black .ice-navigator li.active .ice-title
+{
+	 color:#FFF;
+}
+
+.ice-tabs-black .ice-navigator li div img
+{
+	float:left;
+	margin:0 11px 0px 0;
+}
+.ice-tabs-black .ice-navigator li.active
+{
+	background-image: url(../../../../../templates/pib/img/b/front_header_teaser_button.jpg);
+}
+.ice-tabs-black  ul.ice-navigator li.active:hover, .ice-tabs-black  ul.ice-navigator li.active:focus
+{
+	background-image: url(../../../../../templates/pib/img/b/front_header_teaser_button.jpg);
+}
+
+
+/**
+ * BUTTONS CONTROL
+ */
+.ice-tabs-black .ice-buttons-control
+{
+	position:absolute;
+	top:0px;
+	right:10px;
+	padding:3px 20px;
+	background:url(arrow_bg.png) no-repeat;
+	height:19px;
+	width:30px
+}
+.ice-tabs-black .ice-next,
+.ice-tabs-black .ice-previous
+{
+	background:url(arrows.png) no-repeat;
+	width:10px;
+	height:10px;
+	text-indent:-9999em;
+	position:relative;
+	z-index:10;
+	margin:0px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.ice-tabs-black .ice-next
+{
+	background-position:0 0;
+	float:right;
+}
+.ice-tabs-black .ice-previous
+{
+	background-position:0 -20px;
+	float:left;
+}
+.ice-tabs-black .ice-next:hover
+{
+	background-position:0 -10px;
+}
+.ice-tabs-black .ice-previous:hover
+{
+	background-position:0 -30px;
+}
+/*
+ * css for override move the main wapper to the right side
+ */
+ /* RIGHT ALIGMENT */
+.ice-right-sl-black .ice-navigator-wrapper { float:right; }
+.ice-right-sl-black .ice-main-wapper		  { margin-right:inherit; float:right }
+.ice-right-sl-black .ice-navigator-outer   { position:relative }
+ /* LEFT ALIGMENT */
+.ice-left-sl-black .ice-navigator-wrapper { float:left; }
+.ice-left-sl-black .ice-main-wapper		 { margin-left:auto; margin-right:inherit; float:left }
+.ice-left-sl-black .ice-navigator-outer	 { position:relative }
+.ice-left-sl-black .ice-navigator li.active { background-image:url(current_tab_l.png); background-position:center right;}
+
+ /* TOP, BOTTOm ALIGMENT */
+.ice-top-sl-black .ice-main-wapper ,  .ice-bottom-sl-black .ice-main-wapper  { position:relative!important;}
+.ice-top-sl-black .ice-navigator-outer,  .ice-bottom-sl-black .ice-navigator-outer{ position:relative; float:left }
+.ice-top-sl-black .ice-navigator, 	    .ice-bottom-sl-black .ice-navigator 		{ width:9999em !important }
+.ice-top-sl-black .ice-navigator li,     .ice-bottom-sl-black .ice-navigator li 	{ display:block; float:left; border-bottom:none; border-right:1px solid #777; }
+/* Top Aligment */
+.ice-top-sl-black .ice-navigator li.active { background-image:url(current_tab_t.png); background-position:center bottom;}
+.ice-top-sl-black .ice-buttons-control { background-image:url(arrow_bg_t.png); top:auto; bottom:0; padding-top:12px; height:10px}
+/* Bottom Aligment */
+.ice-bottom-sl-black .ice-navigator li.active { background-image:url(current_tab_b.png); background-position:center top;}
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after,  .container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;}
+
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+
+/* VirtueMart Mode */
+.ice-vmimagearea
+{
+	float:left;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.ice-addtocart
+{
+	clear:left;
+}
+.ice-vmimagearea img
+{
+	padding-bottom:2em;
+}
+.ice-vmproductdesc
+{
+	float:left;
+	padding-left:15px;
+	text-align:left;
+}
+.ice-vmproductdesc ul
+{
+	margin:0;
+	padding:0;
+}
+.addtocart_button_module
+{
+	cursor:pointer;
+}
+.clearfix { display: block; }

@@ -1,0 +1,53 @@
+/**
+ * IceTabs Module for Joomla 1.6 By IceTheme
+ * 
+ * 
+ * @copyright	Copyright (C) 2008 - 2011 IceTheme.com. All rights reserved.
+ * @license		GNU General Public License version 2
+ * 
+ * @Website 	http://www.icetheme.com/Joomla-Extensions/icetabs.html
+ * @Support 	http://www.icetheme.com/Forums/IceTabs/
+ *
+ */
+ 
+ 
+.ice-tabs-white { 
+	position:relative;
+	padding-top: 25px;
+
+	width:auto; 
+	height:auto;}
+	
+	.ice-tabs-white li {
+		list-style-type:none!important;	}
+	
+		
+/* main flash */
+.ice-tabs-white .ice-main-wapper{ 
+	}
+	
+	.ice-tabs-white .ice-main-wapper .ice-main-item1 { 
+		overflow:hidden;
+		padding:0px;
+		margin:0px; 
+		height:235px;
+		width:100%;}
+		
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after,  .container:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;}
+
+.clearfix { display: inline-block; }   
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
