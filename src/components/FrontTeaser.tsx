@@ -25,21 +25,22 @@ interface ItemProps extends React.HTMLAttributes<HTMLDivElement> {
   url: string
   heading: string
   imageSrc: string
+  target?: string
 }
 
-const Item: FC<ItemProps> = ({ url, imageSrc, heading, children, ...props }) => {
+const Item: FC<ItemProps> = ({ url, imageSrc, heading, target, children, ...props }) => {
   return (
     <div className="ice-main-item" {...props}>
       <div className="ice-description">
         <a
           className="ice-readmore"
-          target="_parent"
+          target={target}
           href={url}
           title={heading}
         >
           <img width="615" height="353" style={{ objectFit: 'cover' }} src={imageSrc} alt="" />
         </a>
-        <a className="ice-description-inside block center" target="_parent" href={url}>
+        <a className="ice-description-inside block center" target={target} href={url}>
           <h3 className="ice-title dashed gold">{heading}</h3>
           {children}
           <span className="ice-readmore">Дізнатися&nbsp;більше</span>
@@ -51,33 +52,53 @@ const Item: FC<ItemProps> = ({ url, imageSrc, heading, children, ...props }) => 
 
 const TEASERS = [
   {
-    heading: "Вступ 2020",
-    url: "/9-home/teaser/74-i",
+    heading: "Графік вступу 2020",
+    url: "/images/teasers/vstup.jpg",
+    target: '_blank',
     imageSrc: "/images/teasers/vstup.jpg",
-    children: <p>Вступ 2020</p>,
+    children: null,
   },
+  // Вступ без ЗНО
+  // <img src="images/teasers/without-oir.jpg" border="0" alt="" />
+  // <p>Можливість вступу без ЗНО для випускників середніх загальноосвітніх навчальних закладів</p>
   {
     heading: "Вступ без ЗНО",
     url: "/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc",
+    target: '_blank',
     imageSrc: "/images/teasers/1.jpg",
-    children: <p>Вступ без ЗНО</p>,
+    children: <p>Перелік спеціальностей та умов за яких можливий вступ без ЗНО</p>,
   },
   {
     heading: "Полтавський бізнес-коледж",
-    url: "/9-home/teaser/33-business-college",
+    url: "/business-college/about",
     imageSrc: "/images/teasers/business-college.jpg",
     children: <p>Запрошуємо на навчання випускників 9-х, 11-х класів до бізнес-коледжу із зарахування на III курс ПІБ МНТУ після закінчення</p>,
   },
   {
-    heading: "Менеджмент безпеки підприємницької діяльності",
-    url: "/9-home/teaser/32-spec-management",
-    imageSrc: "/images/teasers/spec-management-sob.jpg",
-    children: <p>Унікальна спеціалізація для тих, кто дбає про безпеку</p>,
+    heading: "Юридична клініка",
+    url: "/other/juridical-help",
+    imageSrc: "images/teasers/juridical-help.jpg",
+    children: <>
+      <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою?</p>
+      <p>Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
+    </>,
     shouldUseSingleLine: false,
   },
+
+  // {
+  //   heading: "Менеджмент безпеки підприємницької діяльності",
+  //   url: "/9-home/teaser/32-spec-management",
+  //   imageSrc: "/images/teasers/spec-management-sob.jpg",
+  //   children: <p>Унікальна спеціалізація для тих, кто дбає про безпеку</p>,
+  //   shouldUseSingleLine: false,
+  // },
+
+  // Унікальна спеціалізація: юрист релігійної сфери
+  // <img src="images/teasers/spec-rel.jpg" border="0" alt="" />
+  // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
   {
     heading: "Військова кафедра",
-    url: "/9-home/teaser/35-military",
+    url: "/pib/military",
     imageSrc: "/images/teasers/military.jpg",
     children: <p>Для студентів денної форми навчання ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації із присвоєнням військового звання <span className="bold">молодший лейтенант запасу</span> після закінчення.</p>,
   }
@@ -105,29 +126,6 @@ export default () => {
           object.start(1, _lofmain.getElement('.preload'));
     }, 2_000);
   }, [])
-
-  // Unused or legacy teasers
-
-  // Нова пропозиція – можливість вступу без ЗНО!
-  // <p>Запрошуємо випускників середніх загальноосвітніх навчальних закладів 2008-2013 років на програму професійної підготовки,
-  // яка не вимагає проходження зовнішнього незалежного оцінювання якості знань, тобто дозволяє здобути вищу освіту <span class="red"><b>без сертифікату ЗНО</b>!</span> </p>
-  //   <br />
-  //   <br />
-  //   <br />
-  //   <div class="center"><span class="highlight" style="padding:20px;"><a href="/entrant/apply-without-iee" class="gold unbold" style="padding:20px;">Подробиці</a></span></div>
-  // </div>
-
-  // Юридична клініка
-  // <img src="images/teasers/juridical-help.jpg" border="0" alt="" />
-  // <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою?</p><p>Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
-
-  // Унікальна спеціалізація: юрист релігійної сфери
-  // <img src="images/teasers/spec-rel.jpg" border="0" alt="" />
-  // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
-
-  // Вступ без ЗНО
-  // <img src="images/teasers/without-oir.jpg" border="0" alt="" />
-  // <p>Можливість вступу без ЗНО для випускників середніх загальноосвітніх навчальних закладів</p>
 
   return (
     <div id="front_header_teaser">
