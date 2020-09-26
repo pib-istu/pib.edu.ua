@@ -50,7 +50,6 @@ export default {
         <link rel="stylesheet" href="/modules/mod_phocagallery_image/css/phocagallery_module_image.css" />
         <link rel="stylesheet" href="/media/system/css/modal.css" />
         <link rel="stylesheet" href="/modules/mod_ice_newsblock/assets/style.css" />
-        {/* <link rel="stylesheet" href="/plugins/content/mavikthumbnails/slimbox-mt1.2/css/slimbox.css" /> */}
         <link rel="stylesheet" href="/components/com_phocagallery/assets/phocagallery.css" />
         <link rel="stylesheet" href="/modules/mod_icemegamenu/themes/css3/css/css3_icemegamenu.css" />
 
@@ -83,7 +82,6 @@ export default {
         `} />
 
         <script src="/components/com_phocagallery/assets/js/shadowbox/shadowbox.js" ></script>
-        {/* <script src="/plugins/content/mavikthumbnails/slimbox-mt1.2/js/slimbox.js" ></script> */}
         <script src="/components/com_phocagallery/assets/overlib/overlib_mini.js" ></script>
         <script src="/modules/mod_icetabs/assets/script_16.js" ></script>
         <Script html={`

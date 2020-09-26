@@ -152,7 +152,7 @@ export default () => {
                   <NavItemLink id="item-155" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank">Умови прийому МОН</NavItemLink>
                   <NavItemLink id="item-183" to="/media/docs/ПП ПІБ зі змінами 2020 (2).pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="item-233" to="/media/docs/dod3.pdf?v1" target="_blank">Перелік конкурсних предметів ПІБ 2020</NavItemLink>
-                  <NavItemLink id="item-236" to="/media/docs/ПП ПІБ зі змінами 2020 (2).pdf" target="_blank">Перелік документiв для вступу ПІБ 2020</NavItemLink>
+                  {/* <NavItemLink id="item-236" to="/media/docs/ПП ПІБ зі змінами 2020 (2).pdf" target="_blank">Перелік документiв для вступу ПІБ 2020</NavItemLink> */}
                   <NavItemLink id="item-251" to="/media/docs/Рекомендові списки Денна.pdf" target="_blank">Список рекомендованих від 07.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
                   <NavItemLink id="item-252" to="/media/docs/Рекомендовані списки Заочна.pdf" target="_blank">Список рекомендованих від 07.09.2020 (071 Облiк i оподаткування)</NavItemLink>
                 </ul>

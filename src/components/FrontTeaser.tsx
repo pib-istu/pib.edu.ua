@@ -104,9 +104,9 @@ export default () => {
           </div>
           <div className="ice-main-item item2" style={{top: '0px', height: '354px', display: 'block'}}>
             <div className="ice-description">
-              <a className="ice-readmore" target="_parent" href="/images/teasers/%D0%A4%D0%9F%D0%91%D0%9A%20%D0%92%D0%A1%D0%A2%D0%A3%D0%9F%20%D0%91%D0%95%D0%97%20%20%D0%97%D0%9D%D0%9E.doc" title="Вступ без ЗНО">
+              <a className="ice-readmore" target="_parent" href="/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc" title="Вступ без ЗНО">
                 <img width="615" height="353" style={{ objectFit: 'cover' }} src="/images/teasers/1.jpg" title="Вступ без ЗНО" alt="Вступ без ЗНО" /> </a>
-              <a className="ice-description-inside block center" target="_parent" href="/images/teasers/%D0%A4%D0%9F%D0%91%D0%9A%20%D0%92%D0%A1%D0%A2%D0%A3%D0%9F%20%D0%91%D0%95%D0%97%20%20%D0%97%D0%9D%D0%9E.doc">
+              <a className="ice-description-inside block center" target="_parent" href="/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc">
                 <h3 className="ice-title dashed gold">
                   Вступ без ЗНО
                 </h3>
