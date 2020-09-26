@@ -3,9 +3,7 @@ import HeaderPseudo from './HeaderPseudo'
 import Header from './Header'
 import Nav from './Nav'
 
-interface Props {
-  readonly path?: string
-}
+interface Props {}
 
 const OtherHeader: FC<Props> = () => {
   return (
