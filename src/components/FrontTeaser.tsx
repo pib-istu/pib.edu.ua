@@ -25,6 +25,29 @@ export default () => {
         object.start(1, _lofmain.getElement('.preload'));
   }, [])
 
+  // Unused or legacy teasers
+
+  // Нова пропозиція – можливість вступу без ЗНО!
+  // <p>Запрошуємо випускників середніх загальноосвітніх навчальних закладів 2008-2013 років на програму професійної підготовки,
+  // яка не вимагає проходження зовнішнього незалежного оцінювання якості знань, тобто дозволяє здобути вищу освіту <span class="red"><b>без сертифікату ЗНО</b>!</span> </p>
+  //   <br />
+  //   <br />
+  //   <br />
+  //   <div class="center"><span class="highlight" style="padding:20px;"><a href="/entrant/apply-without-iee" class="gold unbold" style="padding:20px;">Подробиці</a></span></div>
+  // </div>
+
+  // Юридична клініка
+  // <img src="images/teasers/juridical-help.jpg" border="0" alt="" />
+  // <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою?</p><p>Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
+
+  // Унікальна спеціалізація: юрист релігійної сфери
+  // <img src="images/teasers/spec-rel.jpg" border="0" alt="" />
+  // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
+
+  // Вступ без ЗНО
+  // <img src="images/teasers/without-oir.jpg" border="0" alt="" />
+  // <p>Можливість вступу без ЗНО для випускників середніх загальноосвітніх навчальних закладів</p>
+
   return (
     <div id="front_header_teaser">
       <div id="icetabs92" className="ice-tabs-black ice-right-sl-black clearfix" style={{height: '370px', width: 'auto'}}>
