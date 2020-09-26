@@ -88,53 +88,6 @@ const Layout: FC = ({ children }) => {
       </Router>
 
       <Footer />
-
-      <div id="lbOverlay" style={{display: 'none'}} />
-
-      <div id="lbCenter" style={{display: 'none'}}>
-        <div id="lbImage">
-          <div style={{position: 'relative'}}><a id="lbPrevLink" href="#" /><a id="lbNextLink" href="#" /></div>
-        </div>
-      </div>
-
-      <div id="lbBottomContainer" style={{display: 'none'}}>
-        <div id="lbBottom">
-          <a id="lbCloseLink" href="#" />
-          <div id="lbCaption" />
-          <div id="lbNumber" />
-          <div style={{clear: 'both'}} />
-        </div>
-      </div>
-
-      <div id="sbox-overlay" aria-hidden={true} tabIndex={-1} style={{zIndex: 65555, opacity: 0}} />
-
-      <div id="sbox-window" role="dialog" aria-hidden={true} className="shadow" style={{zIndex: 65557}}>
-        <div id="sbox-content" style={{opacity: 0}} />
-        <a id="sbox-btn-close" href="#" role="button" aria-controls="sbox-window" />
-      </div>
-
-      <div id="shadowbox_container">
-        <div id="shadowbox_overlay" />
-        <div id="shadowbox">
-          <div id="shadowbox_title">
-            <div id="shadowbox_title_inner" />
-          </div>
-          <div id="shadowbox_body">
-            <div id="shadowbox_body_inner" />
-            <div id="shadowbox_loading">
-              <div id="shadowbox_loading_indicator" />
-              <span><a onClick={() => (window as any).Shadowbox.close()}>Cancel</a></span>
-            </div>
-          </div>
-          <div id="shadowbox_info">
-            <div id="shadowbox_info_inner">
-              <div id="shadowbox_counter" />
-              <div id="shadowbox_nav"><a id="shadowbox_nav_close" title="Close" onClick={() => (window as any).Shadowbox.close()} /><a id="shadowbox_nav_next" title="Next" onClick={() => (window as any).Shadowbox.next()} /><a id="shadowbox_nav_play" title="Play" onClick={() => (window as any).Shadowbox.play()} /><a id="shadowbox_nav_pause" title="Pause" onClick={() => (window as any).Shadowbox.pause()} /><a id="shadowbox_nav_previous" title="Previous" onClick={() => (window as any).Shadowbox.previous()} /></div>
-              <div className="shadowbox_clear" />
-            </div>
-          </div>
-        </div>
-      </div>
   </>
 )}
 

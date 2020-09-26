@@ -6,6 +6,13 @@ import React from 'react'
 export default () => {
   return (
     <WithSidebar shouldShowSidebar={true}>
+      {/* <link rel="stylesheet" href="/components/com_chronoforms/css/frontforms.css" />
+      <link rel="stylesheet" href="/components/com_chronoforms/css/formcheck/theme/red/formcheck.css" />
+      <link rel="stylesheet" href="/components/com_chronoforms/css/formcheck_fix.css" />
+      <script src="/components/com_chronoforms/js/formcheck/formcheck-yui.js"></script>
+      <script src="/components/com_chronoforms/js/formcheck/formcheck-max.js"></script>
+      <script src="/components/com_chronoforms/js/formcheck/lang/ru.js"></script> */}
+
       <div id="page-header">
         <h1 className="text">
           Подати заявку на вступ

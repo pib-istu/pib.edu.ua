@@ -313,20 +313,6 @@ table tr.second, table td.second {
 #header_pseudo a.schedule:hover, #header_pseudo a.schedule:focus {
 	background: url(../img/b/h/header_pseudo_schedule.png?v.1);
 }
-#header_pseudo a.schedule.pay_btn {
-	display: block;
-	width: 156px;
-	height: 58px;
-	background: url(../img/b/header_pb.png?v1);
-	text-indent: -9999px;
-	border: 0px;
-	float: left;
-	z-index: 999;
-	position: relative;
-}
-#header_pseudo a.schedule.pay_btn:hover, #header_pseudo a.schedule.pay_btn:focus {
-	background: url(../img/b/h/header_pb_h.png?v1);
-}
 
 .tooltip-box {
 	position: absolute;

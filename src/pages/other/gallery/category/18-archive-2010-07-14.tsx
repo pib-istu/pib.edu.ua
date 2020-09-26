@@ -1,6 +1,7 @@
 import React from 'react'
 import { Head } from 'react-static'
 import { WithSidebar } from 'components/Layout'
+import GalleryLegacyStyles from 'components/GalleryLegacyStyles'
 
 export default () => {
   return (
@@ -8,6 +9,7 @@ export default () => {
       <Head>
         <title>ПІБ МНТУ - Полтавський інститут Бізнесу - Фотоархів - День міста 2011</title>
       </Head>
+      <GalleryLegacyStyles />
 
       <div id="phocagallery" className="pg-category-view">
         <div id="page-header"><h1 className="text">Фотоархів - День міста 2011</h1></div><div id="pg-icons" /><div style={{clear: 'both'}} />

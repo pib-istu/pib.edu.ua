@@ -2,10 +2,13 @@
 
 import React from 'react'
 import { WithSidebar } from 'components/Layout'
+import GalleryLegacyStyles from 'components/GalleryLegacyStyles'
 
 export default () => {
   return (
     <WithSidebar shouldShowSidebar={true}>
+      <GalleryLegacyStyles />
+
       <div className="item-page_blog">
         <div className="blog-item-header">
           <div className="date">07.06.2016</div><h2> <a href="/home/news/81-news-2016-06-07">
@@ -19,8 +22,7 @@ export default () => {
         <p>Вітаємо переможців!</p>
         <div className="phocagallery">
           <div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -29,10 +31,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -41,10 +41,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -53,10 +51,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -65,10 +61,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -77,10 +71,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -89,10 +81,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -101,10 +91,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -113,10 +101,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -125,10 +111,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -137,10 +121,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -149,10 +131,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -161,10 +141,8 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div><div className="phocagallery-box-file pgplugin1" style={{height: '158px', width: '182px', margin: '0px', padding: '0px'}}>
-            <div style={{ textAlign: 'center' }}>
-              <div className="phocagallery-box-file-first" style={{background: 'transparent', height: '140px', width: '162px'}}>
+              <div className="phocagallery-box-file-first" style={{background: 'transparent',  margin: 'auto', height: '140px', width: '162px'}}>
                 <div className="phocagallery-box-file-second">
                   <div className="phocagallery-box-file-third">
                     <div style={{ textAlign: 'center' }}>
@@ -173,7 +151,6 @@ export default () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div></div><div style={{clear: 'both'}}> </div>
       </div>
     </WithSidebar>
