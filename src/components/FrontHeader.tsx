@@ -4,7 +4,9 @@ import Header from './Header'
 import Nav from './Nav'
 import FrontTeaser from './FrontTeaser'
 
-interface Props {}
+interface Props {
+  readonly path?: string
+}
 
 const FrontHeader: FC<Props> = () => {
   return (

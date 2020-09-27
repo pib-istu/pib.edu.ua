@@ -14,17 +14,10 @@ function App() {
     <Root>
       <React.Suspense fallback={<em>...</em>}>
         <Router>
-          <Routes
-            path="*"
-            render={({ routePath }) => {
-              const isIndex = routePath === '/'
-              return isIndex ? <FrontHeader /> : <OtherHeader />
-            }}
-          />
+           <FrontHeader path="/" />
+           <OtherHeader path="/*" />
         </Router>
-      </React.Suspense>
 
-      <React.Suspense fallback={<em>...</em>}>
         <Router>
           <Routes
             path="*"
@@ -48,15 +41,8 @@ function App() {
             }}
           />
         </Router>
-      </React.Suspense>
 
-      <React.Suspense fallback={<em>...</em>}>
-        <Router>
-          <Routes
-            path="*"
-            render={() => <Footer />}
-          />
-        </Router>
+        <Footer />
       </React.Suspense>
     </Root>
   )

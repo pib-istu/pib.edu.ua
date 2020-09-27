@@ -136,8 +136,14 @@ export default () => {
       }
     })
       .then((r) => r.json())
-      .then((r) => setFiles(r))
-      .catch((error) => console.error('Failed to fecth schedule files', error))
+      .then((r) => {
+        if (!r) {
+          console.error('Failed to fetch schedule files: null returned', r)
+        }
+
+        setFiles(r ?? [])
+      })
+      .catch((error) => console.error('Failed to fetch schedule files', error))
   }, [])
 
   return (
