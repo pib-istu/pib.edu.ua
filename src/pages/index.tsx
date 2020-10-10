@@ -45,20 +45,20 @@ export default () => {
       <div id="front_action">
         <div id="front_action_wrapper">
           <div className="slot1">
-            <a className="title" href="/pib#courses">Напрямки та спеціалізації</a> <a className="icon" href="/pib#courses" title="Ознайомитись з напрямками та спеціалізаціями ПІБ МНТУ">Ознайомитись з напрямками та спеціалізаціями ПІБ МНТУ</a>
-            <p>Пропонуємо <span className="bold">7 напрямів та спеціальностей</span>, за якими здійснюється підготовка фахівців у ПІБ МНТУ, серед яких є й <span className="bold italic">унікальні спеціалізації</span>.<br />Дізнайтесь більше:</p>
-            <a className="button" href="/pib#courses" title="Ознайомитись з напрямками та спеціалізаціями ПІБ МНТУ">Ознайомитись з напрямками та спеціалізаціями ПІБ МНТУ</a>
+            <a className="title" href="/pib#courses">Спеціальності</a> <span role="presentation" className="icon"></span>
+            <p>Пропонуємо <span className="bold">6 спеціальностей</span>, за якими здійснюється підготовка фахівців у ПІБ МНТУ</p>
+            <a className="button" href="/pib#courses">Ознайомитись</a>
           </div>
           <div className="slot2">
-            <a className="title" href="/other/juridical-help">Юридична допомога</a> <a className="icon" href="/other/juridical-help" title="Детальніше про юридичну допомогу">Детальніше про юридичну допомогу</a>
+            <a className="title" href="/other/juridical-help">Юридична допомога</a> <span role="presentation" className="icon"></span>
             <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою? Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
-            <a className="button" href="/other/juridical-help" title="Детальніше про юридичну допомогу">Детальніше про юридичну допомогу</a>
+            <a className="button" href="/other/juridical-help">Детальніше</a>
           </div>
           <div className="slot3">
             <a className="title" href="/entrant/apply">Бажаєш вчитися?</a><br className="clear-both" />
-            <a className="icon" href="/entrant/apply" title="Подати заявку на вступ до ПІБ МНТУ">Подати заявку на вступ до ПІБ МНТУ</a>
+            <a role="presentation"  className="icon">Подати заявку на вступ до ПІБ МНТУ</a>
             <p>Зацікавились ПІБ МНТУ?<br />Дякуємо за вибір нашого ВУЗу!<br />Розпочніть свій процес вступу до ПІБ МНТУ прямо зараз, в режимі онлайн:</p>
-            <a className="link" href="/entrant/entrance">Вступ до ПІБ МНТУ</a><span className="arrow">&nbsp;»</span><a className="button" href="/entrant/apply" title="Подати заявку на вступ до ПІБ МНТУ">Подати заявку на вступ до ПІБ МНТУ</a>
+            <a className="link" href="/entrant/entrance">Вступ до ПІБ МНТУ</a><span className="arrow">&nbsp;»</span><a className="button" href="/entrant/apply">Подати заявку на вступ</a>
           </div>
         </div>
       </div>

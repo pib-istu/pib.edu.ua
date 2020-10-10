@@ -36,7 +36,7 @@ export default () => {
         <div className="clear-both" />
         <ul id="contacts-other">
           <li className="item1 float-left">
-            <h2 className="dashed gold">Відділи ПІБ МНТУ:</h2>
+            <h2 className="dashed gold">Відділи ПІБ МНТУ</h2>
             <table width={388} style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
               <tbody><tr className="second">
                   <td className="td1">Приймальня ректора:</td>
@@ -65,7 +65,7 @@ export default () => {
               </tbody></table>
           </li>
           <li className="item2 float-left">
-            <h2 className="dashed gold">Години праці:</h2>
+            <h2 className="dashed gold">Години праці</h2>
             <table width={320} style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
               <tbody><tr className="second">
                   <td className="td1">Понеділок‑Четверг:</td>
@@ -83,7 +83,7 @@ export default () => {
             <p className="center"><span className="bold dim">Обідня перерва:</span> 12:00 <span className="dim">–</span> 13:00</p>
           </li>
           <li className="item3 float-left">
-            <a id="req" /><h2 className="dashed gold">Реквізити:</h2>
+            <a id="req" /><h2 className="dashed gold">Реквізити</h2>
             <table width={388} style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
               <tbody><tr className="second">
                   <td className="td1">Назва організації:</td>
@@ -105,12 +105,12 @@ export default () => {
             <p className="center">Дізнатися інші реквізити можливо в <span className="bold">бухгалтерії</span> за телефоном <span className="bold">50-81-04</span></p>
           </li>
           <li className="item4 float-left">
-            <h2 className="dashed gold">Ректор ПІБ МНТУ:</h2>
+            <h2 className="dashed gold">Ректор ПІБ МНТУ</h2>
             <p>Лавриненко Сергій Іванович<br />Контактний телефон: 50-81-78</p>
             <img src="/images/pib_rector_lsi.jpg" alt="Лавриненко Сергій Іванович" style={{maxWidth: '100%'}} />
           </li>
           <li className="item4 float-left" style={{paddingRight: '40px'}}>
-            <h2 className="dashed gold">Прийом платежів (для студентів інституту):</h2>
+            <h2 className="dashed gold">Прийом платежів (для студентів інституту)</h2>
             <p>Ви можете здійснити платіж за навчання в будь-якому філіалі банку <a href="https://online.ukrsibbank.com/ibank/" className="gold external" target="_blank">«Укрсиббанк»</a> або <a href="http://old.privatbank.ua/info/index1.stm?fileName=d6_6_1_1ar.html" className="gold external" target="_blank">«ПриватБанк»</a> за наступними реквізитами:</p>
             <table width={430} style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
               <tbody><tr className="second">
@@ -158,7 +158,7 @@ export default () => {
               </tbody></table>
           </li>
           <li className="item4 float-left">
-            <h2 className="dashed gold">Прийом платежів (для студентів колледжу):</h2>
+            <h2 className="dashed gold">Прийом платежів (для студентів колледжу)</h2>
             <p>Ви можете здійснити платіж за навчання в будь-якому філіалі банку <a href="https://online.ukrsibbank.com/ibank/" className="gold external" target="_blank">«Укрсиббанк»</a> або <a href="http://old.privatbank.ua/info/index1.stm?fileName=d6_6_1_1ar.html" className="gold external" target="_blank">«ПриватБанк»</a> за наступними реквізитами:</p>
             <table width={430} style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
               <tbody><tr className="second">
