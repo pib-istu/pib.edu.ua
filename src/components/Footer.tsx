@@ -84,8 +84,8 @@ export default () => {
             <li className="item-168"><a href="/entrant/faq">Часто запитують</a></li>
             <li className="item-166"><a href="/other/schedule">Розклад занять</a></li>
             <li className="item-170"><a href="/contact">Контакти</a></li>
-            <li className="item-171"><a href="/pib/license">Ліцензія та сертифікати</a></li>
-            <li className="item-169"><a href="/other/juridical-help">Юридична клініка</a></li>
+            <li className="item-171"><a href="/pib/public-info">Публічна інформація</a></li>
+            <li className="item-169"><a href="/other/gallery">Фотоархів</a></li>
           </ul>
         </div>
       </div>

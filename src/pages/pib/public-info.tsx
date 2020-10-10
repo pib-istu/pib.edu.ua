@@ -7,8 +7,7 @@ export default () => {
   return (
     <WithSidebar shouldShowSidebar={true}>
       <div id="page-header">
-        <h1 className="text">
-          Ліцензія та сертифікати </h1>
+        <h1 className="text">Публічна інформація</h1>
       </div>
       <div className="pib-license">
         <p>ПІБ МНТУ є відокремленим структурним підрозділом МНТУ, який має IV рівень акредитації.</p>

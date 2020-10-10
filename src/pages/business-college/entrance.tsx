@@ -180,8 +180,8 @@ export default () => {
                   </a>
                 </li>
                 <li className="item3 button-overlay float-left">
-                  <a href="/pib/license" className="block unline">
-                    <span className="title">Ліцензія та сертификати</span>
+                  <a href="/pib/public-info" className="block unline">
+                    <span className="title">Публічна інформація</span>
                   </a>
                 </li>
                 <li className="item4 button-overlay float-left">
@@ -350,8 +350,8 @@ export default () => {
                   </a>
                 </li>
                 <li className="item3 button-overlay float-left">
-                  <a href="/pib/license" className="block unline">
-                    <span className="title">Ліцензія та сертификати</span>
+                  <a href="/pib/public-info" className="block unline">
+                    <span className="title">Публічна інформація</span>
                   </a>
                 </li>
                 <li className="item4 button-overlay float-left">
@@ -543,8 +543,8 @@ export default () => {
                   </a>
                 </li>
                 <li className="item3 button-overlay float-left">
-                  <a href="/pib/license" className="block unline">
-                    <span className="title">Ліцензія та сертификати</span>
+                  <a href="/pib/public-info" className="block unline">
+                    <span className="title">Публічна інформація</span>
                   </a>
                 </li>
                 <li className="item4 button-overlay float-left">

@@ -97,32 +97,9 @@ export default () => {
               <div style={{float: 'left', width: '280px'}} className="iceCols">
                 <ul>
                   <li id="iceMenu_180" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
-                  <NavItem match='/pib/courses' id="iceMenu_140" className="iceMenuLiLevel_2 parent">
-                    <NavLink to="/pib" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Напрями та спеціалізації</span></NavLink>
-                    <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
-                      <li>
-                        <div style={{float: 'left', width: '280px'}} className="iceCols">
-                          <ul>
-                            <NavItemLink id="iceMenu_185" className="iceMenuLiLevel_3" to="/pib/courses/course-law" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Право</NavItemLink>
-                            <NavItemLink id="iceMenu_224" className="iceMenuLiLevel_3" to="/pib/courses/course-psychology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Психологія</NavItemLink>
-                            <NavItemLink id="iceMenu_226" className="iceMenuLiLevel_3" to="/pib/courses/course-petroleum-engineering-and-technology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Нафтогазова інженерія та технології</NavItemLink>
-                            <NavItemLink id="iceMenu_191" className="iceMenuLiLevel_3" to="/pib/courses/course-it" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Інженерія програмного забезпечення</NavItemLink>
-                            <NavItemLink id="iceMenu_223" className="iceMenuLiLevel_3" to="/pib/courses/course-radio-electronic" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Телекомунікації та радіотехніка</NavItemLink>
-                            <NavItemLink id="iceMenu_225" className="iceMenuLiLevel_3" to="/pib/courses/course-public-management-and-administration" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Публічне управління та адміністрування</NavItemLink>
-                            <NavItemLink id="iceMenu_187" className="iceMenuLiLevel_3" to="/pib/courses/course-health" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фізична терапія, ерготерапія</NavItemLink>
-                            <NavItemLink id="iceMenu_188" className="iceMenuLiLevel_3" to="/pib/courses/course-finance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фінанси, банківська справа та страхування</NavItemLink>
-                            <NavItemLink id="iceMenu_192" className="iceMenuLiLevel_3" to="/pib/courses/course-accountancy" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Облік і оподаткування</NavItemLink>
-                            <NavItemLink id="iceMenu_201" className="iceMenuLiLevel_3" to="/pib/courses/course-management" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Менеджмент</NavItemLink>
-                            <NavItemLink id="iceMenu_190" className="iceMenuLiLevel_3" to="/pib/courses/course-ecology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Екологія</NavItemLink>
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
-                  </NavItem>
-                  <NavItemLink id="iceMenu_147" className="iceMenuLiLevel_2" to="/pib/military" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Військова кафедра</NavItemLink>
                   <NavItemLink id="iceMenu_148" className="iceMenuLiLevel_2" to="/pib/about" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Про ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="iceMenu_149" className="iceMenuLiLevel_2" to="/pib/benefits" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Чому ПІБ МНТУ</NavItemLink>
-                  <NavItemLink id="iceMenu_151" className="iceMenuLiLevel_2" to="/pib/license" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Ліцензія та сертифікати</NavItemLink>
+                  <NavItemLink id="iceMenu_151" className="iceMenuLiLevel_2" to="/pib/public-info" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Публічна інформація</NavItemLink>
                   <li id="iceMenu_193" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                 </ul>
               </div>
@@ -131,12 +108,35 @@ export default () => {
         </NavItem>
 
         <NavItem match='/entrant' id="iceMenu_103" className="iceMenuLiLevel_1 parent">
-          <NavLink to="/entrant/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
+          <NavLink to="/entrant/courses" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
               <div style={{float: 'left', width: '280px'}} className="iceCols">
                 <ul>
                   <li id="iceMenu_181" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
+                  <NavItem match='/entrant/courses' id="iceMenu_140" className="iceMenuLiLevel_2 parent">
+                    <NavLink to="/entrant/courses" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Спеціальності</span></NavLink>
+                    <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
+                      <li>
+                        <div style={{float: 'left', width: '280px'}} className="iceCols">
+                          <ul>
+                            {/* <NavItemLink id="iceMenu_185" className="iceMenuLiLevel_3" to="/entrant/courses/course-law" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Право</NavItemLink> */}
+                            <NavItemLink id="iceMenu_224" className="iceMenuLiLevel_3" to="/entrant/courses/course-psychology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Психологія</NavItemLink>
+                            {/* <NavItemLink id="iceMenu_226" className="iceMenuLiLevel_3" to="/entrant/courses/course-petroleum-engineering-and-technology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Нафтогазова інженерія та технології</NavItemLink> */}
+                            <NavItemLink id="iceMenu_191" className="iceMenuLiLevel_3" to="/entrant/courses/course-it" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Інженерія програмного забезпечення</NavItemLink>
+                            {/* <NavItemLink id="iceMenu_223" className="iceMenuLiLevel_3" to="/entrant/courses/course-radio-electronic" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Телекомунікації та радіотехніка</NavItemLink> */}
+                            {/* <NavItemLink id="iceMenu_225" className="iceMenuLiLevel_3" to="/entrant/courses/course-public-management-and-administration" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Публічне управління та адміністрування</NavItemLink> */}
+                            <NavItemLink id="iceMenu_187" className="iceMenuLiLevel_3" to="/entrant/courses/course-health" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фізична терапія, ерготерапія</NavItemLink>
+                            <NavItemLink id="iceMenu_188" className="iceMenuLiLevel_3" to="/entrant/courses/course-finance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фінанси, банківська справа та страхування</NavItemLink>
+                            <NavItemLink id="iceMenu_192" className="iceMenuLiLevel_3" to="/entrant/courses/course-accountancy" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Облік і оподаткування</NavItemLink>
+                            <NavItemLink id="iceMenu_201" className="iceMenuLiLevel_3" to="/entrant/courses/course-management" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Менеджмент</NavItemLink>
+                            {/* <NavItemLink id="iceMenu_190" className="iceMenuLiLevel_3" to="/entrant/courses/course-ecology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Екологія</NavItemLink> */}
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </NavItem>
+                  <NavItemLink id="iceMenu_147" className="iceMenuLiLevel_2" to="/entrant/military" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Військова кафедра</NavItemLink>
                   <NavItem match='/entrant/entrance' id="iceMenu_152" className="iceMenuLiLevel_2 parent">
                     <NavLink to="/entrant/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Вступ до ПІБ МНТУ</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
@@ -155,8 +155,8 @@ export default () => {
                     </ul>
                   </NavItem>
                   <NavItemLink id="iceMenu_156" className="iceMenuLiLevel_2" to="/entrant/faq" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Часто запитують</NavItemLink>
-                  <NavItemLink id="iceMenu_175" className="iceMenuLiLevel_2" to="/entrant/list" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Рейтинговий список вступників</NavItemLink>
-                  <NavItemLink id="iceMenu_176" className="iceMenuLiLevel_2" to="/entrant/apply" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Подати заявку на вступ</NavItemLink>
+                  {/* <NavItemLink id="iceMenu_175" className="iceMenuLiLevel_2" to="/entrant/list" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Рейтинговий список вступників</NavItemLink> */}
+                  {/* <NavItemLink id="iceMenu_176" className="iceMenuLiLevel_2" to="/entrant/apply" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Подати заявку на вступ</NavItemLink> */}
                 </ul>
               </div>
             </li>
@@ -223,14 +223,14 @@ export default () => {
         </NavItem>
 
         <NavItem match='/other' id="iceMenu_104" className="iceMenuLiLevel_1 parent">
-          <a href="#" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Інше</span></a>
+          <a href="#" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Студенту</span></a>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
               <div style={{float: 'left', width: '280px'}} className="iceCols">
                 <ul>
                   <li id="iceMenu_182" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_174" className="iceMenuLiLevel_2" to="/other/schedule" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Розклад занять</NavItemLink>
-                  <NavItemLink id="iceMenu_158" className="iceMenuLiLevel_2" to="/other/juridical-help" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Юридична клініка</NavItemLink>
+                  {/* <NavItemLink id="iceMenu_158" className="iceMenuLiLevel_2" to="/other/juridical-help" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Юридична клініка</NavItemLink> */}
                   <NavItemLink id="iceMenu_157" className="iceMenuLiLevel_2" to="/other/gallery" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фотоархів</NavItemLink>
                   <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування</NavItemLink>
                 </ul>
