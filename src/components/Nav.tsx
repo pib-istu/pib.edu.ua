@@ -188,9 +188,7 @@ export default () => {
                       </li>
                     </ul>
                   </NavItem>
-                  <li id="iceMenu_173" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_220" className="iceMenuLiLevel_2" to="/business-college/about" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Про коледж</NavItemLink>
-                  <li id="iceMenu_221" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItem match='/business-college/entrance' id="iceMenu_219" className="iceMenuLiLevel_2 parent">
                     <NavLink to="/business-college/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Вступ до коледжу</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>

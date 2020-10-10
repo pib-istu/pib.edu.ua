@@ -184,9 +184,7 @@ export default () => {
                   </ul>
                 </Loc>
               </NavSection>
-              <li id="item-173"><span className="separator"> </span></li>
               <NavItemLink id="item-220" to="/business-college/about">Про коледж</NavItemLink>
-              <li id="item-221"><span className="separator"> </span></li>
               <NavSection match='/business-college/entrance' id="item-219" className="deeper parent">
                 <NavLink to="/business-college/entrance">Вступ до коледжу</NavLink>
                 <Loc match='/business-college/entrance'>

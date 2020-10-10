@@ -9,7 +9,7 @@ export default () => {
             <div className="wrapper">
               <div className="slot1">
                 <div className="header">
-                  <span className="text">Коротко про ПІБ МНТУ</span>
+                  <span className="text">Про ПІБ МНТУ</span>
                 </div>
                 <div className="content">
                   <p>Вищий навчальний заклад IV ступеня акредитації, підпорядкований Мiнiстерству освіти i науки, молоді та спорту України.</p>
@@ -50,7 +50,7 @@ export default () => {
                     (0532) 50-81-78
                   </p>
                   <p className="contact">36039 м. Полтава, вул. Сінна 7&nbsp;<a href="https://maps.google.com/maps?q=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&hl=en&ie=UTF8&sll=49.588267,34.551417&sspn=0.183173,0.308647&t=m&view=map&cid=16253679154153765982&hq=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&z=15&iwloc=A" title="Показати ПІБ МНТУ на мапі" target="_blank"><img src="/templates/pib/img/footer_cont_mappin.png" alt="Показати ПІБ МНТУ на мапі" /></a></p>
-                  <p className="contact"><a href="/contact/email">написати нам email</a>&nbsp;|&nbsp;<a href="/contact/#req">реквізити</a></p>
+                  <p className="contact"><a href="/contact/email">написати нам</a>&nbsp;|&nbsp;<a href="/contact/#req">реквізити</a></p>
                 </div>
                 <a target="_blank" href="https://next.privat24.ua/payments/form/{&quot;token&quot;:&quot;b1141b64-69ca-413c-8d76-1c5f9593f8d2&quot;}"><img src="/templates/pib/img/privat-pay2.png" style={{marginTop: '60px'}} alt="" /></a>
               </div>
@@ -58,7 +58,7 @@ export default () => {
               <div className="vline2" />
               <div className="slot5">
                 <div className="header">
-                  <span className="text">ПІБ МНТУ в мережі</span>
+                  <span className="text">Ми в мережі</span>
                 </div>
                 <div className="content">
                   <a className="fb" href="https://www.facebook.com/pages/ПИБ-МНТУ/112255128857387" target="_blank" title="ПІБ МНТУ в Facebook">ПІБ МНТУ в Facebook</a>
@@ -74,7 +74,7 @@ export default () => {
         <div className="wrapper">
           <div className="copyright">
             <a className="pib" href="/">Полтавський інститут Бізнесу</a><br />
-            © 2000-2017
+            © 2000-2020
           </div>
           <ul className="menu" id="footer_menu">
             <li className="item-164"><a href="/">Головна</a></li>

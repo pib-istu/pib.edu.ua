@@ -26,7 +26,7 @@ export default () => {
             </li>
             <li>
               <a href="/pib/about#history" className="block unline">
-                <span className="title gold ">Історія ПІБ МНТУ</span><br />
+                <span className="title gold ">Історія</span><br />
                 <span className="desc">Як був заносваний ПІБ МНТУ</span>
               </a>
             </li>
