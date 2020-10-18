@@ -261,85 +261,25 @@ ul.actions a {
 
 /* mod_easyfolderlisting */
 
-ul.easyfolderlisting_archive {
-  list-style-type: none;
-  margin: 0px;
-  padding: 10px 0px 20px 0px;
+.easyfolderlisting__item {
+  position: relative;
+  /* Hardcoded icon width */
+  padding-left: 21px;
 }
 
-ul.easyfolderlisting_archive li {
-  overflow: hidden;
-  margin-bottom: 4px;
-  border-radius: 3px;
+.easyfolderlisting__item + .easyfolderlisting__item {
+  margin-top: 10px;
 }
 
-ul.easyfolderlisting_archive li a.container {
-  background-image: url(../img/b/other_archive_bg.jpg);
-  display: block;
-  width: 900px;
-  height: 86px;
+.easyfolderlisting__icon {
+  position: absolute;
+  left: 0;
+  top: 1px;
 }
 
-ul.easyfolderlisting_archive li a.container:hover,
-ul.easyfolderlisting_archive li a.container:focus {
-  background-image: url(../img/b/h/other_archive_bg.jpg);
-  display: block;
+.easyfolderlisting__link {
+  text-decoration: none;
 }
-
-ul.easyfolderlisting_archive li img {
-  padding: 11px 27px 11px 27px;
-  float: left;
-}
-
-ul.easyfolderlisting_archive li .name,
-ul.easyfolderlisting_archive li .date {
-  float: left;
-  text-align: center;
-  height: 52px;
-  padding-top: 34px;
-  text-decoration: underline;
-}
-
-ul.easyfolderlisting_archive li a.container .name,
-ul.easyfolderlisting_archive li a.container .date,
-ul.easyfolderlisting_archive li a.container .download {
-  -webkit-transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-  -moz-transition-duration: 250ms;
-  -moz-transition-timing-function: ease-in-out;
-  -o-transition-duration: 250ms;
-  -o-transition-timing-function: ease-in-out;
-  transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
-}
-
-ul.easyfolderlisting_archive li .name {
-  width: 372px;
-}
-
-ul.easyfolderlisting_archive li a.container:hover .name,
-ul.easyfolderlisting_archive li a.container:focus .name {
-  width: 285px;
-}
-
-ul.easyfolderlisting_archive li .date {
-  width: 161px;
-}
-
-ul.easyfolderlisting_archive li a.container:hover .date,
-ul.easyfolderlisting_archive li a.container:focus .date {
-  width: 131px;
-}
-
-ul.easyfolderlisting_archive li .download {
-  width: 131px;
-  height: 86px;
-  float: left;
-  background-image: url(../img/other_archive_download.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 
 /* mod_ice_newsblock */
 
