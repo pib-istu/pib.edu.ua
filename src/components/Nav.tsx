@@ -103,6 +103,7 @@ export default () => {
                   <li id="iceMenu_180" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_148" className="iceMenuLiLevel_2" to="/pib/about" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Про ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="iceMenu_149" className="iceMenuLiLevel_2" to="/pib/benefits" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Чому ПІБ МНТУ</NavItemLink>
+                  <NavItemLink id="iceMenu_151" className="iceMenuLiLevel_2" to="/pib/activity" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Наукоа діяльність</NavItemLink>
                   <NavItemLink id="iceMenu_151" className="iceMenuLiLevel_2" to="/pib/public-info" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Публічна інформація</NavItemLink>
                   <li id="iceMenu_193" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                 </ul>

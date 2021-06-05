@@ -115,6 +115,7 @@ export default () => {
             <li id="item-180"><span className="separator"> </span></li>
             <NavItemLink id="item-148" to="/pib/about">Про ПІБ МНТУ</NavItemLink>
             <NavItemLink id="item-149" to="/pib/benefits">Чому ПІБ МНТУ</NavItemLink>
+            <NavItemLink id="item-151" to="/pib/activity">Наукоа діяльність</NavItemLink>
             <NavItemLink id="item-151" to="/pib/public-info">Публічна інформація</NavItemLink>
             <li id="item-193"><span className="separator"> </span></li>
           </ul>
