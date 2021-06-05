@@ -151,7 +151,7 @@ export default () => {
               <Loc match='/entrant/entrance'>
                 <ul>
                   <NavItemLink id="item-155" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank">Умови прийому МОН</NavItemLink>
-                  <NavItemLink id="item-183" to="/media/docs/ПП ПІБ зі змінами 2020 (2).pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
+                  <NavItemLink id="item-183" to="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="item-233" to="/media/docs/dod3.pdf?v1" target="_blank">Перелік конкурсних предметів ПІБ 2020</NavItemLink>
                 </ul>
               </Loc>
@@ -189,7 +189,7 @@ export default () => {
                   <ul>
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                    <NavItemLink id="item-235" to="/media/docs/Правила%20прийому%20ПБК%20МНТУ.pdf?v1" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
                     <NavItemLink id="item-240" to="/media/docs/Рейтинг_1.pdf" target="_blank">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
                     <NavItemLink id="item-241" to="/media/docs/Рейтинг_3.pdf" target="_blank">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
                     <NavItemLink id="item-242" to="/media/docs/Рейтинг_2.pdf" target="_blank">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
