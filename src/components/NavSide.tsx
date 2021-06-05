@@ -219,6 +219,7 @@ export default () => {
             {/* <NavItemLink id="item-158" to="/other/juridical-help">Юридична клініка</NavItemLink> */}
             <NavItemLink id="item-157" to="/other/gallery">Фотоархів</NavItemLink>
             <NavItemLink id="item-160" to="/other/self-governance">Студентське самоврядування</NavItemLink>
+            <NavItemLink id="item-160" to="/other/ombudsman">Офіс студентського омбудсмена</NavItemLink>
           </ul>
         </NavSection>
         </Loc>

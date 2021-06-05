@@ -1,7 +1,11 @@
-import React, { FC } from 'react'
+import React, { CSSProperties, FC } from 'react'
 import { Link, LinkProps, useLocation } from '@reach/router'
 
 type NavLinkProps = LinkProps<{}> & React.RefAttributes<HTMLAnchorElement>
+
+const COL_STYLE: CSSProperties = { width: '280px' }
+// @todo Workarounds https://github.com/stylelint/stylelint/issues/4490
+COL_STYLE.float = 'left'
 
 const NavLink: FC<NavLinkProps> = ({ children, ...props }) => {
   const isExternal = props.to.includes('//')
@@ -78,7 +82,7 @@ export default () => {
           <NavLink to="/" className="iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Головна</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <li id="iceMenu_179" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_137" className="iceMenuLiLevel_2" to="/home/news" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Новини</NavItemLink>
@@ -94,7 +98,7 @@ export default () => {
           <NavLink to="/pib" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">ПІБ МНТУ</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <li id="iceMenu_180" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_148" className="iceMenuLiLevel_2" to="/pib/about" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Про ПІБ МНТУ</NavItemLink>
@@ -111,14 +115,14 @@ export default () => {
           <NavLink to="/entrant/courses" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Абітурієнту</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <li id="iceMenu_181" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItem match='/entrant/courses' id="iceMenu_140" className="iceMenuLiLevel_2 parent">
                     <NavLink to="/entrant/courses" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Спеціальності</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
                       <li>
-                        <div style={{float: 'left', width: '280px'}} className="iceCols">
+                        <div style={COL_STYLE} className="iceCols">
                           <ul>
                             {/* <NavItemLink id="iceMenu_185" className="iceMenuLiLevel_3" to="/entrant/courses/course-law" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Право</NavItemLink> */}
                             <NavItemLink id="iceMenu_224" className="iceMenuLiLevel_3" to="/entrant/courses/course-psychology" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Психологія</NavItemLink>
@@ -141,7 +145,7 @@ export default () => {
                     <NavLink to="/entrant/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Вступ до ПІБ МНТУ</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
                       <li>
-                        <div style={{float: 'left', width: '280px'}} className="iceCols">
+                        <div style={COL_STYLE} className="iceCols">
                           <ul>
                             <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
                             <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/ПП ПІБ зі змінами 2020 (2).pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
@@ -167,14 +171,14 @@ export default () => {
           <NavLink to="/business-college/about" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Бізнес-коледж</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <li id="iceMenu_162" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItem match='/business-college/courses' id="iceMenu_218" className="iceMenuLiLevel_2 parent">
                     <NavLink to="/business-college/about" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Спеціальності</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
                       <li>
-                        <div style={{float: 'left', width: '280px'}} className="iceCols">
+                        <div style={COL_STYLE} className="iceCols">
                           <ul>
                             <NavItemLink id="iceMenu_202" className="iceMenuLiLevel_3" to="/business-college/courses/course-college-physical-education-and-sport" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фізична культура і спорт</NavItemLink>
                             <NavItemLink id="iceMenu_227" className="iceMenuLiLevel_3" to="/business-college/courses/course-college-law" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Право</NavItemLink>
@@ -193,7 +197,7 @@ export default () => {
                     <NavLink to="/business-college/entrance" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Вступ до коледжу</span></NavLink>
                     <ul className="icesubMenu sub_level_2" style={{width: '280px'}}>
                       <li>
-                        <div style={{float: 'left', width: '280px'}} className="iceCols">
+                        <div style={COL_STYLE} className="iceCols">
                           <ul>
                             <NavItemLink id="iceMenu_234" className="iceMenuLiLevel_3" to="/media/docs/dod3pbk.pdf?v2" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                             <NavItemLink id="iceMenu_238" className="iceMenuLiLevel_3" to="/media/docs/dod4.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік документiв для вступу ПБК 2020</NavItemLink>
@@ -224,13 +228,14 @@ export default () => {
           <a href="#" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Студенту</span></a>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <li id="iceMenu_182" className="iceMenuLiLevel_2"><a className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle"> </span></a></li>
                   <NavItemLink id="iceMenu_174" className="iceMenuLiLevel_2" to="/other/schedule" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Розклад занять</NavItemLink>
                   {/* <NavItemLink id="iceMenu_158" className="iceMenuLiLevel_2" to="/other/juridical-help" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Юридична клініка</NavItemLink> */}
                   <NavItemLink id="iceMenu_157" className="iceMenuLiLevel_2" to="/other/gallery" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фотоархів</NavItemLink>
                   <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування</NavItemLink>
+                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/ombudsman" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Офіс студентського омбудсмена</NavItemLink>
                 </ul>
               </div>
             </li>
@@ -241,7 +246,7 @@ export default () => {
           <NavLink to="/contact" className=" iceMenuTitle"><span className="icemega_title icemega_nosubtitle">Контакти</span></NavLink>
           <ul className="icesubMenu sub_level_1" style={{width: '280px'}}>
             <li>
-              <div style={{float: 'left', width: '280px'}} className="iceCols">
+              <div style={COL_STYLE} className="iceCols">
                 <ul>
                   <NavItemLink id="iceMenu_207" className="iceMenuLiLevel_2" to="/contact/email" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Написати email ПІБ МНТУ</NavItemLink>
                 </ul>
