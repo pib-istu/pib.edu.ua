@@ -12,7 +12,7 @@ export const EntranceSectionFooter: FC = () => {
         <div className="content">
           <ul>
             <li className="item1 float-left">
-              <a href="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
+              <a href="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
               <a href="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" className="gold external" target="_blank">Умови прийому МОН 2015</a>
             </li>
             <li className="item2 button-overlay float-left">

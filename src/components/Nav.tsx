@@ -149,7 +149,7 @@ export default () => {
                         <div style={COL_STYLE} className="iceCols">
                           <ul>
                             <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
-                            <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
+                            <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
                             <NavItemLink id="iceMenu_233" className="iceMenuLiLevel_3" to="/media/docs/entrant/entrance/Перелік конкурсних предметів 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів</NavItemLink>
                           </ul>
                         </div>

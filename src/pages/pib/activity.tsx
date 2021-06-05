@@ -17,7 +17,7 @@ export default () => {
       <ul className="list-dots">
         <li>
           <a
-            href="/media/docs/pib/activity/2020-05-21-Актуальні-проблеми-розвитку-сучасної-науки.pdf"
+            href="/media/docs/pib/activity/2020-05-21-Актуальні-проблеми-розвитку-сучасної-науки.pdf"
             className="gold
             external"
             target="_blank"
