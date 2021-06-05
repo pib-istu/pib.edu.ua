@@ -53,31 +53,31 @@ const Item: FC<ItemProps> = ({ url, imageSrc, heading, target, children, ...prop
 const TEASERS = [
   {
     heading: "Графік вступу 2020",
-    url: "/images/teasers/vstup.jpg",
+    url: "/images/hero/vstup.jpg",
     target: '_blank',
-    imageSrc: "/images/teasers/vstup.jpg",
+    imageSrc: "/images/hero/vstup.jpg",
     children: null,
   },
   // Вступ без ЗНО
-  // <img src="images/teasers/without-oir.jpg" border="0" alt="" />
+  // <img src="images/hero/without-oir.jpg" border="0" alt="" />
   // <p>Можливість вступу без ЗНО для випускників середніх загальноосвітніх навчальних закладів</p>
   {
     heading: "Вступ без ЗНО",
-    url: "/images/teasers/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc",
+    url: "/images/hero/ФПБК%20ВСТУП%20БЕЗ%20%20ЗНО.doc",
     target: '_blank',
-    imageSrc: "/images/teasers/1.jpg",
+    imageSrc: "/images/hero/1.jpg",
     children: <p>Перелік спеціальностей та умов за яких можливий вступ без ЗНО</p>,
   },
   {
     heading: "Полтавський бізнес-коледж",
     url: "/business-college/about",
-    imageSrc: "/images/teasers/business-college.jpg",
+    imageSrc: "/images/hero/business-college.jpg",
     children: <p>Запрошуємо на навчання випускників 9-х, 11-х класів до бізнес-коледжу із зарахування на III курс ПІБ МНТУ після закінчення</p>,
   },
   {
     heading: "Юридична клініка",
     url: "/other/juridical-help",
-    imageSrc: "images/teasers/juridical-help.jpg",
+    imageSrc: "images/hero/juridical-help.jpg",
     children: <>
       <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою?</p>
       <p>Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
@@ -88,18 +88,18 @@ const TEASERS = [
   // {
   //   heading: "Менеджмент безпеки підприємницької діяльності",
   //   url: "/9-home/teaser/32-spec-management",
-  //   imageSrc: "/images/teasers/spec-management-sob.jpg",
+  //   imageSrc: "/images/hero/spec-management-sob.jpg",
   //   children: <p>Унікальна спеціалізація для тих, кто дбає про безпеку</p>,
   //   shouldUseSingleLine: false,
   // },
 
   // Унікальна спеціалізація: юрист релігійної сфери
-  // <img src="images/teasers/spec-rel.jpg" border="0" alt="" />
+  // <img src="images/hero/spec-rel.jpg" border="0" alt="" />
   // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
   {
     heading: "Військова кафедра",
     url: "/entrant/military",
-    imageSrc: "/images/teasers/military.jpg",
+    imageSrc: "/images/hero/military.jpg",
     children: <p>Для студентів денної форми навчання ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації із присвоєнням військового звання <span className="bold">молодший лейтенант запасу</span> після закінчення.</p>,
   }
 ]
