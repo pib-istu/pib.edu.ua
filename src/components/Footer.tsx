@@ -61,7 +61,7 @@ export default () => {
                   <span className="text">Ми в мережі</span>
                 </div>
                 <div className="content">
-                  <a className="fb" href="https://www.facebook.com/pages/ПИБ-МНТУ/112255128857387" target="_blank" title="ПІБ МНТУ в Facebook">ПІБ МНТУ в Facebook</a>
+                  <a className="fb" href="https://www.facebook.com/plt.business.mntu" target="_blank" title="ПІБ МНТУ в Facebook">ПІБ МНТУ в Facebook</a>
                   <a className="inst" href="https://instagram.com/plt_business_mntu?igshid=1qoeg2592v3se" target="_blank" title="ПІБ МНТУ в Instagram">ПІБ МНТУ в Instagram</a>
                 </div>
               </div>

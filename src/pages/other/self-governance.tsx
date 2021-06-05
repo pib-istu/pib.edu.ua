@@ -1,51 +1,60 @@
 // $prev_title: "ПІБ МНТУ - Полтавський інститут Бізнесу - Студентське самоврядування"
 
-import React from 'react'
-import { WithSidebar } from 'components/WithSidebar'
+import React from 'react';
+import { WithSidebar } from 'components/WithSidebar';
+import { PersonCards } from 'components/other/PersonCards';
+
+const PERSONS = [
+  {
+    title: 'Голова парламенту',
+    name: 'Поліна Лавриненко',
+    position: 'ФК-21'
+  },
+  {
+    title: 'Заступники голови парламенту',
+    name: 'Тетяна Токарь',
+    position: 'ІПЗК-21'
+  },
+  {
+    title: 'Голова волонтерського сектору',
+    name: 'Віталій Вишнівецький',
+    position: 'ФК-21'
+  },
+  {
+    title: 'Голова інформаційного сектору',
+    name: 'Владислав Арнаут',
+    position: 'ІПЗК-21'
+  },
+  {
+    title: 'Голова сектору «Дозвілля»',
+    name: 'Голота Вячеслав',
+    position: 'ФК-21'
+  },
+  {
+    title: 'Голова спортивного сектору',
+    name: 'Гусинський Олександр',
+    position: 'ФК-21'
+  },
+  {
+    title: 'Секретар',
+    name: 'Аміна Баккаєва',
+    position: 'ФК-2'
+  },
+];
 
 export default () => {
   return (
     <WithSidebar shouldShowSidebar={true}>
       <div id="page-header">
         <h1 className="text">
-          Студентське самоврядування </h1>
+          Студентське самоврядування
+        </h1>
       </div>
-      <h2>Поточный склад Студентського парламенту ПІБ МНТУ</h2>
-      <ul className="list-dots">
-        <li>
-          <b>голова парламенту</b><br />
-          <span className="text-blue">Шпак Олександра</span><span className="text-dim">, студентка групи ЗЛ-41</span>
-        </li>
-        <li>
-          <b>заступники голови парламенту</b><br />
-          <span className="text-blue">Гудзь Діана</span><span className="text-dim">, студентка групи ЮП-21</span><br />
-          <span className="text-blue">Похил Ігор</span><span className="text-dim">, студент групи МББ-41</span>
-        </li>
-        <li>
-          <b>голова наукового-сектору</b><br />
-          <span className="text-blue">Миненко Яна</span><span className="text-dim">, студентка групи ЮП-41</span>
-        </li>
-        <li>
-          <b>голова соціально-академічного сектору</b><br />
-          <span className="text-blue">Збаранська Наталія</span><span className="text-dim">, студентка групи ЮП-21</span>
-        </li>
-        <li>
-          <b>голова сектору «Дозвілля»</b><br />
-          <span className="text-blue">Григоренко Аліна</span><span className="text-dim">, студентка групи ЮП-41</span>
-        </li>
-        <li>
-          <b>голова сектору комп'ютерного оформлення</b><br />
-          <span className="text-blue">Степаненко Олександр</span><span className="text-dim">, студент групи КН-41</span>
-        </li>
-        <li>
-          <b>голова служби безпеки</b><br />
-          <span className="text-blue">Похил Ігор</span><span className="text-dim">, студент групи МББ-41</span>
-        </li>
-        <li>
-          <b>голова прес-центру</b><br />
-          <span className="text-blue">Шпак Олександра</span><span className="text-dim">, тудентка групи ЗЛ-41</span>
-        </li>
-      </ul>
+
+      <h2>Поточный склад</h2>
+
+      <PersonCards persons={PERSONS} />
+
       <div className="art-article">
         <br />
         <h2 className="orange">Положення про Студентський парламент ПІБ МНТУ</h2>
@@ -68,5 +77,5 @@ export default () => {
         <p>5.1.	Парламент складається з Проводу Парламенту: <br />-	Голова Парламенту; <br />-	2 заступники; <br />-	Секретар. <br />5.2.	До складу Парламенту також входять такі підрозділи, як: <br />-	соціально - академічний відділ; <br />-	науковий відділ; <br />-	комп'ютерне оформлення; <br />-	спортивний відділ; <br />-	прес-центр; <br />-	казначейство; <br />-	служба охорони; <br />-	відділ "Дозвілля". <br />5.3.	Кожний відділ Парламенту складається з представників студентського колективу в кількості відповідно до підрозділів: <br />-	соціально-академічний відділ (7 чоловік); <br />-	відділ "Дозвілля" (12 чоловік); <br />-	комп'ютерне оформлення (4 чоловіка); <br />-	науковий відділ (9 чоловік); <br />-	спортивний відділ (7 чоловік); <br />-	служба охорони (10 чоловік); <br />-	прес-центр (7 чоловік); <br />-	казначейство (3 чоловіка). <br />Формування складу підрозділів Студентського парламенту проводиться відповідно до пропорційності висуванню кандидатур до підрозділів навчальними групами ПІБ МНТУ.</p>
       </div>
     </WithSidebar>
-  )
-}
+  );
+};
