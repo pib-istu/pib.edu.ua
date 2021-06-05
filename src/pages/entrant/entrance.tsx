@@ -68,7 +68,7 @@ export default () => {
           <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item1"><b>Середніх загальноосвітніх навчальних закладів</b></a>
         </li>
         <li className="item3">
-          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item3">Вищих навчальних закладів <b>І-ІІ рівня акредитації</b><br /> <span className="block">(якщо бажаєте продовжити навчання за спорідненими спеціальностями)</span></a>
+          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item3">Вищих навчальних закладів <b>І-ІІ рівня акредитації</b><br /> <span className="block">для продовження навчання за спорідненими спеціальностями</span></a>
         </li>
         <li className="item2">
           <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item2">Вищих навчальних закладів <b>ІІІ-ІУ рівня акредитації</b></a>
