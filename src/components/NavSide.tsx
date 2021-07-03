@@ -190,17 +190,6 @@ export default () => {
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
                     <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
-                    <NavItemLink id="item-240" to="/media/docs/Рейтинг_1.pdf" target="_blank">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                    <NavItemLink id="item-241" to="/media/docs/Рейтинг_3.pdf" target="_blank">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-242" to="/media/docs/Рейтинг_2.pdf" target="_blank">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-243" to="/media/docs/Рекоменд_1.pdf" target="_blank">Список рекомендованих від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                    <NavItemLink id="item-244" to="/media/docs/Рекоменд_3.pdf" target="_blank">Список рекомендованих від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-245" to="/media/docs/Рекоменд_2.pdf" target="_blank">Список рекомендованих від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-246" to="/media/docs/Рекоменд_31.08.2020.pdf" target="_blank">Список рекомендованих від 31.08.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-247" to="/media/docs/Списки на основі ПЗСО.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-248" to="/media/docs/Списки на основі КР.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (072 Фінанси, банківська справа та страхування)</NavItemLink>
-                    <NavItemLink id="item-249" to="/media/docs/Списки на основі ПЗСО(денна форма).pdf" target="_blank">Список рекомендованих від 03.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-250" to="/media/docs/Списки на основі КР(денна форма).pdf" target="_blank">Список рекомендованих від 02.09.2020 (017 Фiзична культура i спорт)</NavItemLink>
                   </ul>
                 </Loc>
               </NavSection>
