@@ -6,6 +6,12 @@ import { FileItem, Files } from 'components/Files'
 
 const FILES: readonly FileItem[] = [
   {
+    type: 'page',
+    name: 'Ліцензія МНТУ',
+    ext: 'pdf',
+    url: 'https://istu.edu.ua/ліцензія'
+  },
+  {
     type: 'file',
     name: 'ПОЛОЖЕННЯ ПРО АКАДЕМІЧНУ ДОБРОЧЕСНІСТЬ ЗДОБУВАЧІВ ВО ТА НАУКОВО-ПЕДАГОГІЧНИХ ПРАЦІВНИКІВ ПІБ МНТУ',
     ext: 'pdf',
@@ -173,8 +179,37 @@ const FILES: readonly FileItem[] = [
     ext: 'pdf',
     url: '/media/docs/public-info/Положення про ВК 2020.pdf',
   },
+  {
+    type: 'file',
+    name: 'Правила прийому ПІБ МНТУ 2021',
+    ext: 'pdf',
+    url: '/media/docs/Правила прийому ПІБ МНТУ 2021.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Правила прийому ПБК МНТУ 2021',
+    ext: 'pdf',
+    url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Перелік конкурсних предметів ПІБ 2020',
+    ext: 'pdf',
+    url: '/media/docs/dod3.pdf?v1',
+  },
+  {
+    type: 'file',
+    name: 'Перелік конкурсних предметів ПБК 2020',
+    ext: 'pdf',
+    url: '/media/docs/dod3pbk.pdf?v2',
+  },
+  {
+    type: 'file',
+    name: 'Положення про Студентський парламент ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/other/student-self-governance/Положення про Студентський парламент ПІБ МНТУ.pdf',
+  },
 ]
-
 
 export default () => {
   return (

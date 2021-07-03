@@ -108,7 +108,7 @@ const File: FC<FileProps> = ({ name, ext, url }) => {
   return (
     <li className='easyfolderlisting__item'>
       <img className='easyfolderlisting__icon' src={info.iconSrc} alt={info.alt} />{' '}
-      <a className='easyfolderlisting__link' href={url}>{name}</a>
+      <a className='easyfolderlisting__link' href={url} target="_blank" rel="nofollow noreferrer">{name}</a>
     </li>
   )
 }

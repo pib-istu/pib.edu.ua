@@ -5,6 +5,8 @@ import React, { useEffect } from 'react'
 
 declare var jQuery: any
 
+const CURRENT_YEAR = new Date().getFullYear()
+
 export default () => {
   useEffect(() => {
     jQuery(document).ready(function () {
@@ -322,7 +324,7 @@ export default () => {
                   * — мінімальна кількість балів для допуску до участі в конкурсі або зарахування на навчання поза конкурсом, за співбесідою
                 </p>
               </div>
-              <p style={{paddingTop: '15px'}}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">2015</span> році.</p>
+              <p style={{paddingTop: '15px'}}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">{CURRENT_YEAR}</span> році.</p>
               <p>Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
               <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-comp">Перелік осіб, які мають право на зарахування поза конкурсом</a>
               <div id="entrance-comp" style={{display: 'none'}}>
@@ -367,7 +369,7 @@ export default () => {
               <ul>
                 <li className="item1 float-left">
                   <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
-                  <a href="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" className="gold external" target="_blank">Умови прийому МОН 2015</a>
+                  <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">
@@ -710,7 +712,7 @@ export default () => {
               <ul>
                 <li className="item1 float-left">
                   <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
-                  <a href="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" className="gold external" target="_blank">Умови прийому МОН 2015</a>
+                  <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">
@@ -791,7 +793,7 @@ export default () => {
               <ul>
                 <li className="item1 float-left">
                   <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
-                  <a href="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" className="gold external" target="_blank">Умови прийому МОН 2015</a>
+                  <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">
