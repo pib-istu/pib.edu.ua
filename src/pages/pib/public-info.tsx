@@ -173,8 +173,19 @@ const FILES: readonly FileItem[] = [
     ext: 'pdf',
     url: '/media/docs/public-info/Положення про ВК 2020.pdf',
   },
+  {
+    type: 'file',
+    name: 'Правила прийому ПІБ МНТУ 2021',
+    ext: 'pdf',
+    url: '/media/docs/Правила прийому ПІБ МНТУ 2021.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Правила прийому ПБК МНТУ 2021',
+    ext: 'pdf',
+    url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
+  },
 ]
-
 
 export default () => {
   return (
