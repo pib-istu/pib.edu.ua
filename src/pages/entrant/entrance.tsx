@@ -5,6 +5,8 @@ import React, { useEffect } from 'react'
 
 declare var jQuery: any
 
+const CURRENT_YEAR = new Date().getFullYear()
+
 export default () => {
   useEffect(() => {
     jQuery(document).ready(function () {
@@ -322,7 +324,7 @@ export default () => {
                   * — мінімальна кількість балів для допуску до участі в конкурсі або зарахування на навчання поза конкурсом, за співбесідою
                 </p>
               </div>
-              <p style={{paddingTop: '15px'}}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">2015</span> році.</p>
+              <p style={{paddingTop: '15px'}}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">{CURRENT_YEAR}</span> році.</p>
               <p>Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
               <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-comp">Перелік осіб, які мають право на зарахування поза конкурсом</a>
               <div id="entrance-comp" style={{display: 'none'}}>

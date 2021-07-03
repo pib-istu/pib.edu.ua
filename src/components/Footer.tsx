@@ -1,5 +1,7 @@
 import React from 'react'
 
+const CURRENT_YEAR = new Date().getFullYear()
+
 export default () => {
   return (
     <>
@@ -74,7 +76,7 @@ export default () => {
         <div className="wrapper">
           <div className="copyright">
             <a className="pib" href="/">Полтавський інститут Бізнесу</a><br />
-            © 2000-2020
+            © 2000-{CURRENT_YEAR}
           </div>
           <ul className="menu" id="footer_menu">
             <li className="item-164"><a href="/">Головна</a></li>
