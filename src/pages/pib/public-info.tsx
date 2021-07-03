@@ -185,6 +185,18 @@ const FILES: readonly FileItem[] = [
     ext: 'pdf',
     url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
   },
+  {
+    type: 'file',
+    name: 'Перелік конкурсних предметів ПІБ 2020',
+    ext: 'pdf',
+    url: '/media/docs/dod3.pdf?v1',
+  },
+  {
+    type: 'file',
+    name: 'Перелік конкурсних предметів ПБК 2020',
+    ext: 'pdf',
+    url: '/media/docs/dod3pbk.pdf?v2',
+  },
 ]
 
 export default () => {
