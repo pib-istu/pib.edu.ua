@@ -203,6 +203,12 @@ const FILES: readonly FileItem[] = [
     ext: 'pdf',
     url: '/media/docs/dod3pbk.pdf?v2',
   },
+  {
+    type: 'file',
+    name: 'Положення про Студентський парламент ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/other/student-self-governance/Положення про Студентський парламент ПІБ МНТУ.pdf',
+  },
 ]
 
 export default () => {
