@@ -221,7 +221,8 @@ export default () => {
                   <NavItemLink id="iceMenu_174" className="iceMenuLiLevel_2" to="/other/schedule" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Розклад занять</NavItemLink>
                   {/* <NavItemLink id="iceMenu_158" className="iceMenuLiLevel_2" to="/other/juridical-help" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Юридична клініка</NavItemLink> */}
                   <NavItemLink id="iceMenu_157" className="iceMenuLiLevel_2" to="/other/gallery" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фотоархів</NavItemLink>
-                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування</NavItemLink>
+                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/pbc-student-self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування коледжу</NavItemLink>
+                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/pib-student-self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування інституту</NavItemLink>
                   <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/ombudsman" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Офіс студентського омбудсмена</NavItemLink>
                 </ul>
               </div>

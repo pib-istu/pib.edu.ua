@@ -205,7 +205,8 @@ export default () => {
             <NavItemLink id="item-174" to="/other/schedule">Розклад занять</NavItemLink>
             {/* <NavItemLink id="item-158" to="/other/juridical-help">Юридична клініка</NavItemLink> */}
             <NavItemLink id="item-157" to="/other/gallery">Фотоархів</NavItemLink>
-            <NavItemLink id="item-160" to="/other/self-governance">Студентське самоврядування</NavItemLink>
+            <NavItemLink id="item-160" to="/other/pbc-student-self-governance">Студентське самоврядування коледжу</NavItemLink>
+            <NavItemLink id="item-160" to="/other/pib-student-self-governance">Студентське самоврядування інституту</NavItemLink>
             <NavItemLink id="item-160" to="/other/ombudsman">Офіс студентського омбудсмена</NavItemLink>
           </ul>
         </NavSection>
