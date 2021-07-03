@@ -6,6 +6,12 @@ import { FileItem, Files } from 'components/Files'
 
 const FILES: readonly FileItem[] = [
   {
+    type: 'page',
+    name: 'Ліцензія МНТУ',
+    ext: 'pdf',
+    url: 'https://istu.edu.ua/ліцензія'
+  },
+  {
     type: 'file',
     name: 'ПОЛОЖЕННЯ ПРО АКАДЕМІЧНУ ДОБРОЧЕСНІСТЬ ЗДОБУВАЧІВ ВО ТА НАУКОВО-ПЕДАГОГІЧНИХ ПРАЦІВНИКІВ ПІБ МНТУ',
     ext: 'pdf',
