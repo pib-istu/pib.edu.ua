@@ -187,9 +187,9 @@ const FILES: readonly FileItem[] = [
   },
   {
     type: 'file',
-    name: 'Правила прийому ПБК МНТУ 2021',
+    name: 'Правила прийому ПБК ПІБ МНТУ 2021',
     ext: 'pdf',
-    url: '/media/docs/Правила приийому ПБК ПІБ МНТУ 2021.pdf',
+    url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
   },
   {
     type: 'file',
