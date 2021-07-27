@@ -190,6 +190,7 @@ export default () => {
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
                     <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування.pdf" target="_blank">Список рекомендованих до зарахування</NavItemLink>
                   </ul>
                 </Loc>
               </NavSection>
