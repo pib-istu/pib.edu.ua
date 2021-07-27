@@ -209,6 +209,18 @@ const FILES: readonly FileItem[] = [
     ext: 'pdf',
     url: '/media/docs/other/student-self-governance/Положення про Студентський парламент ПІБ МНТУ.pdf',
   },
+  {
+    type: 'file',
+    name: 'Положення про Апеляційну Комісію ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/public-info/Положення про Апеляційну Комісію ПІБ МНТУ.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Положення про зарахування за результатами співбесіди ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/public-info/Положення про зарахування за результатами співбесіди ПІБ МНТУ.pdf',
+  },
 ]
 
 export default () => {
