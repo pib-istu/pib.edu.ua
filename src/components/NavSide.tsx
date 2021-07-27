@@ -4,7 +4,7 @@ import { Link, LinkProps, useLocation } from '@reach/router'
 type NavLinkProps = LinkProps<{}> & React.RefAttributes<HTMLAnchorElement>
 
 const NavLink: FC<NavLinkProps> = ({ children, ...props }) => {
-  const isExternal = props.to.includes('//')
+  const isExternal = props.to.includes('//') || props.target === '_blank'
 
   if (isExternal) return (
     <a {...props} href={props.to}>{children}</a>
