@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Нафтогазова інженерія та технології</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/11.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/11.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first">Жодна сировина не викликає стільки хвилювань та не приносить стільки прибутків, як нафта та газ, які є головними енергоносіями. Уміння використовувати ці ключові продукти та їх запаси, тримати в руках ниточки бізнесу у цих напрямках, визначає шлях до економічного процвітання та вибору політичної і економічної стратегії держави.</p>

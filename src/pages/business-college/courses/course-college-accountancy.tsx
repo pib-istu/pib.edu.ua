@@ -15,7 +15,7 @@ export default () => (
         <li className="desc float-left center">Облік і оподаткування</li>
       </ul>
       <ul className="spec">
-        <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/1.jpg" /></li>
+        <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/1.jpg" /></li>
       </ul>
       <div className="clear-both" />
       <p className="first">В сучасних умовах облік і аудит - інструменти управління, підвищення ефективності господарювання, оскільки забезпечують власників і управлінців, фахівців інформацією про економічні процеси і явища, ресурси та ефективність їх використання у всіх секторах економіки.</p>

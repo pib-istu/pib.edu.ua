@@ -15,7 +15,7 @@ export default () => (
         <li className="desc float-left center">Фізична культура і спорт</li>
       </ul>
       <ul className="spec">
-        <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/12.jpg" /></li>
+        <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/12.jpg" /></li>
       </ul>
       <div className="clear-both" />
       <p className="first">Підготовка фахівців з галузі знань <span className="bold">«Освіта» </span>cпеціальності <span className="bold">«Фізична культура і спорт»</span>має на меті задоволення потреб особистості, суспільства і держави у фахівцях, орієнтованих на сучасні методи освіти і виховання людини, прищепленні здорового способу життя, а також підготовку таких спеціалістів з фізичної культури, які спроможні здійснювати освітню і спортивно-оздоровчу діяльність на високому професійному рівні.</p>
