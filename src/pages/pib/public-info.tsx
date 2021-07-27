@@ -211,9 +211,9 @@ const FILES: readonly FileItem[] = [
   },
   {
     type: 'file',
-    name: 'Положення про Апеляційну Комісію ПІБ МНТУ',
+    name: 'Положення про Апеляційну Комісію ПІБ МНТУ',
     ext: 'pdf',
-    url: '/media/docs/public-info/Положення про Апеляційну Комісію ПІБ МНТУ.pdf',
+    url: '/media/docs/public-info/Положення про Апеляційну Комісію ПІБ МНТУ.pdf',
   },
   {
     type: 'file',
