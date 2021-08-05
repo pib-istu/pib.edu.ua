@@ -368,7 +368,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
                   <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">
@@ -711,7 +711,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
                   <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">
@@ -792,7 +792,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПІБ МНТУ</a><br />
                   <a href="https://istu.edu.ua/програми_вступних_випробувань" className="gold external" target="_blank">Програми вступних випробувань</a>
                 </li>
                 <li className="item2 button-overlay float-left">

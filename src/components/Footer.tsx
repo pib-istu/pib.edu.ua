@@ -26,19 +26,19 @@ export default () => {
                 </div>
                 <div className="content">
                   <a href="http://www.cbs.poltava.ua" rel="nofollow" target="_blank" title="Полтавська міська ЦБС">
-                    <img className="img_float_left" src="/templates/pib/img/ban_cbs-2.gif" alt="Полтавська міська ЦБС" />
+                    <img className="img_float_left" src="/assets/pib/img/ban_cbs-2.gif" alt="Полтавська міська ЦБС" />
                   </a>
                   <a href="http://libgonchar.org" rel="nofollow" target="_blank" title="Полтавська обласна бібліотека для юнацтва імені Олеся Гончара">
-                    <img className="img_float_left" src="/templates/pib/img/ban_BidliotekaPOBU1-2.gif" alt="Полтавська обласна бібліотека для юнацтва імені Олеся Гончара" />
+                    <img className="img_float_left" src="/assets/pib/img/ban_BidliotekaPOBU1-2.gif" alt="Полтавська обласна бібліотека для юнацтва імені Олеся Гончара" />
                   </a>
                   <a href="http://www.mon.gov.ua/ua/" rel="nofollow" target="_blank" title="Сайт Міністерства освіти і науки, молоді та спорту України">
-                    <img className="img_float_left" src="/templates/pib/img/ban_minosvit.gif" alt="Міністерство освіти і науки, молоді та спорту України" />
+                    <img className="img_float_left" src="/assets/pib/img/ban_minosvit.gif" alt="Міністерство освіти і науки, молоді та спорту України" />
                   </a>
                   <a href="http://iosvita.com.ua" rel="nofollow" target="_blank" title="Сайт системи Електронний вступ">
-                    <img className="img_float_left" src="/templates/pib/img/ban_register.gif" alt="Система Еклектронний вступ" />
+                    <img className="img_float_left" src="/assets/pib/img/ban_register.gif" alt="Система Еклектронний вступ" />
                   </a>
                   <a href="http://rabota.ua/полтава" rel="nofollow" target="_blank" title="Rabota.ua — работа в Полтаві">
-                    <img className="img_float_left" src="/templates/pib/img/partner-rabouta-ua.png" alt="Rabota.ua — работа в Полтаві" width={129} />
+                    <img className="img_float_left" src="/assets/pib/img/partner-rabouta-ua.png" alt="Rabota.ua — работа в Полтаві" width={129} />
                   </a>
                 </div>
               </div>
@@ -51,10 +51,10 @@ export default () => {
                   <p className="phone">(0532) 50-81-05<br />
                     (0532) 50-81-78
                   </p>
-                  <p className="contact">36039 м. Полтава, вул. Сінна 7&nbsp;<a href="https://maps.google.com/maps?q=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&hl=en&ie=UTF8&sll=49.588267,34.551417&sspn=0.183173,0.308647&t=m&view=map&cid=16253679154153765982&hq=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&z=15&iwloc=A" title="Показати ПІБ МНТУ на мапі" target="_blank"><img src="/templates/pib/img/footer_cont_mappin.png" alt="Показати ПІБ МНТУ на мапі" /></a></p>
+                  <p className="contact">36039 м. Полтава, вул. Сінна 7&nbsp;<a href="https://maps.google.com/maps?q=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&hl=en&ie=UTF8&sll=49.588267,34.551417&sspn=0.183173,0.308647&t=m&view=map&cid=16253679154153765982&hq=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&z=15&iwloc=A" title="Показати ПІБ МНТУ на мапі" target="_blank"><img src="/assets/pib/img/footer_cont_mappin.png" alt="Показати ПІБ МНТУ на мапі" /></a></p>
                   <p className="contact"><a href="/contact/email">написати нам</a>&nbsp;|&nbsp;<a href="/contact/#req">реквізити</a></p>
                 </div>
-                <a target="_blank" href="https://next.privat24.ua/payments/form/{&quot;token&quot;:&quot;b1141b64-69ca-413c-8d76-1c5f9593f8d2&quot;}"><img src="/templates/pib/img/privat-pay2.png" style={{marginTop: '60px'}} alt="" /></a>
+                <a target="_blank" href="https://next.privat24.ua/payments/form/{&quot;token&quot;:&quot;b1141b64-69ca-413c-8d76-1c5f9593f8d2&quot;}"><img src="/assets/pib/img/privat-pay2.png" style={{marginTop: '60px'}} alt="" /></a>
               </div>
               <div className="vline2" />
               <div className="vline2" />

@@ -59,14 +59,14 @@ export default {
 
         <script src="/modules/mod_icetabs/assets/script_16.js" ></script>
 
-        <link rel="stylesheet" href="/templates/pib/css/base.css?v7" />
-        <link rel="stylesheet" href="/templates/pib/css/other.css?v7" />
-        <link rel="stylesheet" href="/templates/pib/css/joomla.css" />
-        <link rel="stylesheet" href="/templates/pib/css/ptsans.css" />
-        <link rel="stylesheet" href="/templates/pib/css/main.css" />
+        <link rel="stylesheet" href="/assets/pib/css/base.css?v7" />
+        <link rel="stylesheet" href="/assets/pib/css/other.css?v7" />
+        <link rel="stylesheet" href="/assets/pib/css/joomla.css" />
+        <link rel="stylesheet" href="/assets/pib/css/ptsans.css" />
+        <link rel="stylesheet" href="/assets/pib/css/main.css" />
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" ></script>
-        <script src="/templates/pib/js/showHide.js" ></script>
+        <script src="/assets/pib/js/showHide.js" ></script>
 
         <Script html={`
           jQuery.noConflict();

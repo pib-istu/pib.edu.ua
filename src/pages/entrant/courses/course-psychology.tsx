@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Психологія</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/6.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/6.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first"><span className="bold">Психологія </span> - одна з тих наук, які з повним правом можна назвати універсальними та вічними. Людська цивілізація стрімко рухається шляхом прогресу, винаходить нові механізми, робить глобальні відкриття, що змушують поглянути на світ та його структуру під абсолютно несподіваним кутом. Але навіть у сучасному світі найбільшою загадкою, альфою та омегою, початком та кінцем всього лишається людина.</p>

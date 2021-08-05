@@ -15,7 +15,7 @@ export default () => (
         <li className="desc float-left center">Менеджмент</li>
       </ul>
       <ul className="spec">
-        <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/4.jpg" /></li>
+        <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/4.jpg" /></li>
       </ul>
       <div className="clear-both" />
       <p className="first"><span className="bold">Підготовка студентів за спеціальністю «Менеджмент» </span>здійснюється для виконання ними в майбутньому організаційно-управлінської, комерційної, аналітичної та науково-дослідної діяльності в галузі менеджменту, маркетингу, соціальної активізації праці в умовах конкуренції та ринкових відносин в підприємствах різних форм господарювання</p>

@@ -7,7 +7,7 @@ import { PersonCards } from 'components/other/PersonCards';
 const PERSONS = [
   {
     title: 'Студентський омбудсмен',
-    name: 'Шейко Владислав',
+    name: 'Шейко Владислав',
   },
 ];
 

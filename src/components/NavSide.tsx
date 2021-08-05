@@ -4,7 +4,7 @@ import { Link, LinkProps, useLocation } from '@reach/router'
 type NavLinkProps = LinkProps<{}> & React.RefAttributes<HTMLAnchorElement>
 
 const NavLink: FC<NavLinkProps> = ({ children, ...props }) => {
-  const isExternal = props.to.includes('//')
+  const isExternal = props.to.includes('//') || props.target === '_blank'
 
   if (isExternal) return (
     <a {...props} href={props.to}>{children}</a>
@@ -151,7 +151,7 @@ export default () => {
               <Loc match='/entrant/entrance'>
                 <ul>
                   <NavItemLink id="item-155" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank">Умови прийому МОН</NavItemLink>
-                  <NavItemLink id="item-183" to="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
+                  <NavItemLink id="item-183" to="/media/docs/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="item-233" to="/media/docs/dod3.pdf?v1" target="_blank">Перелік конкурсних предметів ПІБ 2020</NavItemLink>
                 </ul>
               </Loc>
@@ -189,7 +189,8 @@ export default () => {
                   <ul>
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування.pdf" target="_blank">Список рекомендованих до зарахування</NavItemLink>
                   </ul>
                 </Loc>
               </NavSection>

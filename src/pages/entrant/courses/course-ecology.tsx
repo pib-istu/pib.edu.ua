@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Екологія</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/5.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/5.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first">Екологічні проблеми, серед яких охорона природи і здоров'я людей, постають одними з найсуттєвіших на сучасному етапі розвитку людського суспільства. Беручи до уваги стан екології та тенденції розвитку економіки України, можна констатувати зростаючу актуальність розв'язання цих проблем.</p>

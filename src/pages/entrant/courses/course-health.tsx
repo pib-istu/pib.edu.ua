@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Фізична терапія, ерготерапія</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/8.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/8.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first"><span className="bold">Фізична терапія, ерготерапія (Фізична реабілітація)</span> покращує якість лікування, прискорює процес відновлення функцій органів та систем, повертає працездатність, допомагає хворому розвинути навички самообслуговування, у випадках інвалідності пристосуватися до максимально активного життя у нових умовах, що відбулися внаслідок хвороби чи травми, а також до більш повної інтеграції в усі сфери його діяльності.</p>

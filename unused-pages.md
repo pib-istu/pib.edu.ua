@@ -568,7 +568,7 @@
     <li class="desc float-left center">Фізична культура і спорт</li>
   </ul>
 <ul class="spec">
-    <li class="top_course_image_wrapper"><img src="../templates/pib/img/universal_pictures/12.jpg"></li>
+    <li class="top_course_image_wrapper"><img src="../assets/pib/img/universal_pictures/12.jpg"></li>
   </ul>
 
 <div class="clear-both"></div>

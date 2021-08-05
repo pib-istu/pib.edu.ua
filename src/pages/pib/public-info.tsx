@@ -183,13 +183,13 @@ const FILES: readonly FileItem[] = [
     type: 'file',
     name: 'Правила прийому ПІБ МНТУ 2021',
     ext: 'pdf',
-    url: '/media/docs/Правила прийому ПІБ МНТУ 2021.pdf',
+    url: '/media/docs/Правила прийому ПІБ МНТУ 2021.pdf',
   },
   {
     type: 'file',
-    name: 'Правила прийому ПБК МНТУ 2021',
+    name: 'Правила прийому ПБК ПІБ МНТУ 2021',
     ext: 'pdf',
-    url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
+    url: '/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf',
   },
   {
     type: 'file',
@@ -208,6 +208,18 @@ const FILES: readonly FileItem[] = [
     name: 'Положення про Студентський парламент ПІБ МНТУ',
     ext: 'pdf',
     url: '/media/docs/other/student-self-governance/Положення про Студентський парламент ПІБ МНТУ.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Положення про Апеляційну Комісію ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/public-info/Положення про Апеляційну Комісію ПІБ МНТУ.pdf',
+  },
+  {
+    type: 'file',
+    name: 'Положення про зарахування за результатами співбесіди ПІБ МНТУ',
+    ext: 'pdf',
+    url: '/media/docs/public-info/Положення про зарахування за результатами співбесіди ПІБ МНТУ.pdf',
   },
 ]
 
