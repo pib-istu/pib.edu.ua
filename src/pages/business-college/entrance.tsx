@@ -64,13 +64,13 @@ export default () => {
       </div>
       <ul className="entrance-type">
         <li className="item1">
-          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item1"><b> Випускник 9 класу</b>, <small>який отримав базову загальну середню освіту</small></a>
+          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item1"><b> Випускник 9 класу</b> <small>з&nbsp;базовою загальною середньою освітою</small></a>
         </li>
         <li className="item2">
-          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item2"><b>Випускник 11 класу</b>, <small>який отримав повну загальну середню освіту</small></a>
+          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item2"><b>Випускник 11 класу</b> <small>з&nbsp;повною загальною середньою освітою</small></a>
         </li>
         <li className="item3">
-          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item3"><b>Випускник ПТНЗ</b>, <small>який отримав диплом кваліфікованого робітника</small><br /> <span className="block">(якщо бажаєте продовжити навчання за спорідненими спеціальностями)</span></a>
+          <a className="divslide2 block unline center" href="#" data-rel2="#entrance-item3"><b>Випускник ПТНЗ</b> <small>з&nbsp;дипломом кваліфікованого робітника</small><br /> <span className="block">для продовження навчання за спорідненими спеціальностями</span></a>
         </li>
       </ul>
       <div id="entrance-item1" className="entrance-wrap toggleDiv2 clear-both" style={{display: 'none'}}>

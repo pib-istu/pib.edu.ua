@@ -183,7 +183,7 @@ const FILES: readonly FileItem[] = [
     type: 'file',
     name: 'Правила прийому ПІБ МНТУ 2021',
     ext: 'pdf',
-    url: '/media/docs/Правила прийому ПІБ МНТУ 2021.pdf',
+    url: '/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf',
   },
   {
     type: 'file',
@@ -193,9 +193,9 @@ const FILES: readonly FileItem[] = [
   },
   {
     type: 'file',
-    name: 'Перелік конкурсних предметів ПІБ 2020',
+    name: 'Перелік конкурсних предметів ПІБ МНТУ 2021',
     ext: 'pdf',
-    url: '/media/docs/dod3.pdf?v1',
+    url: '/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf',
   },
   {
     type: 'file',
