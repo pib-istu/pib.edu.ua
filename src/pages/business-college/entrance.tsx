@@ -171,7 +171,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">
@@ -341,7 +341,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">
@@ -534,7 +534,7 @@ export default () => {
             <div className="content">
               <ul>
                 <li className="item1 float-left">
-                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
+                  <a href="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" className="gold external" target="_blank">Правила прийому ПБК МНТУ</a><br />
                 </li>
                 <li className="item2 button-overlay float-left">
                   <a href="/entrant/faq" className="block unline">

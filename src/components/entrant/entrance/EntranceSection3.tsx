@@ -1,9 +1,9 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import { EntranceSectionFooter } from './EntranceSectionFooter';
 
 export const EntranceSection3: FC = () => {
   return (
-    <div id="entrance-item2" className="entrance-wrap toggleDiv2 clear-both" style={{display: 'none'}}>
+    <div id="entrance-item2" className="entrance-wrap toggleDiv2 clear-both" style={{ display: 'none' }}>
       <ul>
         <li className="entrance-terms">
           <div className="list-steps">
@@ -13,9 +13,9 @@ export const EntranceSection3: FC = () => {
           <div className="content">
             <p>ПІБ МНТУ приймає на третій курс осіб, які здобули базову або повну вищу освіту, для здобуття ступеня бакалавра за іншим напрямом підготовки у межах вакантних місць ліцензованого обсягу.</p>
             <p>Випускники вищих навчальних закладів IIІ-ІV рівня акредитації, які бажають навчатись в ПІБ МНТУ, зараховуються за результатами <span className="bold">фахового вступного випробування</span>.</p>
-            <p style={{paddingTop: '15px'}}>Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
+            <p style={{ paddingTop: '15px' }}>Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
             <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-comp2">Перелік осіб, які мають право на зарахування поза конкурсом</a>
-            <div id="entrance-comp2" style={{display: 'none'}}>
+            <div id="entrance-comp2" style={{ display: 'none' }}>
               <ul className="entrance-comp list-dots">
                 <li>особи, яким відповідно до Закону України «Про статус ветеранів війни, гарантії їх соціального захисту» надане таке право;</li>
                 <li>інваліди I та II груп та діти-інваліди віком до 18 років, яким не протипоказане навчання за обраним напрямом, відповідно до Закону України «Про основи соціальної захищеності інвалідів в Україні»;</li>

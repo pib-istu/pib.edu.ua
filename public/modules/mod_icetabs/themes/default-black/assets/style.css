@@ -20,7 +20,7 @@
 	width:auto;
 	height:auto;
 
-	background-image: url(../../../../../templates/pib/img/front_header_teaser_border.jpg);
+	background-image: url(../../../../../assets/pib/img/front_header_teaser_border.jpg);
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@
 		font-weight: bold;
 		font-size: 14px;
 		text-decoration: none;
-		background: url(../../../../../templates/pib/img/arrow_white_14px.png);
+		background: url(../../../../../assets/pib/img/arrow_white_14px.png);
 		background-repeat: no-repeat;
 		background-position: right 7px;
 		padding-right: 10px;
@@ -121,7 +121,7 @@
 	height:300px;
 	width:310px;
 	overflow:hidden;
-	background-image: url(../../../../../templates/pib/img/front_header_teaser_border_right.jpg);
+	background-image: url(../../../../../assets/pib/img/front_header_teaser_border_right.jpg);
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -144,7 +144,7 @@
 }
 .ice-tabs-black  ul.ice-navigator li:hover, .ice-tabs-black  ul.ice-navigator li:focus
 {
-	background-image: url(../../../../../templates/pib/img/b/h/front_header_teaser_button.jpg);
+	background-image: url(../../../../../assets/pib/img/b/h/front_header_teaser_button.jpg);
 }
 .ice-tabs-black  ul.ice-navigator li div
 {
@@ -179,11 +179,11 @@
 }
 .ice-tabs-black .ice-navigator li.active
 {
-	background-image: url(../../../../../templates/pib/img/b/front_header_teaser_button.jpg);
+	background-image: url(../../../../../assets/pib/img/b/front_header_teaser_button.jpg);
 }
 .ice-tabs-black  ul.ice-navigator li.active:hover, .ice-tabs-black  ul.ice-navigator li.active:focus
 {
-	background-image: url(../../../../../templates/pib/img/b/front_header_teaser_button.jpg);
+	background-image: url(../../../../../assets/pib/img/b/front_header_teaser_button.jpg);
 }
 
 

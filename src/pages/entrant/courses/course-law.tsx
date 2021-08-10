@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Право</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/3.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/3.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first"><span className="bold">Юри́ст</span> - це одна з найбільш поширених, необхідних і високооплачуваних професій у цивілізованому суспільстві. Кожному потрібен свій юрист, як і свій лікар.</p>

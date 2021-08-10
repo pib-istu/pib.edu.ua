@@ -18,7 +18,7 @@ export default () => {
           <li className="desc float-left center">Телекомунікації та радіотехніка</li>
         </ul>
         <ul className="spec">
-          <li className="top_course_image_wrapper"><img src="/../templates/pib/img/universal_pictures/10.jpg" /></li>
+          <li className="top_course_image_wrapper"><img src="/../assets/pib/img/universal_pictures/10.jpg" /></li>
         </ul>
         <div className="clear-both" />
         <p className="first">Розвиток телекомунікаційних і радіотехнічних технологій призводить до того, що в розвинених країнах світу телекомунікації входять у список найпрестижніших навчальних напрямів. Спеціалістами щороку створюються все більш сучасні і досконалі прилади, які роблять зв’язок якіснішим, доступнішим і полегшують життя: Internet, 3G, LTE, 5G, супутниковий зв’язок – зліт нових і розвиток досконаліших технологій неможливий без великої кількості кваліфікованих інженерів з телекомунікації, попит на яких щороку зростає.</p>

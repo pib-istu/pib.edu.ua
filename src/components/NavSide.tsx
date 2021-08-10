@@ -4,7 +4,7 @@ import { Link, LinkProps, useLocation } from '@reach/router'
 type NavLinkProps = LinkProps<{}> & React.RefAttributes<HTMLAnchorElement>
 
 const NavLink: FC<NavLinkProps> = ({ children, ...props }) => {
-  const isExternal = props.to.includes('//')
+  const isExternal = props.to.includes('//') || props.target === '_blank'
 
   if (isExternal) return (
     <a {...props} href={props.to}>{children}</a>
@@ -150,9 +150,13 @@ export default () => {
               <NavLink to="/entrant/entrance">Вступ до ПІБ МНТУ</NavLink>
               <Loc match='/entrant/entrance'>
                 <ul>
-                  <NavItemLink id="item-155" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank">Умови прийому МОН</NavItemLink>
-                  <NavItemLink id="item-183" to="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
-                  <NavItemLink id="item-233" to="/media/docs/entrant/entrance/Перелік конкурсних предметів 2021.pdf" target="_blank">Перелік конкурсних предметів</NavItemLink>
+                  <NavItemLink id="item-155" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank">Умови прийому МОН</NavItemLink>
+                  <NavItemLink id="item-183" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
+                  <NavItemLink id="item-233" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ 2021.pdf" target="_blank">Перелік конкурсних предметів</NavItemLink>
+=                 <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 2 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 2 курс (денна форма)</NavItemLink>
+                  <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 3 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 3 курс (денна форма)</NavItemLink>
+                  <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>
+                  <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО заочна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (заочна форма)</NavItemLink>
                 </ul>
               </Loc>
             </NavSection>
@@ -189,18 +193,10 @@ export default () => {
                   <ul>
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
-                    <NavItemLink id="item-240" to="/media/docs/Рейтинг_1.pdf" target="_blank">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                    <NavItemLink id="item-241" to="/media/docs/Рейтинг_3.pdf" target="_blank">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-242" to="/media/docs/Рейтинг_2.pdf" target="_blank">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-243" to="/media/docs/Рекоменд_1.pdf" target="_blank">Список рекомендованих від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                    <NavItemLink id="item-244" to="/media/docs/Рекоменд_3.pdf" target="_blank">Список рекомендованих від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-245" to="/media/docs/Рекоменд_2.pdf" target="_blank">Список рекомендованих від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-246" to="/media/docs/Рекоменд_31.08.2020.pdf" target="_blank">Список рекомендованих від 31.08.2020 (073 Менеджмент)</NavItemLink>
-                    <NavItemLink id="item-247" to="/media/docs/Списки на основі ПЗСО.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-248" to="/media/docs/Списки на основі КР.pdf" target="_blank">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (072 Фінанси, банківська справа та страхування)</NavItemLink>
-                    <NavItemLink id="item-249" to="/media/docs/Списки на основі ПЗСО(денна форма).pdf" target="_blank">Список рекомендованих від 03.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
-                    <NavItemLink id="item-250" to="/media/docs/Списки на основі КР(денна форма).pdf" target="_blank">Список рекомендованих від 02.09.2020 (017 Фiзична культура i спорт)</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування.pdf" target="_blank">Список рекомендованих до зарахування</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування на основі КР денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі КР (денна форма)</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>
                   </ul>
                 </Loc>
               </NavSection>
@@ -216,7 +212,8 @@ export default () => {
             <NavItemLink id="item-174" to="/other/schedule">Розклад занять</NavItemLink>
             {/* <NavItemLink id="item-158" to="/other/juridical-help">Юридична клініка</NavItemLink> */}
             <NavItemLink id="item-157" to="/other/gallery">Фотоархів</NavItemLink>
-            <NavItemLink id="item-160" to="/other/self-governance">Студентське самоврядування</NavItemLink>
+            <NavItemLink id="item-160" to="/other/pbc-student-self-governance">Студентське самоврядування коледжу</NavItemLink>
+            <NavItemLink id="item-160" to="/other/pib-student-self-governance">Студентське самоврядування інституту</NavItemLink>
             <NavItemLink id="item-160" to="/other/ombudsman">Офіс студентського омбудсмена</NavItemLink>
           </ul>
         </NavSection>

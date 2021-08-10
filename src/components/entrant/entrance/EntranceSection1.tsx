@@ -1,14 +1,16 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import { EntranceSectionFooter } from './EntranceSectionFooter';
+
+const CURRENT_YEAR = new Date().getFullYear();
 
 export const EntranceSection1: FC = () => {
   return (
-    <div id="entrance-item1" className="entrance-wrap toggleDiv2 clear-both" style={{display: 'none'}}>
+    <div id="entrance-item1" className="entrance-wrap toggleDiv2 clear-both" style={{ display: 'none' }}>
       <ul>
         <li className="entrance-terms">
           <div className="list-steps">
             <div className="step float-left">2</div>
-            <h2 className="block orange float-left"> Умови вступу:</h2>
+            <h2 className="block orange float-left">Умови вступу:</h2>
           </div>
 
           <div className="content">
@@ -21,7 +23,7 @@ export const EntranceSection1: FC = () => {
 
             <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-cert">Перелік конкурсних предметів / предметів, з яких можуть бути подані сертифікати</a>
 
-            <div id="entrance-cert" style={{display: 'none'}}>
+            <div id="entrance-cert" style={{ display: 'none' }}>
               <table style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
                 <tbody>
                   <tr className="header">
@@ -257,12 +259,12 @@ export const EntranceSection1: FC = () => {
               </p>
             </div>
 
-            <p style={{paddingTop: '15px'}}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">2015</span> році.</p>
+            <p style={{ paddingTop: '15px' }}>Вступники мають право подавати сертифікат зовнішнього незалежного оцінювання, виданий у <span className="bold">{CURRENT_YEAR}</span> році.</p>
             <p>Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
 
             <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-comp">Перелік осіб, які мають право на зарахування поза конкурсом</a>
 
-            <div id="entrance-comp" style={{display: 'none'}}>
+            <div id="entrance-comp" style={{ display: 'none' }}>
               <ul className="entrance-comp list-dots">
                 <li>особи, яким відповідно до Закону України «Про статус ветеранів війни, гарантії їх соціального захисту» надане таке право;</li>
                 <li>інваліди I та II груп та діти-інваліди віком до 18 років, яким не протипоказане навчання за обраним напрямом, відповідно до Закону України «Про основи соціальної захищеності інвалідів в Україні»;</li>

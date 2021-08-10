@@ -148,7 +148,7 @@ export default () => {
                       <li>
                         <div style={COL_STYLE} className="iceCols">
                           <ul>
-                            <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="http://zakon2.rada.gov.ua/laws/show/z1390-14#n15" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
+                            <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
                             <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/entrant/entrance/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
                             <NavItemLink id="iceMenu_233" className="iceMenuLiLevel_3" to="/media/docs/entrant/entrance/Перелік конкурсних предметів 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів</NavItemLink>
                           </ul>
@@ -199,18 +199,7 @@ export default () => {
                           <ul>
                             <NavItemLink id="iceMenu_234" className="iceMenuLiLevel_3" to="/media/docs/dod3pbk.pdf?v2" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                             <NavItemLink id="iceMenu_238" className="iceMenuLiLevel_3" to="/media/docs/dod4.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                            <NavItemLink id="iceMenu_235" className="iceMenuLiLevel_3" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПБК МНТУ</NavItemLink>
-                            <NavItemLink id="iceMenu_240" className="iceMenuLiLevel_3" to="/media/docs/Рейтинг_1.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Рейтинговий список від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                            <NavItemLink id="iceMenu_241" className="iceMenuLiLevel_3" to="/media/docs/Рейтинг_3.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Рейтинговий список від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                            <NavItemLink id="iceMenu_242" className="iceMenuLiLevel_3" to="/media/docs/Рейтинг_2.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Рейтинговий список від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                            <NavItemLink id="iceMenu_243" className="iceMenuLiLevel_3" to="/media/docs/Рекоменд_1.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 23.07.2020 (017 Фізична культура і спорт)</NavItemLink>
-                            <NavItemLink id="iceMenu_244" className="iceMenuLiLevel_3" to="/media/docs/Рекоменд_3.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 23.07.2020 (073 Менеджмент)</NavItemLink>
-                            <NavItemLink id="iceMenu_245" className="iceMenuLiLevel_3" to="/media/docs/Рекоменд_2.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 23.07.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                            <NavItemLink id="iceMenu_246" className="iceMenuLiLevel_3" to="/media/docs/Рекоменд_31.08.2020.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 31.08.2020 (073 Менеджмент)</NavItemLink>
-                            <NavItemLink id="iceMenu_247" className="iceMenuLiLevel_3" to="/media/docs/Списки на основі ПЗСО.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (121 Інженерія програмного забезпечення)</NavItemLink>
-                            <NavItemLink id="iceMenu_248" className="iceMenuLiLevel_3" to="/media/docs/Списки на основі КР.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих, Заочна форма навчання, від 01.09.2020 (072 Фінанси, банківська справа та страхування)</NavItemLink>
-                            <NavItemLink id="iceMenu_249" className="iceMenuLiLevel_3" to="/media/docs/Списки на основі ПЗСО(денна форма).pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 03.09.2020 (121 Iнженерiя програмного забезпечення)</NavItemLink>
-                            <NavItemLink id="iceMenu_250" className="iceMenuLiLevel_3" to="/media/docs/Списки на основі КР(денна форма).pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Список рекомендованих від 02.09.2020 (017 Фiзична культура i спорт)</NavItemLink>
+                            <NavItemLink id="iceMenu_235" className="iceMenuLiLevel_3" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПБК МНТУ</NavItemLink>
                           </ul>
                         </div>
                       </li>
@@ -232,7 +221,8 @@ export default () => {
                   <NavItemLink id="iceMenu_174" className="iceMenuLiLevel_2" to="/other/schedule" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Розклад занять</NavItemLink>
                   {/* <NavItemLink id="iceMenu_158" className="iceMenuLiLevel_2" to="/other/juridical-help" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Юридична клініка</NavItemLink> */}
                   <NavItemLink id="iceMenu_157" className="iceMenuLiLevel_2" to="/other/gallery" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Фотоархів</NavItemLink>
-                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування</NavItemLink>
+                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/pbc-student-self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування коледжу</NavItemLink>
+                  <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/pib-student-self-governance" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Студентське самоврядування інституту</NavItemLink>
                   <NavItemLink id="iceMenu_160" className="iceMenuLiLevel_2" to="/other/ombudsman" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Офіс студентського омбудсмена</NavItemLink>
                 </ul>
               </div>

@@ -1,9 +1,9 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import { EntranceSectionFooter } from './EntranceSectionFooter';
 
 export const EntranceSection2: FC = () => {
   return (
-    <div id="entrance-item3" className="entrance-wrap toggleDiv2 clear-both" style={{display: 'none'}}>
+    <div id="entrance-item3" className="entrance-wrap toggleDiv2 clear-both" style={{ display: 'none' }}>
       <ul>
         <li className="entrance-terms">
           <div className="list-steps">
@@ -13,16 +13,16 @@ export const EntranceSection2: FC = () => {
           <div className="content">
             <p>Випускники вищих навчальних закладів І-ІІ рівня акредитації, які бажають продовжити навчання за спорідненими спеціальностями в ПІБ МНТУ, зараховуються за результатами <span className="bold">фахового вступного випробування</span>.</p>
             <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-spec">Споріднені спеціальності освітньо-кваліфікаційного рівня молодшого спеціаліста</a>
-            <div id="entrance-spec" style={{display: 'none'}}>
+            <div id="entrance-spec" style={{ display: 'none' }}>
               <p className="italic">Даний перелік містить напрями підготовки для прийому на навчання на другий курс (з нормативним терміном навчання на вакантні місця) осіб, які здобули освітньо-кваліфікаційний рівень молодшого спеціаліста, для здобуття освітньо-кваліфікаційного рівня бакалавра за умови вступу на споріднений напрям підготовки:</p>
               <table style={{ border: 0 }} cellSpacing={0} cellPadding={0}>
                 <tbody><tr className="header">
-                    <td className="spec last-left" colSpan={2}>Споріднені спеціальності освітньо-кваліфікаційного рівня молодшого спеціаліста</td>
-                    <td className="bachelor">Напрями підготовки освітньо-кваліфікаційного рівня бакалавра</td>
-                    <td className="course">Курс</td>
-                    <td className="period">Термін навчання<br />
-                      <span className="form">(денна&nbsp;форма)<br />(заочна&nbsp;форма)</span></td>
-                  </tr>
+                  <td className="spec last-left" colSpan={2}>Споріднені спеціальності освітньо-кваліфікаційного рівня молодшого спеціаліста</td>
+                  <td className="bachelor">Напрями підготовки освітньо-кваліфікаційного рівня бакалавра</td>
+                  <td className="course">Курс</td>
+                  <td className="period">Термін навчання<br />
+                    <span className="form">(денна&nbsp;форма)<br />(заочна&nbsp;форма)</span></td>
+                </tr>
                   <tr>
                     <td colSpan={6} className="spacer" />
                   </tr>
@@ -277,7 +277,7 @@ export const EntranceSection2: FC = () => {
             </div>
             <p className="after">Звертаємо Вашу увагу на те, що законодавством України певним категоріям громадян надано право на <span className="bold italic">зарахування поза конкурсом</span>.</p>
             <a className="divslide3 gold arrow-down" href="#" data-rel3="#entrance-comp3">Перелік осіб, які мають право на зарахування поза конкурсом</a>
-            <div id="entrance-comp3" style={{display: 'none'}}>
+            <div id="entrance-comp3" style={{ display: 'none' }}>
               <ul className="entrance-comp list-dots">
                 <li>особи, яким відповідно до Закону України «Про статус ветеранів війни, гарантії їх соціального захисту» надане таке право;</li>
                 <li>інваліди I та II груп та діти-інваліди віком до 18 років, яким не протипоказане навчання за обраним напрямом, відповідно до Закону України «Про основи соціальної захищеності інвалідів в Україні»;</li>
