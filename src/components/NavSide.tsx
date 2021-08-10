@@ -152,7 +152,7 @@ export default () => {
                 <ul>
                   <NavItemLink id="item-155" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank">Умови прийому МОН</NavItemLink>
                   <NavItemLink id="item-183" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
-                  <NavItemLink id="item-233" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ 2021.pdf" target="_blank">Перелік конкурсних предметів</NavItemLink>
+                  <NavItemLink id="item-233" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf" target="_blank">Перелік конкурсних предметів ПІБ МНТУ 2021</NavItemLink>
 =                 <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 2 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 2 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 3 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 3 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>
