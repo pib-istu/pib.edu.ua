@@ -155,6 +155,8 @@ export default () => {
                   <NavItemLink id="item-233" to="/media/docs/dod3.pdf?v1" target="_blank">Перелік конкурсних предметів ПІБ 2020</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 2 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 2 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Спосок рекомендованих до зарахування на 3 курс денна форма.pdf" target="_blank">Спосок рекомендованих до зарахування на 3 курс (денна форма)</NavItemLink>
+                  <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>
+                  <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО заочна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (заочна форма)</NavItemLink>
                 </ul>
               </Loc>
             </NavSection>
