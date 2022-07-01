@@ -150,7 +150,6 @@ export default () => {
                           <ul>
                             <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
                             <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
-                            <NavItemLink id="iceMenu_233" className="iceMenuLiLevel_3" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів ПІБ МНТУ</NavItemLink>
                           </ul>
                         </div>
                       </li>

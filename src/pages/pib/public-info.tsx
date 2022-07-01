@@ -193,12 +193,6 @@ const FILES: readonly FileItem[] = [
   },
   {
     type: 'file',
-    name: 'Перелік конкурсних предметів ПІБ МНТУ 2021',
-    ext: 'pdf',
-    url: '/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf',
-  },
-  {
-    type: 'file',
     name: 'Перелік конкурсних предметів ПБК 2020',
     ext: 'pdf',
     url: '/media/docs/dod3pbk.pdf?v2',
