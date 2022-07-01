@@ -150,7 +150,7 @@ export default () => {
               <NavLink to="/entrant/entrance">Вступ до ПІБ МНТУ</NavLink>
               <Loc match='/entrant/entrance'>
                 <ul>
-                  <NavItemLink id="item-155" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank">Умови прийому МОН</NavItemLink>
+                  <NavItemLink id="item-155" to="https://mon.gov.ua/ua/osvita/visha-osvita/vstupna-kampaniya-2022/umovi-prijomu-dlya-zdobuttya-vishoyi-osviti-2022-roku" target="_blank">Умови прийому МОН</NavItemLink>
                   <NavItemLink id="item-183" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 2 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 2 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 3 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 3 курс (денна форма)</NavItemLink>
