@@ -15,9 +15,15 @@ export default () => {
           <div className="header first gold">Адреса:</div>
           <div className="adress bold center"><a href="https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&aq=&sll=49.588267,34.551417&sspn=0.183173,0.308647&t=m&ie=UTF8&view=map&cid=16253679154153765982&hq=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&hnear=&ll=49.588236,34.539428&spn=0.009487,0.017939&z=15&iwloc=A" target="_blank" title="показати на мапі" className="highlight">36039, м. Полтава, вул. Сінна,7</a></div>
           <div className="header second gold">Телефон:</div>
-          <div className="phone orange center bold">
-            <span className="city-code">(0532)</span> 50-81-78<br />
-            <span className="second">50-81-05</span>
+          <div className="phone orange right bold" style={{
+            display: 'flex',
+            justifyContent: 'center',
+          }}>
+            <div>
+              <span className="city-code">+38 (0532)</span> 50-81-78<br />
+              <span className="city-code">+38 (0532)</span> 50-81-05<br />
+              <span className="city-code">+38 050</span> 15-57-774
+            </div>
           </div>
           <div className="header third gold">Факс:</div>
           <div className="fax center bold"><span className="city-code">(0532)</span> 50-81-79</div>
