@@ -20,9 +20,9 @@ export default () => {
             justifyContent: 'center',
           }}>
             <div>
+              <span className="city-code">+38 050</span> 15-57-774<br />
               <span className="city-code">+38 (0532)</span> 50-81-78<br />
-              <span className="city-code">+38 (0532)</span> 50-81-05<br />
-              <span className="city-code">+38 050</span> 15-57-774
+              <span className="city-code">+38 (0532)</span> 50-81-05
             </div>
           </div>
           <div className="header third gold">Факс:</div>

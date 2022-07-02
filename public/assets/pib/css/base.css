@@ -438,9 +438,8 @@ table tr.second, table td.second {
 }
 #header_contact {
 	height: 71px;
-	width: 215px;
 	position: absolute;
-	right: 121px;
+	right: 101px;
 	top: 42px;
 	color: #f69a0b;
 	font-weight: bold;
