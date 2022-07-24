@@ -150,9 +150,8 @@ export default () => {
               <NavLink to="/entrant/entrance">Вступ до ПІБ МНТУ</NavLink>
               <Loc match='/entrant/entrance'>
                 <ul>
-                  <NavItemLink id="item-155" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank">Умови прийому МОН</NavItemLink>
-                  <NavItemLink id="item-183" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
-                  <NavItemLink id="item-233" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf" target="_blank">Перелік конкурсних предметів ПІБ МНТУ 2021</NavItemLink>
+                  <NavItemLink id="item-155" to="https://mon.gov.ua/ua/osvita/visha-osvita/vstupna-kampaniya-2022/umovi-prijomu-dlya-zdobuttya-vishoyi-osviti-2022-roku" target="_blank">Умови прийому МОН</NavItemLink>
+                  <NavItemLink id="item-183" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2022.pdf" target="_blank">Правила прийому ПІБ МНТУ</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 2 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 2 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на 3 курс денна форма.pdf" target="_blank">Список рекомендованих до зарахування на 3 курс (денна форма)</NavItemLink>
                   <NavItemLink id="item-235" to="/media/docs/entrant/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>
@@ -193,7 +192,7 @@ export default () => {
                   <ul>
                     <NavItemLink id="item-234" to="/media/docs/dod3pbk.pdf?v2" target="_blank">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                     <NavItemLink id="item-238" to="/media/docs/dod4.pdf" target="_blank">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
+                    <NavItemLink id="item-235" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2022.pdf" target="_blank">Правила прийому ПБК МНТУ</NavItemLink>
                     <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування.pdf" target="_blank">Список рекомендованих до зарахування</NavItemLink>
                     <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування на основі КР денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі КР (денна форма)</NavItemLink>
                     <NavItemLink id="item-235" to="/media/docs/business-college/Список рекомендованих до зарахування на основі ПЗСО денна форма.pdf" target="_blank">Список рекомендованих до зарахування на основі ПЗСО (денна форма)</NavItemLink>

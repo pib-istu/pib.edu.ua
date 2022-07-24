@@ -148,9 +148,8 @@ export default () => {
                       <li>
                         <div style={COL_STYLE} className="iceCols">
                           <ul>
-                            <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="https://zakon.rada.gov.ua/laws/show/z1225-20#Text" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
-                            <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
-                            <NavItemLink id="iceMenu_233" className="iceMenuLiLevel_3" to="/media/docs/public-info/Перелік конкурсних предметів ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів ПІБ МНТУ</NavItemLink>
+                            <NavItemLink id="iceMenu_155" className="iceMenuLiLevel_3" to="https://mon.gov.ua/ua/osvita/visha-osvita/vstupna-kampaniya-2022/umovi-prijomu-dlya-zdobuttya-vishoyi-osviti-2022-roku" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Умови прийому МОН</NavItemLink>
+                            <NavItemLink id="iceMenu_183" className="iceMenuLiLevel_3" to="/media/docs/public-info/Правила прийому ПІБ МНТУ 2022.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПІБ МНТУ</NavItemLink>
                           </ul>
                         </div>
                       </li>
@@ -199,7 +198,7 @@ export default () => {
                           <ul>
                             <NavItemLink id="iceMenu_234" className="iceMenuLiLevel_3" to="/media/docs/dod3pbk.pdf?v2" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік конкурсних предметів ПБК 2020</NavItemLink>
                             <NavItemLink id="iceMenu_238" className="iceMenuLiLevel_3" to="/media/docs/dod4.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Перелік документiв для вступу ПБК 2020</NavItemLink>
-                            <NavItemLink id="iceMenu_235" className="iceMenuLiLevel_3" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2021.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПБК МНТУ</NavItemLink>
+                            <NavItemLink id="iceMenu_235" className="iceMenuLiLevel_3" to="/media/docs/Правила прийому ПБК ПІБ МНТУ 2022.pdf" target="_blank" linkClassName=" iceMenuTitle" spanClassName="icemega_title icemega_nosubtitle">Правила прийому ПБК МНТУ</NavItemLink>
                           </ul>
                         </div>
                       </li>

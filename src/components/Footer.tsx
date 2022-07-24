@@ -48,7 +48,8 @@ export default () => {
                   <span className="text">Контакти</span>
                 </div>
                 <div className="content">
-                  <p className="phone">(0532) 50-81-05<br />
+                  <p className="phone">
+                    050 15-57-774<br />
                     (0532) 50-81-78
                   </p>
                   <p className="contact">36039 м. Полтава, вул. Сінна 7&nbsp;<a href="https://maps.google.com/maps?q=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&hl=en&ie=UTF8&sll=49.588267,34.551417&sspn=0.183173,0.308647&t=m&view=map&cid=16253679154153765982&hq=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0+%D1%81%D0%B5%D0%BD%D0%BD%D0%BD%D0%B0%D1%8F+7&z=15&iwloc=A" title="Показати ПІБ МНТУ на мапі" target="_blank"><img src="/assets/pib/img/footer_cont_mappin.png" alt="Показати ПІБ МНТУ на мапі" /></a></p>
