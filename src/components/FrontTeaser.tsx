@@ -52,10 +52,10 @@ const Item: FC<ItemProps> = ({ url, imageSrc, heading, target, children, ...prop
 
 const TEASERS = [
   {
-    heading: "Вступ 2021",
-    url: "/images/hero/Вступ-2021.png",
+    heading: "Вступ 2022",
+    url: "/images/hero/Вступ-2022.png",
     target: '_blank',
-    imageSrc: "/images/hero/Вступ-2021.png",
+    imageSrc: "/images/hero/Вступ-2022.png",
     children: null,
   },
   // Вступ без ЗНО
