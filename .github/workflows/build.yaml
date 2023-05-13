@@ -44,4 +44,4 @@ jobs:
       - name: Sync via FTP
         if: github.ref == 'refs/heads/master'
         timeout-minutes: 120
-        run: lftp ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOSTNAME }} -e "set ftp:ssl-allow off; mirror -v -R --only-newer --ignore-missing ./dist /; quit"
+        run: lftp ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOSTNAME }} -e "set ftp:ssl-allow off; mirror -v -R --only-newer --overwrite -e ./dist /; quit"
