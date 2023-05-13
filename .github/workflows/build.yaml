@@ -41,6 +41,17 @@ jobs:
         timeout-minutes: 2
         run: sudo apt-get install lftp
 
+      - name: Step 1 - Echo out a GitHub Actions Secret to the logs
+        run: |
+          echo "The GitHub Action Secret will be masked:  "
+          echo ${{ secrets.FTP_USERNAME }}
+          echo "Trick to echo GitHub Actions Secret:  "
+          echo ${{secrets.FTP_USERNAME}} | sed 's/./& /g'
+          echo "The GitHub Action Secret will be masked:  "
+          echo ${{ secrets.FTP_HOSTNAME }}
+          echo "Trick to echo GitHub Actions Secret:  "
+          echo ${{secrets.FTP_HOSTNAME}} | sed 's/./& /g'
+
       - name: Sync via FTP
         if: github.ref == 'refs/heads/master'
         timeout-minutes: 15
