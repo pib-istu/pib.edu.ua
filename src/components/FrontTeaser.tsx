@@ -58,6 +58,13 @@ const TEASERS = [
     imageSrc: "/images/hero/Вступ-2023.png",
     children: null,
   },
+  {
+    heading: "6 кроків для вступу",
+    url:"images/hero/Кроки-для-вступу-2023.png",
+    target: '_blank',
+    imageSrc: "images/hero/Кроки-для-вступу-2023.png",
+    shouldUseSingleLine: false,
+  },
   // Вступ без ЗНО
   // <img src="images/hero/without-oir.jpg" border="0" alt="" />
   // <p>Можливість вступу без ЗНО для випускників середніх загальноосвітніх навчальних закладів</p>
@@ -74,16 +81,6 @@ const TEASERS = [
     imageSrc: "/images/hero/business-college.jpg",
     children: <p>Запрошуємо на навчання випускників 9-х, 11-х класів до бізнес-коледжу із зарахування на III курс ПІБ МНТУ після закінчення</p>,
   },
-  {
-    heading: "Юридична клініка",
-    url: "/other/juridical-help",
-    imageSrc: "images/hero/juridical-help.jpg",
-    children: <>
-      <p>Потрібна юридична допомога, але ви не маєте змоги звернутися за платною допомогою?</p>
-      <p>Скористайтеся послугами безкоштовної юридичної студентської клініки!</p>
-    </>,
-    shouldUseSingleLine: false,
-  },
 
   // {
   //   heading: "Менеджмент безпеки підприємницької діяльності",
@@ -98,9 +95,10 @@ const TEASERS = [
   // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
   {
     heading: "Військова кафедра",
-    url: "/entrant/military",
-    imageSrc: "/images/hero/military.jpg",
-    children: <p>Для студентів денної форми навчання ПІБ МНТУ на базі факультету військової підготовки Військового інституту телекомунікацій та інформатизації із присвоєнням військового звання <span className="bold">молодший лейтенант запасу</span> після закінчення.</p>,
+    url: "/images/hero/Військова-кафедра-2023.png",
+    target: '_blank',
+    imageSrc: "/images/hero/Військова-кафедра-2023.png",
+    children: null,
   }
 ]
 
