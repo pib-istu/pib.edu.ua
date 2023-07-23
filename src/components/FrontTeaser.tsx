@@ -60,9 +60,9 @@ const TEASERS = [
   },
   {
     heading: "6 кроків для вступу",
-    url:"images/hero/Кроки-для-вступу-2023.png",
+    url: "/images/hero/entrance-steps-2023.png",
     target: '_blank',
-    imageSrc: "images/hero/Кроки-для-вступу-2023.png",
+    imageSrc: "/images/hero/entrance-steps-2023.png",
     shouldUseSingleLine: false,
   },
   // Вступ без ЗНО
@@ -95,9 +95,9 @@ const TEASERS = [
   // <p>Унікальна спеціалізація для випускників духовних навчальних закладів та осіб, які бажають отримати вищу освіту</p>
   {
     heading: "Військова кафедра",
-    url: "/images/hero/Військова-кафедра-2023.png",
+    url: "/images/hero/military-2023.png",
     target: '_blank',
-    imageSrc: "/images/hero/Військова-кафедра-2023.png",
+    imageSrc: "/images/hero/military-2023.png",
     children: null,
   }
 ]
