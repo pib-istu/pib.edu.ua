@@ -52,17 +52,17 @@ const Item: FC<ItemProps> = ({ url, imageSrc, heading, target, children, ...prop
 
 const TEASERS = [
   {
-    heading: "Вступ 2023",
-    url: "/images/hero/Вступ-2023.png",
-    target: '_blank',
-    imageSrc: "/images/hero/Вступ-2023.png",
+    heading: "Вступ 2025",
+    url: "/images/hero/вступ-2025.png",
+    target: "_blank",
+    imageSrc: "/images/hero/вступ-2025.png",
     children: null,
   },
   {
     heading: "6 кроків для вступу",
-    url: "/images/hero/entrance-steps-2023.png",
-    target: '_blank',
-    imageSrc: "/images/hero/entrance-steps-2023.png",
+    url: "/images/hero/вступ-2025-кроки.png",
+    target: "_blank",
+    imageSrc: "/images/hero/вступ-2025-кроки.png",
     shouldUseSingleLine: false,
   },
   // Вступ без ЗНО
