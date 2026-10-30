@@ -9,9 +9,17 @@ on:
     branches:
       - master
 
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Only show what deploy would change on the server (allowed from any branch)
+        type: boolean
+        default: false
+
 concurrency:
   group: ${{ github.event.repository.name }}-build-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
+  # Don't interrupt a deploy halfway through
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   run-build:
@@ -19,10 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         timeout-minutes: 5
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v7
         timeout-minutes: 5
         with:
           node-version-file: .nvmrc
@@ -36,12 +44,67 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=4096
 
-      - name: Install lftp
-        if: github.ref == 'refs/heads/master'
-        timeout-minutes: 2
-        run: sudo apt-get install lftp
+      - name: Check deploy settings
+        if: github.ref == 'refs/heads/master' || inputs.dry_run
+        timeout-minutes: 1
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          for name in DEPLOY_SSH_KEY DEPLOY_HOST DEPLOY_USER DEPLOY_PATH DEPLOY_KNOWN_HOSTS; do
+            if [ -z "${!name}" ]; then
+              echo "::error::Secret or variable $name is not set"
+              missing=1
+            fi
+          done
+          # `--delete` removes everything in the target which isn't in the build, so refuse obviously wrong targets
+          case "${DEPLOY_PATH%/}" in
+            ""|"."|"~"|"/"|"/home"|"/home/$DEPLOY_USER"|"$DEPLOY_USER"|"/home/$DEPLOY_USER/domains"|"domains")
+              echo "::error::DEPLOY_PATH '$DEPLOY_PATH' looks like a home or root directory, not a site folder"
+              missing=1
+              ;;
+          esac
+          exit "${missing:-0}"
 
-      - name: Sync via FTP
-        if: github.ref == 'refs/heads/master'
-        timeout-minutes: 120
-        run: lftp ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOSTNAME }} -e "set ftp:ssl-allow off; mirror -v -R --only-newer --overwrite -e ./dist /; quit"
+      - name: Configure SSH
+        if: github.ref == 'refs/heads/master' || inputs.dry_run
+        timeout-minutes: 1
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          if ! ssh-keygen -y -P '' -f ~/.ssh/deploy_key > /dev/null; then
+            echo "::error::DEPLOY_SSH_KEY is not a valid private key without a passphrase"
+            exit 1
+          fi
+
+      # `--checksum`, because every build has fresh timestamps, but most files don't change.
+      # `--delay-updates` and `--delete-delay` keep the site consistent until the transfer is complete.
+      # `P` filters protect server-managed files from `--delete`.
+      - name: Sync via rsync
+        if: github.ref == 'refs/heads/master' || inputs.dry_run
+        timeout-minutes: 30
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT || '22' }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH }}
+          DRY_RUN: ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          rsync --recursive --links --checksum --compress \
+            --delete-delay --delay-updates \
+            --itemize-changes --human-readable --stats \
+            --filter='P /.well-known/' \
+            --filter='P /cgi-bin/' \
+            --filter='P /.htaccess' \
+            --filter='P error_log' \
+            ${DRY_RUN:+"$DRY_RUN"} \
+            -e "ssh -p $DEPLOY_PORT -i $HOME/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts" \
+            dist/ "$DEPLOY_USER@$DEPLOY_HOST:${DEPLOY_PATH%/}/"
